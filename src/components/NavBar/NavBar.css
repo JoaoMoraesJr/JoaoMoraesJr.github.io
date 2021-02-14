@@ -1,24 +1,25 @@
-.Nav-bar{
+.nav-bar{
     height: 9%;
     width: 100%;
+    min-height: 25px;
     background-color: #37BBBD;
     top: 0;
     position: fixed;
     display: flex;
 }
 
-.Logo-container{
+.logo-container{
     width: 20%;
     height: 100%;
     position: relative;
 }
 
-.Links-container{
+.links-container{
     width: 80%;
     position: relative;
 }
 
-.Logo{
+.logo{
     height: 90%;
     max-width: 100%;
     left: 15%;
@@ -27,7 +28,7 @@
 }
 
 
-.Nav-links {
+.nav-links {
     right: 0;
     position: fixed;
     margin: 0;
@@ -38,18 +39,22 @@
 
 }
 
-.Nav-links li{
+.nav-links li{
     display: inline;
 }
 
 a:link, a:visited {
     color: #FAFAFA;
+    text-decoration: none;
+}
+
+.link-title {
+    margin-right: 20px;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
-    margin-right: 20px;
 }
 
-a:hover {
+.link-title:hover {
     text-decoration: underline;
 }

@@ -4,16 +4,16 @@ import './NavBar.css';
 
 function NavBar() {
     return (
-        <div className="Nav-bar">
-            <div className="Logo-container">
-                <img src={logo} className="Logo" alt="logo" />
+        <div className="nav-bar">
+            <div className="logo-container">
+                <img src={logo} className="logo" alt="logo" />
             </div>
-            <div className="Links-container">
-                <ul className="Nav-links">
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="projects">Projects</a></li>
-                    <li><a href="contact">Contact</a></li>
+            <div className="links-container">
+                <ul className="nav-links">
+                    <li><a className="link-title" href="home">Home</a></li>
+                    <li><a className="link-title" href="about">About</a></li>
+                    <li><a className="link-title" href="projects">Projects</a></li>
+                    <li><a className="link-title" href="contact">Contact</a></li>
                 </ul>
             </div>
         </div>
