@@ -1,10 +1,11 @@
 import logo from '../../assets/jolomoju.png';
 
-import './NavBar.css';
+import './NavBar.scss';
 
 function NavBar() {
     return (
         <div className="nav-bar">
+        <div className="nav-bar-content">
             <div className="logo-container">
                 <img src={logo} className="logo" alt="logo" />
             </div>
@@ -16,6 +17,7 @@ function NavBar() {
                     <li><a className="link-title" href="contact">Contact</a></li>
                 </ul>
             </div>
+        </div>
         </div>
     );
 }

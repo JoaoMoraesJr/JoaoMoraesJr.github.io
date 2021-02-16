@@ -1,4 +1,4 @@
-import './Footer.css';
+import './Footer.scss';
 import { FaLinkedin, FaGithub, FaItchIo, FaInstagram } from 'react-icons/fa'
 import { GrMail } from "react-icons/gr";
 
