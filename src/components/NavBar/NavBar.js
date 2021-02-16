@@ -1,4 +1,4 @@
-import logo from '../../assets/jolomoju.png';
+import logo from '../../assets/img/logo.png';
 
 import './NavBar.scss';
 
