@@ -3,7 +3,9 @@
 
 .thumbnail {
     width:400px;
+    height: 260px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .img-gradient{
