@@ -8,13 +8,13 @@ function Projects() {
         <div className="projects">
             <div className="header">
                 <h1 className="title">Projects</h1>
-                <ul className="filters">
+                {/* <ul className="filters">
                     <li className="filter-item"><VscFilter /></li>
                     <li className="filter-item">All</li>
                     <li className="filter-item">|</li>
                     <li className="filter-item">AI</li>
                     <li className="filter-item">Research</li>
-                </ul>
+                </ul> */}
             </div>
             <div className="projects-list">
                 <div className="item"><ProjectCard /></div>

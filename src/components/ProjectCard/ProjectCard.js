@@ -5,8 +5,9 @@ function ProjectCard() {
     return (
         <div>
             <div>
-                <div className="img-gradient">
+                <div className="gradient-background">
                     <img src={thumbnail} className="thumbnail" alt="thumbnail"/>
+                    <p className="project-name">Project Name</p>
                 </div>
             </div>
         </div>
