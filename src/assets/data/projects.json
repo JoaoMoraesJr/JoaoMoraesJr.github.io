@@ -3,6 +3,23 @@
         {
             "name": "Astrolight",
             "thumbnailPath": "src/img/project-images/default-code0.jpg",
+            "year": 2020,
+            "tags": ["Game", "Design"],
+            "shortDescription": "A game developed by a solo developer in three day for a game jam.",
+            "fullDescription": "Project full description.",
+            "redirectLinks": [
+                {"name": "Play the Game", "link":"https://jolomoju.itch.io/astrolight"}
+            ],
+            "image-list": [
+                "src/img/project-images/default-code0.jpg",
+                "src/img/project-images/default-code0.jpg",
+                "src/img/project-images/default-code0.jpg"
+            ]
+        },
+        {
+            "name": "Astrolight",
+            "thumbnailPath": "src/img/project-images/default-code0.jpg",
+            "year": 2020,
             "tags": ["Game", "Design"],
             "shortDescription": "A game developed by a solo developer in three day for a game jam.",
             "fullDescription": "Project full description.",

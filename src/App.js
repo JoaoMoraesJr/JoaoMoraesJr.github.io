@@ -3,13 +3,17 @@ import NavBar from './components/NavBar/NavBar'
 import './App.scss';
 import Footer from './components/Footer/Footer';
 import Projects from './pages/Projects/Projects';
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 
 function App() {
 
   return (
     <div className="App">
       <NavBar />
-      <Projects />
+      <div className="app-body">
+        <Projects />
+        {/* <ProjectDetails /> */}
+      </div>
       <Footer />
       {/* <header className="App-header"> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
