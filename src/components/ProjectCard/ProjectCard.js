@@ -10,9 +10,9 @@ function ProjectCard() {
                 <div className="card-info card-text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan placerat purus sit amet pellentesque.</p>
                     <p>Year: 2020</p>
-                    <div className= "tag-list">
-                        <div className="tag">AI</div>
-                        <div className="tag">Research</div>
+                    <div className= "card-tag-list">
+                        <div className="card-tag">AI</div>
+                        <div className="card-tag">Research</div>
                     </div>
                 </div>
             </div>

@@ -11,10 +11,10 @@ function NavBar() {
                 </div>
                 <div className="links-container">
                     <ul className="nav-links">
-                        <li><a className="link-title" href="home">Home</a></li>
-                        <li><a className="link-title" href="about">About</a></li>
-                        <li><a className="link-title" href="projects">Projects</a></li>
-                        <li><a className="link-title" href="contact">Contact</a></li>
+                        <li><a className="link-title" href="">Home</a></li>
+                        <li><a className="link-title" href="">About</a></li>
+                        <li><a className="link-title" href="">Projects</a></li>
+                        <li><a className="link-title" href="">Contact</a></li>
                     </ul>
                 </div>
             </div>

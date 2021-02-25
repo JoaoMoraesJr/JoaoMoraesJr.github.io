@@ -6,7 +6,8 @@
             "year": 2020,
             "tags": ["Game", "Design"],
             "shortDescription": "A game developed by a solo developer in three day for a game jam.",
-            "fullDescription": "Project full description.",
+            "fullDescription": "Astrolight is a game developed by a solo game dev in 72 hours. The game ranked 1st place in 3 categories: Design, Fun and Theme! Ending up with 2nd place overall",
+            "technologies": ["Unity", "Aseprite", "Audacity", "Bosca Ceoil"],
             "redirectLinks": [
                 {"name": "Play the Game", "link":"https://jolomoju.itch.io/astrolight"}
             ],
@@ -17,14 +18,15 @@
             ]
         },
         {
-            "name": "Astrolight",
+            "name": "Project Name",
             "thumbnailPath": "src/img/project-images/default-code0.jpg",
             "year": 2020,
             "tags": ["Game", "Design"],
-            "shortDescription": "A game developed by a solo developer in three day for a game jam.",
+            "shortDescription": "Project Short Description.",
             "fullDescription": "Project full description.",
+            "technologies": ["Technology Name"],
             "redirectLinks": [
-                {"name": "Play the Game", "link":"https://jolomoju.itch.io/astrolight"}
+                {"name": "Redirect Link", "link":"https://jolomoju.itch.io/astrolight"}
             ],
             "image-list": [
                 "src/img/project-images/default-code0.jpg",

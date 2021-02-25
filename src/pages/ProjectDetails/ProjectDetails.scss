@@ -1,0 +1,39 @@
+.project-details-container {
+    display: flex;
+    width: 100%;
+}
+
+.project-infos {
+    // width: 60%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.project-image-list {
+    // width: 40%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.project-image {
+    margin-bottom: 5%
+}
+
+.tag-list {
+    position: inherit;
+    display: flex;
+    bottom: 15%;
+    color: #37BBBD;
+    font-size: 16px;
+  }
+  
+  .tag {
+    border: 1px solid #37BBBD;
+    border-radius: 45px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
