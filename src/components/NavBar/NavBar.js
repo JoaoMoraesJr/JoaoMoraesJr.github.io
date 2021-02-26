@@ -10,12 +10,12 @@ function NavBar() {
                     <img src={logo} className="logo" alt="logo" />
                 </div>
                 <div className="links-container">
-                    <ul className="nav-links">
-                        <li><a className="link-title" href="">Home</a></li>
-                        <li><a className="link-title" href="">About</a></li>
-                        <li><a className="link-title" href="">Projects</a></li>
-                        <li><a className="link-title" href="">Contact</a></li>
-                    </ul>
+                    <div>
+                        <a className="link-title" href="">Home</a>
+                        <a className="link-title" href="">About</a>
+                        <a className="link-title" href="">Projects</a>
+                        <a className="link-title" href="">Contact</a>
+                    </div>
                 </div>
             </div>
         </div>

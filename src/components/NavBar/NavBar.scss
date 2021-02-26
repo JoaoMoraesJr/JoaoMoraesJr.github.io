@@ -23,6 +23,9 @@
 .links-container{
     width: 80%;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .logo{
@@ -31,22 +34,6 @@
     left: 15%;
     position: absolute;
     object-fit: contain;
-}
-
-
-.nav-links {
-    right: 0;
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-
-}
-
-.nav-links li{
-    display: inline;
 }
 
 a:link, a:visited {
