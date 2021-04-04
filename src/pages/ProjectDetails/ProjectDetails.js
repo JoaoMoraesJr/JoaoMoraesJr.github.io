@@ -57,7 +57,7 @@ function ProjectDetails() {
                     <p>{technologies}</p>
                     <h3 style={{marginBottom: '30px'}}>Need more information?</h3>
                     {redirectLinks}
-                    <a className="redirect-link" href="/projects" target="_blank">
+                    <a className="redirect-link" href="/contact" target="_blank">
                         <span>Contact Me</span>
                     </a>
                 </div>

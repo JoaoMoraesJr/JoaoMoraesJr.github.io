@@ -7,7 +7,7 @@ function Contact() {
     return(
         <div className="contact-page">
             <div className="contact-text">
-            <h1>Let's get in touch</h1>
+            <h1>Contact</h1>
             <p>Need more information, want to work together or simply want to have a chat?</p>
             <p>You can reach me in one of the social media.</p>
             </div>
