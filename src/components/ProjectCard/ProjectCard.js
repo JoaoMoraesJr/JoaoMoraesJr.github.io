@@ -1,18 +1,26 @@
 import './ProjectCard.scss';
 import thumbnail from '../../assets/img/project-images/default_code0.jpg';
 
-function ProjectCard() {
+function ProjectCard(props) {
+
+    let cardData = props.projectInfo;
+
+    let tags = [];
+
+    for (const [index, value] of cardData.tags.entries()) {
+        tags.push(<div key={index} className="card-tag">{value}</div>)
+    }
+
     return (
         <div>
             <div className="gradient-background">
-                <img src={thumbnail} className="thumbnail" alt="thumbnail"/>
-                <p className="card-name card-text">Project Name</p>
+                <img src={cardData.thumbnail} className="thumbnail" alt="thumbnail"/>
+                <p className="card-name card-text">{cardData.name}</p>
                 <div className="card-info card-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan placerat purus sit amet pellentesque.</p>
-                    <p>Year: 2020</p>
+                    <p>{cardData.shortDescription}</p>
+                    <p>Year: {cardData.year}</p>
                     <div className= "card-tag-list">
-                        <div className="card-tag">AI</div>
-                        <div className="card-tag">Research</div>
+                        {tags}
                     </div>
                 </div>
             </div>
