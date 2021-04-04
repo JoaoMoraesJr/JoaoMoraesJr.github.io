@@ -1,3 +1,7 @@
+.ProjectDetails {
+    margin-top: 5%;
+}
+
 .project-details-container {
     display: flex;
     width: 100%;
@@ -18,7 +22,9 @@
 }
 
 .project-image {
-    margin-bottom: 5%
+    margin-bottom: 25px;
+    width: 340px;
+    height: 245px;
 }
 
 .tag-list {

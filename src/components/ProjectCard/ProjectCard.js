@@ -1,5 +1,6 @@
 import './ProjectCard.scss';
 import thumbnail from '../../assets/img/project-images/default_code0.jpg';
+import { Link, useRouteMatch } from 'react-router-dom';
 
 function ProjectCard(props) {
 
@@ -13,17 +14,19 @@ function ProjectCard(props) {
 
     return (
         <div>
-            <div className="gradient-background">
-                <img src={cardData.thumbnail} className="thumbnail" alt="thumbnail"/>
-                <p className="card-name card-text">{cardData.name}</p>
-                <div className="card-info card-text">
-                    <p>{cardData.shortDescription}</p>
-                    <p>Year: {cardData.year}</p>
-                    <div className= "card-tag-list">
-                        {tags}
+            <Link to="/details">
+                <div className="gradient-background">
+                    <img src={cardData.thumbnail} className="thumbnail" alt="thumbnail"/>
+                    <p className="card-name card-text">{cardData.name}</p>
+                    <div className="card-info card-text">
+                        <p>{cardData.shortDescription}</p>
+                        <p>Year: {cardData.year}</p>
+                        <div className= "card-tag-list">
+                            {tags}
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Link>
         </div>
     );
 }

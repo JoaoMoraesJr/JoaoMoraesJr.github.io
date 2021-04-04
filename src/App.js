@@ -4,16 +4,28 @@ import './App.scss';
 import Footer from './components/Footer/Footer';
 import Projects from './pages/Projects/Projects';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
 
   return (
     <div className="App">
-      <NavBar />
-      <div className="app-body">
-        <Projects />
+      <Router>
+        <NavBar />
+        <div className="app-body">
+          <Switch>
+            <Route path="/projects" component={Projects}></Route>
+            <Route path="/details" component={ProjectDetails}></Route>
+          </Switch>
+        </div>
+      </Router>
+        {/* <Projects /> */}
         {/* <ProjectDetails /> */}
-      </div>
       <Footer />
       {/* <header className="App-header"> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
