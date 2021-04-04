@@ -14,9 +14,7 @@ function NavBar() {
                     <div>
                         <a className="link-title" href="">Home</a>
                         <a className="link-title" href="">About</a>
-                        <Link to="/projects">
-                            <a className="link-title">Projects</a>
-                        </Link>
+                        <Link to="/projects" className="link-title">Projects</Link>
                         <a className="link-title" href="">Contact</a>
                     </div>
                 </div>

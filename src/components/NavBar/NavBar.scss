@@ -36,16 +36,12 @@
     object-fit: contain;
 }
 
-a:link, a:visited {
-    color: #FAFAFA;
-    text-decoration: none;
-}
-
 .link-title {
     margin-right: 20px;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
+    color: #FAFAFA;
 }
 
 .link-title:hover {

@@ -3,6 +3,7 @@ import { VscFilter } from "react-icons/vsc";
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import { useState, useEffect } from 'react';
 import { PROJECTS_INFO } from '../../assets/data/ProjectsData';
+import { Link} from 'react-router-dom';
 
 function Projects() {
 
@@ -15,7 +16,13 @@ function Projects() {
     const items = []
 
     for (const [index, value] of PROJECTS_INFO.projectList.entries()) {
-        items.push(<div key={index} className="item"><ProjectCard projectInfo={value} /></div>)
+        items.push(
+            <div key={index} className="item">
+                <Link to={`/${value.name}`}>
+                    <ProjectCard projectInfo={value} />
+                </Link>
+            </div>
+        )
     }
 
     return (

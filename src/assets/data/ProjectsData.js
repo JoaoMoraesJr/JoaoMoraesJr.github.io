@@ -9,12 +9,12 @@ export const PROJECTS_INFO = {
             fullDescription: "Astrolight is a game developed by a solo game dev in 72 hours. The game ranked 1st place in 3 categories: Design, Fun and Theme! Ending up with 2nd place overall",
             technologies: ["Unity", "Aseprite", "Audacity", "Bosca Ceoil"],
             redirectLinks: [
-                {name: "Play the Game", "link":"https://jolomoju.itch.io/astrolight"}
+                {name: "Play the Game", link:"https://jolomoju.itch.io/astrolight"}
             ],
             imageList: [
-                "src/img/project-images/default-code0.jpg",
-                "src/img/project-images/default-code0.jpg",
-                "src/img/project-images/default-code0.jpg"
+                require("../img/project-images/astrolight_thumbnail.png").default,
+                require("../img/project-images/default_code0.jpg").default,
+                require("../img/project-images/default_code0.jpg").default
             ]
         },
         {

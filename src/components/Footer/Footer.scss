@@ -40,6 +40,10 @@
 
 .contact-list {
     right: 0px;
+
+    a:link, a:visited {
+        color: white;
+    }
 }
 
 .contact-list li{
