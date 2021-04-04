@@ -52,7 +52,7 @@ function ProjectDetails() {
                     <h3>Year</h3>
                     <p>{project.year}</p>
                     <h3>Description</h3>
-                    <p>{project.fullDescription}</p>
+                    <p className="project-description">{project.fullDescription}</p>
                     <h3>Technologies</h3>
                     <p>{technologies}</p>
                     <h3 style={{marginBottom: '30px'}}>Need more information?</h3>
