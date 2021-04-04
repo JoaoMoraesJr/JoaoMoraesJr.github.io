@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Contact from './pages/Contact/Contact';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <div className="app-body">
           <Switch>
             <Route path="/projects" component={Projects}></Route>
+            <Route path="/contact" component={Contact}></Route>
             <Route path="/:projectName" component={ProjectDetails}></Route>
           </Switch>
         </div>

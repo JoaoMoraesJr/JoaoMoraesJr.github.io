@@ -1,0 +1,40 @@
+.contact-page {
+    height: 100%;
+}
+
+.contact-text {
+    text-align: left;
+}
+
+.contact-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.contact-icon {
+    color: #E02657;
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+.contact-text {
+    color: black;
+    font-size: 20px;
+}
