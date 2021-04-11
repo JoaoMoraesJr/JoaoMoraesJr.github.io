@@ -1,10 +1,10 @@
 .nav-bar{
     width: 100%;
-    padding-top: calc(max(25px, 9vh));
+    padding-top: calc(max(25px, 8vh));
 }
 
 .nav-bar-content{
-    height: 9vh;
+    height: 8vh;
     width: 100%;
     min-height: 25px;
     background-color: #37BBBD;
@@ -37,7 +37,7 @@
 }
 
 .link-title {
-    margin-right: 20px;
+    margin-right: 40px;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;

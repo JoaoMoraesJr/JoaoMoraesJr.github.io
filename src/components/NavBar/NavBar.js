@@ -8,14 +8,13 @@ function NavBar() {
         <div className="nav-bar">
             <div className="nav-bar-content">
                 <div className="logo-container">
-                    <Link to="/projects">
+                    <Link to="/">
                         <img src={logo} className="logo" alt="logo" />
                     </Link>
                 </div>
                 <div className="links-container">
                     <div>
-                        <a className="link-title" href="">Home</a>
-                        <a className="link-title" href="">About</a>
+                        <Link  to="/about" className="link-title">About</Link>
                         <Link to="/projects" className="link-title">Projects</Link>
                         <Link to="/contact" className="link-title">Contact</Link>
                     </div>

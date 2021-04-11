@@ -18,7 +18,7 @@ function Projects() {
     for (const [index, value] of PROJECTS_INFO.projectList.entries()) {
         items.push(
             <div key={index} className="item">
-                <Link to={`/${value.name}`}>
+                <Link to={`/projects/${value.name}`}>
                     <ProjectCard projectInfo={value} />
                 </Link>
             </div>

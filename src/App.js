@@ -8,9 +8,13 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 import Contact from './pages/Contact/Contact';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import NotFound from './pages/NotFound/NotFound';
 
 function App() {
 
@@ -20,9 +24,13 @@ function App() {
         <NavBar />
         <div className="app-body">
           <Switch>
-            <Route path="/projects" component={Projects}></Route>
-            <Route path="/contact" component={Contact}></Route>
-            <Route path="/:projectName" component={ProjectDetails}></Route>
+            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/about" component={About}></Route>
+            <Route exact path="/projects" component={Projects}></Route>
+            <Route path="/projects/:projectName" component={ProjectDetails}></Route>
+            <Route exact path="/contact" component={Contact}></Route>
+            <Route path="/not-found" component={NotFound} />
+            <Redirect to="/not-found" />
           </Switch>
         </div>
       </Router>
