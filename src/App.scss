@@ -2,14 +2,31 @@
   text-align: center;
   width: 100%;
   height: 100%;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media  screen and (max-width: 800px) {
+  .App {
+    font-size: 14px;
+  }
 }
 
 .app-body {
   top: 0px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 a:link, a:visited {
   text-decoration: none;
+}
+
+.button-primary {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #37BBBD;
+  color:white;
+  font-size: 18px;
+  width: fit-content;
 }

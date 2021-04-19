@@ -1,0 +1,64 @@
+.home {
+    text-align: start;
+    margin-top: 60px;
+}
+
+.home-header {
+    padding-bottom: 50px;
+}
+
+.headline {
+    font-size: 60px;
+}
+
+.home-text {
+    line-height: 2.5rem;
+}
+
+.profile-photo {
+    float: right;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    width: 305px;
+    height: 390px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+
+    ::after{
+    }
+}
+
+.profile-photo:after {
+    box-shadow: 0 1000px rgba(5, 244, 252, 0.644) inset;
+}
+
+.technologies {
+    // background: rgba(55, 187, 189, 0.06);
+    // background-size: 100vh;
+}
+
+.technologies-list {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.technologies-item{
+    width: 33%;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies-icons{
+    color: #E02657;
+    font-size: 50px;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+}
