@@ -30,3 +30,14 @@ a:link, a:visited {
   font-size: 18px;
   width: fit-content;
 }
+
+.profile-photo {
+  float: right;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  width: 305px;
+  height: 390px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
