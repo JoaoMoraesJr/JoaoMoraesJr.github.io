@@ -10,7 +10,7 @@ function About() {
     return(
         <div>
             <div className="about-headline">
-                <div><img src={about.profilePhoto} className="profile-photo" alt="profile-photo"/></div>
+                <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile-photo"/></div>
                 <h1 className="about-title">{about?.title}</h1>
                 <p className="about-text">{about?.description}</p>
             </div>

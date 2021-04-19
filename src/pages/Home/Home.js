@@ -10,7 +10,7 @@ function Home() {
     return(
         <div className="home">
             <div className="home-header">
-                <div><img src={home.profilePhoto} className="profile-photo" alt="profile-photo"/></div>
+                <div className="profile-photo-container"><img className="profile-photo-img" src={home.profilePhoto} alt="profile-photo"/></div>
                 <h1 className="headline">{home?.headline}</h1>
                 <p className="home-text">{home?.description}</p>
             </div>

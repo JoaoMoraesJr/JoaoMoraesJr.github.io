@@ -15,21 +15,6 @@
     line-height: 2.5rem;
 }
 
-.profile-photo {
-    float: right;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    width: 305px;
-    height: 390px;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 10px;
-}
-
-.profile-photo:after {
-    box-shadow: 0 1000px rgba(5, 244, 252, 0.644) inset;
-}
-
 .technologies {
     // background: rgba(55, 187, 189, 0.06);
     // background-size: 100vh;

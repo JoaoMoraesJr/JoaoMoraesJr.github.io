@@ -14,8 +14,8 @@
 
 .app-body {
   top: 0px;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 a:link, a:visited {
@@ -31,13 +31,51 @@ a:link, a:visited {
   width: fit-content;
 }
 
-.profile-photo {
+.profile-photo-container {
   float: right;
   margin-bottom: 25px;
   margin-left: 25px;
   width: 305px;
   height: 390px;
-  object-fit: cover;
-  object-position: top;
   border-radius: 10px;
+  position:relative;
+
+  .profile-photo-img {
+    border-radius: 10px;
+    width: 305px;
+    height: 390px;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  &:hover{
+    transition: .5s ease-out;
+    
+    &:before{
+      content:'';
+      position:absolute;
+      left:0; top:0;
+      width:100%; height:100%;
+      display:inline-block;
+      border-radius: 10px;
+      background: rgba(55,187,189,0);
+      transition: .5s ease-out; 
+    }
+  }
+  
+  &:not(:hover) {
+    filter: brightness(95%) grayscale(40%) contrast(160%) saturate(250%);
+    transition: .5s ease-out;
+    &:before {
+      content:'';
+      position:absolute;
+      left:0; top:0;
+      width:100%; height:100%;
+      display:inline-block;
+      border-radius: 10px;
+      background:  rgba(55,187,189,0.35);
+      transition: .5s ease-out; 
+    }
+  }
 }
+
