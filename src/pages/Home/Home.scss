@@ -3,7 +3,8 @@
     margin-top: 60px;
 }
 
-.home-header {
+.home-section {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -15,15 +16,28 @@
     line-height: 2.5rem;
 }
 
-.technologies {
-    // background: rgba(55, 187, 189, 0.06);
-    // background-size: 100vh;
+.turquoise-background {
+    background: rgba(55, 187, 189, 0.06);
+    width: 100%;
+    left: 20%;
+    margin-left: -20vw;
+    margin-top: -50px;
+    position: absolute;
+    z-index: -2;
+}
+
+.home-inline-list {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .technologies-list {
     padding: 0px;
-    list-style-type: none;
-    display: flex;
     margin-top: 50px;
     margin-bottom: 70px;
 }
@@ -40,7 +54,13 @@
     font-size: 50px;
 }
 
-.center-item {
-    display: flex;
-    justify-content: center;
+.projects-item {
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.home-contact-item {
+    margin-left: 25px;
+    margin-right: 25px;
 }

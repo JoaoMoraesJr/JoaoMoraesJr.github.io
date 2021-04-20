@@ -24,6 +24,8 @@ a:link, a:visited {
 
 .button-primary {
   padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
   border-radius: 10px;
   background-color: #37BBBD;
   color:white;
@@ -77,5 +79,22 @@ a:link, a:visited {
       transition: .5s ease-out; 
     }
   }
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pink {
+  color: #E02657;
+}
+
+.turquoise {
+  color: #37BBBD;
+}
+
+.black {
+  color: black;
 }
 

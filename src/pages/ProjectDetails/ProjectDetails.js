@@ -33,7 +33,7 @@ function ProjectDetails() {
         }
         for (const [index, value] of project.redirectLinks.entries()) {
             redirectLinks.push (
-                <a className="redirect-link" href={value.link} target="_blank">
+                <a className="button-primary redirect-link" href={value.link} target="_blank">
                     <span>{value.name}</span>
                 </a>)
         }
@@ -61,9 +61,9 @@ function ProjectDetails() {
                     <p>{technologies}</p>
                     <h3 style={{marginBottom: '30px'}}>Need more information?</h3>
                     {redirectLinks}
-                    <a className="redirect-link" href="/contact" target="_blank">
+                    <Link className="button-primary redirect-link" to="/contact" target="_blank">
                         <span>Contact Me</span>
-                    </a>
+                    </Link>
                 </div>
                 <div className="project-image-list">
                     {images}
