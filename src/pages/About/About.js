@@ -26,7 +26,7 @@ function About() {
         document.querySelectorAll('[id^="timeline-start"]').forEach((el, index) => {
             document.getElementById('timeline-line')?.remove();
             var thickness = 2;
-            var color= "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 2%, #e02657 20%, #e02657 100%)";
+            var color= "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 2%, #e02657 20%, #e02657 95%, rgba(255, 255, 255, 0) 100%)";
             var off1 = getOffset(document.getElementById('timeline-start' + index));
             var off2 = getOffset(document.getElementById('timeline-end' + index));
             var x1 = off1.left + off1.width/2;
@@ -37,7 +37,7 @@ function About() {
             var cx = ((x1 + x2) / 2) - (length / 2);
             var cy = ((y1 + y2) / 2) - (thickness / 2);
             var angle = Math.atan2((y1-y2),(x1-x2))*(180/Math.PI);
-            var htmlLine = "<div id='timeline-line" + index + "' style='padding:0px; margin:0px; height:" + thickness + "px; background:" + color + "; line-height:1px; position:absolute; left:" + cx + "px; top:" + cy + "px; width:" + length + "px; -moz-transform:rotate(" + angle + "deg); -webkit-transform:rotate(" + angle + "deg); -o-transform:rotate(" + angle + "deg); -ms-transform:rotate(" + angle + "deg); transform:rotate(" + angle + "deg);' />";
+            var htmlLine = "<div id='timeline-line" + index + "' style='padding:0px; z-index:-2; margin:0px; height:" + thickness + "px; background:" + color + "; line-height:1px; position:absolute; left:" + cx + "px; top:" + cy + "px; width:" + length + "px; -moz-transform:rotate(" + angle + "deg); -webkit-transform:rotate(" + angle + "deg); -o-transform:rotate(" + angle + "deg); -ms-transform:rotate(" + angle + "deg); transform:rotate(" + angle + "deg);' />";
             document.body.innerHTML += htmlLine;
         });
     }
