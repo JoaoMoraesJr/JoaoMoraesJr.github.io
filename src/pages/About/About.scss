@@ -2,3 +2,70 @@
     text-align: start;
     margin-top: 60px;
 }
+
+.about-historic {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-category {
+    margin-top: 50px;
+}
+
+.icon-container {
+    min-width: 80px;
+    margin-right: 15px;
+}
+
+.timeline-icon {
+    right: 0px;
+    min-width: 80px;
+    max-width: 80px;
+    font-size: 70px;
+    color: #007db8;
+    // color: #37BBBD;
+    height: auto;
+    // margin-right: 15px;
+}
+
+.timeline-dot {
+    min-width: 80px;
+    font-size: 40px;
+    color: #E02657;
+    margin-right: 15px;
+}
+
+.about-list {
+    padding: 0px;
+
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.timeline-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-title {
+    font-weight: 600;
+}
+
+.timeline-date {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.languages-section {
+    display: flex;
+}
+
+.languages-col {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

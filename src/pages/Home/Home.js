@@ -1,12 +1,12 @@
 import './Home.scss';
-import { FaAngular, FaReact, FaUnity, FaPython, FaLinkedin, FaGithub, FaItchIo, FaInstagram } from 'react-icons/fa'
-import { SiDotNet, SiBlender } from 'react-icons/si'
+import { FaLinkedin, FaGithub, FaItchIo, FaInstagram } from 'react-icons/fa';
 import { GrMail } from "react-icons/gr";
 import {HOME_DATA} from "../../assets/data/HomeData";
 import {PROJECTS_INFO} from "../../assets/data/ProjectsData";
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import { Link} from 'react-router-dom';
 import { CONTACT_DATA } from '../../assets/data/ContactData';
+import TechnologiesList from '../../components/TechnologiesList/TechnologiesList';
 
 function Home() {
 
@@ -35,23 +35,7 @@ function Home() {
                 <div className="turquoise-background" style={{height: 515}}></div>
                 <span><strong>What I do</strong></span>
                 <p className="home-text">Subtitle about my work experience and about what technologies I know and use in my projects or work.</p>
-                <ul className="home-inline-list technologies-list">
-                    <li className = "technologies-item">
-                        <div className="technologies-icons"><FaAngular /><FaReact /><SiDotNet /></div>
-                        <span><strong>Web development</strong></span>
-                        <span>Full stack experience in web development</span>
-                    </li>
-                    <li className = "technologies-item">
-                        <div className="technologies-icons"><FaUnity /><SiBlender /></div>
-                        <span><strong>Game Development</strong></span>
-                        <span>experience building games from art to coding</span>
-                    </li>
-                    <li className = "technologies-item" style={{paddingRight: 0}}>
-                        <div className="technologies-icons"><FaPython /></div>
-                        <span><strong>Artificial Inteligence</strong></span>
-                        <span>Experience on research, developing AI models</span>
-                    </li>
-                </ul>
+                <TechnologiesList></TechnologiesList>
                 <div className="center-container">
                 <Link to="/about" className="button-primary">
                     <span>See more about me</span>

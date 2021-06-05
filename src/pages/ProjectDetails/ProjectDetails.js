@@ -44,7 +44,7 @@ function ProjectDetails() {
         <div className="ProjectDetails">
             <div className="breadcrumb">
                 <Link to="/projects">
-                    <p> &lt; Return to Projects</p>
+                    <p className="color-black"> &lt; Return to Projects</p>
                 </Link>
             </div>
             <h1 className="title">{project?.name}</h1>
