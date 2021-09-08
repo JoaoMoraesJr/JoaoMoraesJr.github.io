@@ -1,6 +1,10 @@
 .project-details-container {
     display: flex;
     width: 100%;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .project-infos {
@@ -15,12 +19,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    @media (max-width: 800px) {
+        align-items: center;
+    }
 }
 
 .project-image {
     margin-bottom: 25px;
     width: 340px;
     height: 245px;
+
+    @media (max-width: 800px) {
+        width: 240px;
+        height: 145px;
+    }
 }
 
 .tag-list {
@@ -55,8 +68,11 @@
 }
 
 .redirect-link {
-    margin-top: 50px;
     margin-right: 15px;
+
+    @media (max-width: 800px) {
+        margin: 5px;
+    }
 }
 
 .project-description {
@@ -65,4 +81,24 @@
 
 .color-black {
     color: black;
+}
+
+.redirect-button-list {
+    display: flex;
+
+    @media (max-width: 800px) {
+        justify-content: center;
+    }
+    
+    @media (max-width: 500px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.project-image-list-header {
+    display: none;
+    @media (max-width: 800px) {
+        display: block;
+    }
 }

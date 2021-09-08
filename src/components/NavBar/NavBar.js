@@ -1,12 +1,29 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../../assets/img/logo.png';
+import { FiMenu } from "react-icons/fi";
 
 import './NavBar.scss';
 
+
 function NavBar() {
+    const [open, setOpen] = useState(false);
+    
     return (
         <div className="nav-bar">
             <div className="nav-bar-content">
+                <div className="menu" onClick={() => setOpen(!open)}>
+                    <FiMenu className="menu-icon"></FiMenu>
+                </div>
+                {open ? 
+                <div className="overlay" onClick={() => setOpen(!open)}>
+                    <div className="menu-dropdown">
+                            <Link  to="/about" className="dropdown-link" onClick={() => setOpen(!open)}>About</Link>
+                            <Link to="/projects" className="dropdown-link" onClick={() => setOpen(!open)}>Projects</Link>
+                            <Link to="/contact" className="dropdown-link" onClick={() => setOpen(!open)}>Contact</Link>
+                    </div>
+                </div>
+                : null}
                 <div className="logo-container">
                     <Link to="/">
                         <img src={logo} className="logo" alt="logo" />

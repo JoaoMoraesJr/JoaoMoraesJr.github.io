@@ -4,25 +4,41 @@
     border-radius: 10px;
     object-fit: cover;
     transition: 1.5s ease-out;
+
+    @media (max-width: 800px) {
+      width:140px;
+      height: 120px;
+      border-radius: 0px;
+    }
 }
 
 .gradient-background{
     position:relative;
     display:inline-block;
     overflow: hidden;
-    border-radius: 10px;
+    // border-radius: 10px;
+    @media (max-width: 800px) {
+      width:140px;
+      border-radius: 0px;
+    }
 }
 
 .gradient-background:after {
     content:'';
     position:absolute;
     left:0; top:0;
-    width:100%; height:99%;
+    width:100%; height:97%;
     display:inline-block;
     border-radius: 10px;
     box-shadow: 0 1000px rgba(5, 244, 252, 0.13) inset;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(247, 252, 252, 0.0416667) 60%, rgba(55,187,189,1) 100%);
     transition: background 0.5s ease-out;  
+
+    @media (max-width: 800px) {
+      width:140px;
+      height: 120px;
+      border-radius: 0px;
+    }
 }
 
 
@@ -34,6 +50,11 @@
   margin-left: 5%;
   margin-right: 5%;
   z-index: 1;
+
+  @media (max-width: 800px) {
+    color: black;
+    margin: 0px;
+  }
 }
 
 .card-name {
@@ -42,6 +63,12 @@
   font-weight: 600;
   font-size: 18px;
   transition: 0.5s;
+
+  @media (max-width: 800px) {
+    position: inherit;
+    text-decoration: underline;
+    font-size: 16px;
+  }
 }
 
 .card-info {
@@ -53,6 +80,14 @@
   opacity: 0;
   transition: 0.5s;
   height: 80%;
+
+  @media (max-width: 800px) {
+    position: inherit;
+    opacity: 1;
+    font-size: 14px;
+    line-height: 1.5rem;
+    text-align: initial;
+  }
 }
 
 .gradient-background:hover {
@@ -62,12 +97,20 @@
   img {
     filter: blur(5px);
     transition: 1s ease-out;
+
+    @media (max-width: 800px) {
+      filter: none;
+    }
   }
 
   .card-name {
     text-decoration: underline;
     bottom: 85%;
     transform: translateY(100%);
+
+    @media (max-width: 800px) {
+      transform: none;
+    }
   }
 
   .card-info {
@@ -78,6 +121,10 @@
   &:after {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(247, 252, 252, 0.0416667) 40%, rgba(55,187,189,1) 100%), rgba(55,187,189,0.9);
     position:absolute;
+
+    @media (max-width: 800px) {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(247, 252, 252, 0.0416667) 60%, rgba(55,187,189,1) 100%);
+    }
   }
 }
 
@@ -94,4 +141,10 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-right: 10px;
+}
+
+.extra-info {
+  @media (max-width: 800px) {
+    display: none;
+  }
 }

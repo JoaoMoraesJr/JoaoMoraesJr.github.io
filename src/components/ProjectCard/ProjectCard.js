@@ -12,13 +12,13 @@ function ProjectCard(props) {
 
     return (
         <div>
-            <div className="gradient-background">
-                <img src={cardData.thumbnail} className="thumbnail" alt="thumbnail"/>
+            <div className="gradient-background thumbnail-size">
+                <img src={cardData.thumbnail} className="thumbnail thumbnail-size" alt="thumbnail"/>
                 <p className="card-name card-text">{cardData.name}</p>
                 <div className="card-info card-text">
-                    <p>{cardData.shortDescription}</p>
-                    <p>Year: {cardData.year}</p>
-                    <div className= "card-tag-list">
+                    <p style={{margin: '0px'}}>{cardData.shortDescription}</p>
+                    <p className="extra-info">Year: {cardData.year}</p>
+                    <div className= "card-tag-list extra-info">
                         {tags}
                     </div>
                 </div>

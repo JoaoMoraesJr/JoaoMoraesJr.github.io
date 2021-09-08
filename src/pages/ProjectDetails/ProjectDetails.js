@@ -37,7 +37,6 @@ function ProjectDetails() {
                     <span>{value.name}</span>
                 </a>)
         }
-        console.log(technologies);
     }
 
     return (
@@ -60,10 +59,13 @@ function ProjectDetails() {
                     <h3>Technologies</h3>
                     <p>{technologies}</p>
                     <h3 style={{marginBottom: '30px'}}>Need more information?</h3>
-                    {redirectLinks}
-                    <Link className="button-primary redirect-link" to="/contact" target="_blank">
-                        <span>Contact Me</span>
-                    </Link>
+                    <div className="redirect-button-list">
+                        {redirectLinks}
+                        <Link className="button-primary redirect-link" to="/contact" target="_blank">
+                            <span>Contact Me</span>
+                        </Link>
+                    </div>
+                    <h3 className="project-image-list-header">Project Images</h3>
                 </div>
                 <div className="project-image-list">
                     {images}

@@ -53,7 +53,9 @@ function About() {
     return(
         <div>
             <div className="about-headline">
-                <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile-photo"/></div>
+                <div className="about-picture">
+                    <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile-photo"/></div>
+                </div>
                 <h1 className="about-title">{about?.title}</h1>
                 <p className="about-text">{about?.description}</p>
             </div>

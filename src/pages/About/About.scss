@@ -70,3 +70,16 @@
     flex-direction: column;
     width: 50%;
 }
+
+.about-picture {
+    @media (max-width: 800px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.about-text {
+    text-align: justify;
+}

@@ -5,7 +5,7 @@ import { SiDotNet, SiBlender } from 'react-icons/si'
 function TechnologiesList() {
 
     return (
-        <ul className="home-inline-list technologies-list">
+        <ul className="technologies-list">
             <li className = "technologies-item">
                 <div className="technologies-icons"><FaAngular /><FaReact /><SiDotNet /></div>
                 <span><strong>Web development</strong></span>
@@ -14,7 +14,7 @@ function TechnologiesList() {
             <li className = "technologies-item">
                 <div className="technologies-icons"><FaUnity /><SiBlender /></div>
                 <span><strong>Game Development</strong></span>
-                <span>experience building games from art to coding</span>
+                <span>Experience building games from art to coding</span>
             </li>
             <li className = "technologies-item" style={{paddingRight: 0}}>
                 <div className="technologies-icons"><FaPython /></div>

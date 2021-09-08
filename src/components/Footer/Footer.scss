@@ -1,6 +1,10 @@
 .footer {
     width: 100%;
     padding-top: calc(max(25px, 5vh));
+
+    @media (max-width: 500px) {
+        display: none;
+    }
 }
 
 .footer-content {

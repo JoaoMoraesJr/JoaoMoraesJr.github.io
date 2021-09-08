@@ -3,6 +3,16 @@
   margin-top: 50px;
   margin-bottom: 70px;
   text-align: left;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+  }
 }
 
 .technologies-item{
@@ -10,9 +20,19 @@
   padding-right: 50px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 450px) {
+    width: 100%;
+    padding-right: 0px;
+    margin-top: 10px;
+  }
 }
 
 .technologies-icons{
   color: #E02657;
   font-size: 50px;
+
+  @media (max-width: 450px) {
+    font-size: 32px;
+  }
 }

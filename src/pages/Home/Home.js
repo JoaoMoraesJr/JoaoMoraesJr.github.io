@@ -7,6 +7,7 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import { Link} from 'react-router-dom';
 import { CONTACT_DATA } from '../../assets/data/ContactData';
 import TechnologiesList from '../../components/TechnologiesList/TechnologiesList';
+import CV from '../../assets/JoaoALMoraesCV.pdf'
 
 function Home() {
 
@@ -14,9 +15,11 @@ function Home() {
     let contacts = CONTACT_DATA;
     const projects = [];
 
+    let projectClass = "projects-item";
     for (var i = 0; i < 3; i++) {
+        if (i == 2) projectClass += " last-project";
         projects.push(
-            <li key={i} className="projects-item">
+            <li key={i} className={projectClass}>
                 <Link to={`/projects/${PROJECTS_INFO.projectList[i].name}`}>
                     <ProjectCard projectInfo={PROJECTS_INFO.projectList[i]} />
                 </Link>
@@ -26,20 +29,21 @@ function Home() {
 
     return(
         <div className="home">
-            <div className="home-section">
+            <div className="home-section first-section">
                 <div className="profile-photo-container"><img className="profile-photo-img" src={home.profilePhoto} alt="profile-photo"/></div>
                 <h1 className="headline">{home?.headline}</h1>
-                <p className="home-text">{home?.description}</p>
+                <p className="home-text" dangerouslySetInnerHTML={{__html: home?.description}}></p>
+                <div className="home-cv"><span className="button-primary" onClick={() => window.open(CV, '_blank')}>Download CV</span></div>
             </div>
             <div className="home-section">
-                <div className="turquoise-background" style={{height: 515}}></div>
+                <div className="turquoise-background technology-background"></div>
                 <span><strong>What I do</strong></span>
                 <p className="home-text">Subtitle about my work experience and about what technologies I know and use in my projects or work.</p>
                 <TechnologiesList></TechnologiesList>
                 <div className="center-container">
-                <Link to="/about" className="button-primary">
-                    <span>See more about me</span>
-                </Link>
+                    <Link to="/about" className="button-primary">
+                        <span>See more about me</span>
+                    </Link>
                 </div>
             </div>
             <div className="home-section">
