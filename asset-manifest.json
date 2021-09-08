@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.80417be3.chunk.css",
-    "main.js": "/static/js/main.c6aeee92.chunk.js",
-    "main.js.map": "/static/js/main.c6aeee92.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d1731b1b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d1731b1b.js.map",
-    "static/js/2.3858b5b2.chunk.js": "/static/js/2.3858b5b2.chunk.js",
-    "static/js/2.3858b5b2.chunk.js.map": "/static/js/2.3858b5b2.chunk.js.map",
-    "static/js/3.a6bcebe5.chunk.js": "/static/js/3.a6bcebe5.chunk.js",
-    "static/js/3.a6bcebe5.chunk.js.map": "/static/js/3.a6bcebe5.chunk.js.map",
+    "main.css": "/static/css/main.664fe810.chunk.css",
+    "main.js": "/static/js/main.c46c4d6d.chunk.js",
+    "main.js.map": "/static/js/main.c46c4d6d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.46dd322e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.46dd322e.js.map",
+    "static/js/2.e25575a8.chunk.js": "/static/js/2.e25575a8.chunk.js",
+    "static/js/2.e25575a8.chunk.js.map": "/static/js/2.e25575a8.chunk.js.map",
+    "static/js/3.af8c7ec7.chunk.js": "/static/js/3.af8c7ec7.chunk.js",
+    "static/js/3.af8c7ec7.chunk.js.map": "/static/js/3.af8c7ec7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.80417be3.chunk.css.map": "/static/css/main.80417be3.chunk.css.map",
-    "static/js/2.3858b5b2.chunk.js.LICENSE.txt": "/static/js/2.3858b5b2.chunk.js.LICENSE.txt",
+    "static/css/main.664fe810.chunk.css.map": "/static/css/main.664fe810.chunk.css.map",
+    "static/js/2.e25575a8.chunk.js.LICENSE.txt": "/static/js/2.e25575a8.chunk.js.LICENSE.txt",
+    "static/media/JoaoALMoraesCV.ac2a82f7.pdf": "/static/media/JoaoALMoraesCV.ac2a82f7.pdf",
     "static/media/astrolight_1.png": "/static/media/astrolight_1.dc3eab30.png",
     "static/media/astrolight_2.png": "/static/media/astrolight_2.3bbd376d.png",
     "static/media/biti_rounded_logo.png": "/static/media/biti_rounded_logo.c2e62242.png",
@@ -22,9 +23,9 @@
     "static/media/toastmasters_logo.png": "/static/media/toastmasters_logo.2952a120.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d1731b1b.js",
-    "static/js/2.3858b5b2.chunk.js",
-    "static/css/main.80417be3.chunk.css",
-    "static/js/main.c6aeee92.chunk.js"
+    "static/js/runtime-main.46dd322e.js",
+    "static/js/2.e25575a8.chunk.js",
+    "static/css/main.664fe810.chunk.css",
+    "static/js/main.c46c4d6d.chunk.js"
   ]
 }
