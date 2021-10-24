@@ -20,17 +20,22 @@ function About() {
                     <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile-photo"/></div>
                 </div>
                 <h1 className="about-title">{about?.title}</h1>
-                <p className="about-text">{about?.description}</p>
+                <div class="about-text">
+                    <p>I'm <b>João Moraes</b>. I was born in Porto Alegre (Brazil) and raised in a metropolitan region, in a small town called Guaíba.
+                    Since my childhood, I have always been passionate about technology, and this interest extended through my whole life. </p> 
+                    <p>I graduated in <b>Computer Science</b> at PUCRS and now I work as a full-time <b>Software Engineer</b> at Dell.</p>
+                    <p>As a self-proclaimed <b>geek</b>, I have a lot of hobbies: I like to <span className="about-redirect-link"><a title="Steam profile" href="https://steamcommunity.com/id/jolomoju/" target="_blank">play games</a></span>, play the piano, draw, read books, etc.</p>
+                    <p>I also fight for <b>diversity and inclusion</b>, believing everyone can contribute and have a place in this amazing area.</p>
+                </div>
             </div>
             <div className="section align-left">
                 <span><strong>What I do</strong></span>
-                <p className="normal-text">A small preview of my work experience, the areas that I like to focus professionally and some of my hobbies.</p>
+                <p className="normal-text">There are three main areas that I like to focus professionally.</p>
                 <TechnologiesList />
             </div>
             <div className="align-left">
                 <span><strong>My Experience</strong></span>
                 <ul className="about-list">
-                    {/* <hr width="1" size="500"/> */}
                     <div className="timeline-item">
                         <div className="icon-container"><SiDell className="timeline-icon" id="timeline-start0" /></div>
                         <div className="timeline-description">

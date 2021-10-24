@@ -5,7 +5,7 @@ export const PROJECTS_INFO = {
             thumbnail: require("../img/project-images/astrolight/astrolight_thumbnail.png").default,
             year: 2020,
             tags: ["Game", "Design"],
-            shortDescription: "A game about an astronaut developed in 72 hours for a game jam about.",
+            shortDescription: "A game about an astronaut developed in 72 hours for a game jam.",
             fullDescription: "Astrolight is a game developed in 72 hours for a game jam, about an astronaut searching for the spaceship parts to continue his space mission. The game ranked 1st place in 3 categories: Design, Fun and Theme! Ending up with 2nd place overall.\nArt, animation, SFX, music and coding were developed by me during the game jam time",
             technologies: ["Unity", "Aseprite", "Audacity", "Bosca Ceoil"],
             redirectLinks: [
@@ -60,22 +60,6 @@ export const PROJECTS_INFO = {
             ]
         },
         {
-            name: "Empathic Conversational Agent",
-            thumbnail: require("../img/project-images/eca/eca3.jpg").default,
-            year: 2019,
-            tags: ["AI", "Design", "Research"],
-            shortDescription: "An conversational agent that can comunicate and mimic emotions.",
-            fullDescription: "This project proposes an architecture of an empathic Embodied Conversational Agent (ECA) to evaluate the empathy in a conversation with an agent, that can analyze and reproduce certain emotions while acting in an University context as a virtual helper for students.  This ECA combines a face analyzer toolkit, a decision tree to determine the agent behavior, all these parts combined with a set of pre-processed  animations  resulting  in  a  multi-modal communication virtual assistant extended to a mobile phone.\nWith this project, we were also able to develop a scientific paper that was published by the International Conference on Semantic Computing (ICSC) at the IEEE platform.",
-            technologies: ["Unity", "Affectiva", "face detection", "eye tracker", "emotion detection"],
-            redirectLinks: [
-                {name: "Check the published paper", link:"https://ieeexplore.ieee.org/abstract/document/9364406"}
-            ],
-            imageList: [
-                require("../img/project-images/eca/eca3.jpg").default,
-                require("../img/project-images/eca/ecaArch.jpg").default
-            ]
-        },
-        {
             name: "Artificial Life Simulation",
             thumbnail: require("../img/project-images/alife/alife.png").default,
             year: 2018,
@@ -88,6 +72,22 @@ export const PROJECTS_INFO = {
             imageList: [
                 require("../img/project-images/alife/alife.png").default,
                 require("../img/project-images/alife/alife2.jpg").default
+            ]
+        },
+        {
+            name: "Empathic Conversational Agent",
+            thumbnail: require("../img/project-images/eca/eca3.jpg").default,
+            year: 2019,
+            tags: ["AI", "Design", "Research"],
+            shortDescription: "An conversational agent that can comunicate and mimic emotions.",
+            fullDescription: "This project proposes an architecture of an empathic Embodied Conversational Agent (ECA) to evaluate the empathy in a conversation with an agent, that can analyze and reproduce certain emotions while acting in an University context as a virtual helper for students.  This ECA combines a face analyzer toolkit, a decision tree to determine the agent behavior, all these parts combined with a set of pre-processed  animations  resulting  in  a  multi-modal communication virtual assistant extended to a mobile phone.\nWith this project and the help from the Virtual Human Laboratory (VHLab) team, we were also able to develop a scientific paper that was published by the International Conference on Semantic Computing (ICSC) at the IEEE platform.",
+            technologies: ["Unity", "Affectiva", "face detection", "eye tracker", "emotion detection"],
+            redirectLinks: [
+                {name: "Check the published paper", link:"https://ieeexplore.ieee.org/abstract/document/9364406"}
+            ],
+            imageList: [
+                require("../img/project-images/eca/eca3.jpg").default,
+                require("../img/project-images/eca/ecaArch.jpg").default
             ]
         },
         {

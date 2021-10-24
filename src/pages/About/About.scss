@@ -80,6 +80,22 @@
     }
 }
 
-.about-text {
-    text-align: justify;
+.about-redirect-link {
+    margin: 0px;
+    
+    a:link {
+        color: #E02657;
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: #E02657;
+        text-decoration: underline;
+    }
+}
+
+.about-text{
+    @media (max-width: 800px) {
+        text-align: justify;
+    }
 }

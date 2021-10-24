@@ -14,23 +14,23 @@ function Contact() {
             <div className="contact-container">
                 <div className="contact-links">
                     <a className="contact" title="joaojr1997@gmail.com" href="mailto:joaojr1997@gmail.com" target="_blank">
-                        <GrMail className="contact-icon pink" /> 
+                        <GrMail title="E-mail" className="contact-icon pink" /> 
                         <span className="contact-text">joaojr1997@gmail.com</span>
                     </a>
                     <a className="contact" title="/in/JoaoMoraesJr" href="https://www.linkedin.com/in/joaomoraesjr" target="_blank">
-                        <FaLinkedin className="contact-icon black" /> 
+                        <FaLinkedin title="LinkedIn" className="contact-icon black" /> 
                         <span className="contact-text">/in/JoaoMoraesJr</span>
                     </a>
                     <a className="contact" title="JoaoMoraesJr" href="https://github.com/JoaoMoraesJr" target="_blank">
-                        <FaGithub className="contact-icon pink" /> 
+                        <FaGithub title="Github" className="contact-icon pink" /> 
                         <span className="contact-text">JoaoMoraesJr</span>
                     </a>
                     <a className="contact" title="jolomoju" href="https://jolomoju.itch.io/" target="_blank">
-                        <FaItchIo className="contact-icon black" /> 
+                        <FaItchIo title="itch.io" className="contact-icon black" /> 
                         <span className="contact-text"> jolomoju.itch.io</span>
                     </a>
                     <a className="contact" title="jolomoju" href="https://www.instagram.com/jolomoju/" target="_blank">
-                        <FaInstagram className="contact-icon pink" /> 
+                        <FaInstagram title="Instagram" className="contact-icon pink" /> 
                         <span className="contact-text">@jolomoju</span>
                     </a>
                 </div>

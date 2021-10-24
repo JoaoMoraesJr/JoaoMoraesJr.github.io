@@ -8,7 +8,7 @@
 
   @media (max-width: 800px) {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 28px;
   }
 }
 
@@ -28,11 +28,21 @@ a:link, a:visited {
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 10px;
+  margin-right: 25px;
   background-color: #37BBBD;
   color:white;
   font-size: 18px;
   width: fit-content;
   white-space: nowrap;
+  border: 0px;
+
+  a:link {
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
 
   @media (max-width: 800px) {
     font-size: 14px;

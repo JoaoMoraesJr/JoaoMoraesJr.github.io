@@ -26,7 +26,7 @@ function ProjectDetails() {
         history.push("/not-found");
     }else{
         for (const [index, value] of project.imageList.entries()) {
-            images.push(<img key={index} src={value} className="thumbnail project-image" alt="thumbnail"/>)
+            images.push(<a href={value} target="_blank"><img key={index} src={value} className="thumbnail project-image" alt="Project Image"/></a>)
         }
         for (const [index, value] of project.tags.entries()) {
             tags.push(<div key={index} className="tag">{value}</div>)

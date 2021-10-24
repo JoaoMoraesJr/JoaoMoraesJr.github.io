@@ -18,27 +18,27 @@ function Footer() {
                 <div className="footer-list-container">
                     <ul className="footer-lists contact-list">
                         <li>
-                            <a className="footer-contact" title="joaojr1997@gmail.com" href="mailto:joaojr1997@gmail.com" target="_blank">
+                            <a className="footer-contact" title="E-mail: joaojr1997@gmail.com" href="mailto:joaojr1997@gmail.com" target="_blank">
                                 <GrMail />
                             </a>
                         </li>
                         <li>
-                            <a className="footer-contact" title="/in/JoaoMoraesJr" href="https://www.linkedin.com/in/joaomoraesjr" target="_blank">
+                            <a className="footer-contact" title="LinkedIn: /in/JoaoMoraesJr" href="https://www.linkedin.com/in/joaomoraesjr" target="_blank">
                                 <FaLinkedin/>
                             </a>
                         </li>
                         <li>
-                            <a className="footer-contact" title="JoaoMoraesJr" href="https://github.com/JoaoMoraesJr" target="_blank">
+                            <a className="footer-contact" title="Github: JoaoMoraesJr" href="https://github.com/JoaoMoraesJr" target="_blank">
                                 <FaGithub/>
                             </a>
                         </li>
                         <li>
-                            <a className="footer-contact" title="jolomoju" href="https://jolomoju.itch.io/" target="_blank">
+                            <a className="footer-contact" title="Itch.io: jolomoju" href="https://jolomoju.itch.io/" target="_blank">
                                 <FaItchIo/>
                             </a>
                         </li>
                         <li>
-                            <a className="footer-contact" title="jolomoju" href="https://www.instagram.com/jolomoju/" target="_blank">
+                            <a className="footer-contact" title="Instagram: jolomoju" href="https://www.instagram.com/jolomoju/" target="_blank">
                                 <FaInstagram/>
                             </a>
                         </li>
