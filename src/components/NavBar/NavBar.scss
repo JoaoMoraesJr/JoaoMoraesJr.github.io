@@ -1,7 +1,20 @@
+// .welcome-overlay {
+//     position: fixed;
+//     background-color: #37BBBD;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 1;
+//     z-index: 10;
+// }
+
+// .fade-out {
+//     transition: 2s ease-in;
+//     opacity: 0;
+//     z-index: -5;
+// }
 .nav-bar{
     width: 100%;
     padding-top: 70px;
-    // padding-top: calc(max(25px, 8vh));
 }
 
 .nav-bar-content{
@@ -22,7 +35,7 @@
 }
 
 .links-container{
-    width: 80%;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: flex-end;

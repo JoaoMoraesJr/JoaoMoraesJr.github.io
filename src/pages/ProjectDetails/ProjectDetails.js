@@ -9,6 +9,10 @@ import { PROJECTS_INFO } from '../../assets/data/ProjectsData';
 
 function ProjectDetails() {
 
+    useEffect(()=> {
+        window.scrollTo(0, 0);
+    }, []);
+
     let project;
     let { projectName } = useParams();
     let images = [];
@@ -70,7 +74,6 @@ function ProjectDetails() {
                 <div className="project-image-list">
                     {images}
                 </div>
-
             </div>
         </div>
     );

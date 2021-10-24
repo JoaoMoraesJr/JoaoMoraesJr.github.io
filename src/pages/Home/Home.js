@@ -38,7 +38,7 @@ function Home() {
             <div className="home-section">
                 <div className="turquoise-background technology-background"></div>
                 <span><strong>What I do</strong></span>
-                <p className="home-text">Subtitle about my work experience and about what technologies I know and use in my projects or work.</p>
+                <p className="home-text">A small preview of my work experience, the areas that I like to focus professionally and some of my hobbies.</p>
                 <TechnologiesList></TechnologiesList>
                 <div className="center-container">
                     <Link to="/about" className="button-primary">
@@ -48,7 +48,7 @@ function Home() {
             </div>
             <div className="home-section">
                 <span><strong>My Projects</strong></span>
-                <p className="home-text">Subtitle about my personal project and about what technologies I know and use in my projects or work.</p>
+                <p className="home-text">I love to develop my own projects! Here you can take a look at some of them.</p>
                 <div className="center-container">
                     <ul className="home-inline-list">
                         {projects}

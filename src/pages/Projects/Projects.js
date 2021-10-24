@@ -11,6 +11,7 @@ function Projects() {
 
     useEffect(()=> {
         data = PROJECTS_INFO;
+        window.scrollTo(0, 0)
     }, []);
 
     const items = []
@@ -28,7 +29,6 @@ function Projects() {
     return (
         <div className="projects">
             <div className="header">
-                <h1 className="title">Projects</h1>
                 {/* <ul className="filters">
                     <li className="filter-item"><VscFilter /></li>
                     <li className="filter-item">All</li>
@@ -36,15 +36,14 @@ function Projects() {
                     <li className="filter-item">AI</li>
                     <li className="filter-item">Research</li>
                 </ul> */}
-                <div>{JSON.stringify(data)}</div>
             </div>
             <div className="projects-list">
-                {/* <div className="item"><ProjectCard /></div>
-                <div className="item"><ProjectCard /></div>
-                <div className="item"><ProjectCard /></div>
-                <div className="item"><ProjectCard /></div>
-                <div className="item"><ProjectCard /></div>
-                <div className="item"><ProjectCard /></div> */}
+                <div className="item projects-title-container">
+                <h1 className="title">Projects</h1>
+
+                </div>
+                <span className="item middle-padding-grid"/>
+                <span className="item last-padding-grid"/>
                 {items}
             </div>
         </div>

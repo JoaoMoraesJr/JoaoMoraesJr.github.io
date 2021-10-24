@@ -1,6 +1,4 @@
 .footer {
-    width: 100%;
-    padding-top: calc(max(25px, 5vh));
 
     @media (max-width: 500px) {
         display: none;
@@ -9,12 +7,12 @@
 
 .footer-content {
     position: fixed;
-    height: 5vh;
+    height: 4vh;
     bottom: 0;
     background-color: #00070F;
     color: #FAFAFA;
     width: 100%;
-    min-height: 25px;
+    min-height: 20px;
     z-index: 2;
 }
 
@@ -29,7 +27,6 @@
     padding: 0px;
     margin-left: 2%;
     margin-right: 2%;
-    margin-top: 0.5%;
 }
 
 .language-list {
@@ -52,10 +49,14 @@
 
 .contact-list li{
     display: inline;
-    padding-left: 20px;
-    font-size: 25px;
+    padding-left: 25px;
+    font-size: 20px;
 }
 
 .a:link a:visited {
     margin: 0px;
+}
+
+.footer-contact {
+    vertical-align: middle;
 }

@@ -8,13 +8,13 @@
 }
 
 .project-infos {
-    // width: 60%;
     text-align: justify;
     font-size: 18px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .project-image-list {
-    // width: 40%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
@@ -27,8 +27,8 @@
 
 .project-image {
     margin-bottom: 25px;
-    width: 340px;
-    height: 245px;
+    width: 400px;
+    height: 300px;
 
     @media (max-width: 800px) {
         width: 240px;

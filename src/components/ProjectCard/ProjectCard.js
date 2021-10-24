@@ -11,7 +11,7 @@ function ProjectCard(props) {
     }
 
     return (
-        <div>
+        <div className="project-card">
             <div className="gradient-background thumbnail-size">
                 <img src={cardData.thumbnail} className="thumbnail thumbnail-size" alt="thumbnail"/>
                 <p className="card-name card-text">{cardData.name}</p>
