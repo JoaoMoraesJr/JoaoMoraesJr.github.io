@@ -23,7 +23,7 @@ export const PROJECTS_INFO = {
             tags: ["Assistive","AI", "Research"],
             shortDescription: "An application to help blind people find objects with their phones.",
             fullDescription: "In this project with SMArT lab, a mapping study was conducted to investigate how the scientific community uses Ambient intelligence technologies to assist visually impaired people. This study was published at the International Conference on Information Technology-New Generations (ITNG).\nBased on this study, we also developed an application to help blind people find objects with their phones. This application uses YOLO, a state of the art technology to recognize the objects in a picture and inform its location in degrees.",
-            technologies: ["Object Recognition", "YOLO", "Android Studio", "Java", "C"],
+            technologies: ["Object Recognition", "YOLO", "Android Studio", "Java", "C", "TalkBack"],
             redirectLinks: [
                 {name: "Check the published paper", link:"https://link.springer.com/chapter/10.1007/978-3-030-70416-2_21"}
             ],
