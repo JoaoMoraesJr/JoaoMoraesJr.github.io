@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1acd2592.chunk.css",
-    "main.js": "/static/js/main.031e92c8.chunk.js",
-    "main.js.map": "/static/js/main.031e92c8.chunk.js.map",
+    "main.css": "/static/css/main.006387a6.chunk.css",
+    "main.js": "/static/js/main.0df4dd8a.chunk.js",
+    "main.js.map": "/static/js/main.0df4dd8a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ba3ef51d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ba3ef51d.js.map",
     "static/js/2.90b13288.chunk.js": "/static/js/2.90b13288.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.94a53939.chunk.js": "/static/js/3.94a53939.chunk.js",
     "static/js/3.94a53939.chunk.js.map": "/static/js/3.94a53939.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1acd2592.chunk.css.map": "/static/css/main.1acd2592.chunk.css.map",
+    "static/css/main.006387a6.chunk.css.map": "/static/css/main.006387a6.chunk.css.map",
     "static/js/2.90b13288.chunk.js.LICENSE.txt": "/static/js/2.90b13288.chunk.js.LICENSE.txt",
     "static/media/JoaoALMoraesCV.0ef4f9e2.pdf": "/static/media/JoaoALMoraesCV.0ef4f9e2.pdf",
     "static/media/alife.png": "/static/media/alife.0ec6f85f.png",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.ba3ef51d.js",
     "static/js/2.90b13288.chunk.js",
-    "static/css/main.1acd2592.chunk.css",
-    "static/js/main.031e92c8.chunk.js"
+    "static/css/main.006387a6.chunk.css",
+    "static/js/main.0df4dd8a.chunk.js"
   ]
 }
