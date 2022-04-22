@@ -92,6 +92,7 @@ a:link, a:visited {
   
   &:hover{
     transition: .5s ease-out;
+    filter: brightness(95%) grayscale(40%) contrast(160%) saturate(250%);
     
     &:before{
       content:'';
@@ -100,13 +101,12 @@ a:link, a:visited {
       width:100%; height:100%;
       display:inline-block;
       border-radius: 10px;
-      background: rgba(55,187,189,0);
+      background:  rgba(55,187,189,0.35);
       transition: .5s ease-out; 
     }
   }
   
   &:not(:hover) {
-    filter: brightness(95%) grayscale(40%) contrast(160%) saturate(250%);
     transition: .5s ease-out;
     &:before {
       content:'';
@@ -115,7 +115,7 @@ a:link, a:visited {
       width:100%; height:100%;
       display:inline-block;
       border-radius: 10px;
-      background:  rgba(55,187,189,0.35);
+      background: rgba(55,187,189,0);
       transition: .5s ease-out; 
 
       @media (max-width: 800px) {
