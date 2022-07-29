@@ -50,7 +50,7 @@ function ProjectDetails() {
                     <p className="color-black"> &lt; Return to Projects</p>
                 </Link>
             </div>
-            <h1 className="title">{project?.name}</h1>
+            <div className="project-details-title"><h1 className="title">{project?.name}</h1></div>
             <div className="project-details-container">
                 <div className="project-infos">
                     <div className= "tag-list">

@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         flex-direction: column;
     }
 }
@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: flex-end;
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         align-items: center;
     }
 }
@@ -30,9 +30,11 @@
     width: 400px;
     height: 300px;
 
-    @media (max-width: 800px) {
-        width: 240px;
-        height: 145px;
+
+
+    @media (max-width: 900px) {
+        width: 300px;
+        height: 200px;
     }
 }
 
@@ -70,7 +72,7 @@
 .redirect-link {
     margin-right: 15px;
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         margin: 5px;
     }
 }
@@ -86,7 +88,7 @@
 .redirect-button-list {
     display: flex;
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         justify-content: center;
     }
     
@@ -98,7 +100,7 @@
 
 .project-image-list-header {
     display: none;
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         display: block;
     }
 }

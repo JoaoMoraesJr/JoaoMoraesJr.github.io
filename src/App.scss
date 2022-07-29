@@ -6,7 +6,7 @@
   font-size: 20px;
   line-height: 40px;
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     font-size: 14px;
     line-height: 28px;
   }
@@ -59,7 +59,7 @@ a:link, a:visited {
   border-radius: 10px;
   position:relative;
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     border-radius: 100%;
     width: 300px;
     height: 300px;
@@ -78,7 +78,7 @@ a:link, a:visited {
     object-fit: cover;
     object-position: top;
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
       border-radius: 100%;
       width: 300px;
       height: 300px;

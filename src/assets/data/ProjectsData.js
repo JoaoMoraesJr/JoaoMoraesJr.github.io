@@ -37,7 +37,7 @@ export const PROJECTS_INFO = {
             thumbnail: require("../img/project-images/robotics/robotics.jpg").default,
             year: 2021,
             tags: ["IoT","Robots", "Research"],
-            shortDescription: "Robots created with Arduino",
+            shortDescription: "Robots and prototypes created with Arduino",
             fullDescription: "Creating robots is a new passion of mine that I have been exploring lately. These robots are an on going work, created using arduino along with some other components like LEDs, displays, echo sensors, motors, cameras, etc.",
             technologies: ["Arduino", "C++"],
             redirectLinks: [
@@ -72,6 +72,22 @@ export const PROJECTS_INFO = {
             imageList: [
                 require("../img/project-images/alife/alife.png").default,
                 require("../img/project-images/alife/alife2.jpg").default
+            ]
+        },
+        {
+            name: "Skye's Dice",
+            thumbnail: require("../img/project-images/skyesdice/skyesdice_thumbnail2.png").default,
+            year: 2022,
+            tags: ["Game", "Design", "3D"],
+            shortDescription: "A 3D puzzle game developed in 48 hours for a game jam.",
+            fullDescription: "Skye's is a game developed in 48 hours for the GMTK game jam, about a little girl called Skye trying to find her way back home after being abducted to a new dimension. The game ranked top 6%, on #365 place out of 6156 games.\nArt, animation, music and coding were developed by me during the game jam time",
+            technologies: ["Unity", "Blender", "Krita", "Bosca Ceoil", "Normal Map Online"],
+            redirectLinks: [
+                {name: "Play the Game", link:"https://jolomoju.itch.io/skyes-dice"}
+            ],
+            imageList: [
+                require("../img/project-images/skyesdice/skyesdice_4.png").default,
+                require("../img/project-images/skyesdice/skyesdice_3.png").default
             ]
         },
         {

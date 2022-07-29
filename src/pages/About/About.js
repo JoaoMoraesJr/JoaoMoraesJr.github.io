@@ -41,14 +41,22 @@ function About() {
                         <div className="timeline-description">
                             <span className="timeline-title">Dell</span>
                             <span className="timeline-date">Ago 2018 - Present</span>
-                            <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span>
+                            <span>Working as a tech lead in an internationally distributed team that creates and maintains solutions for legal practice areas. Building applications with web development, AI and using engineering practices as cybersecurity, testing, code review and CI/CD pipelines to achieve high code quality.</span>
+                            {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
                         </div>
                     </div>
                     <li className="timeline-item">
                         <BsArrowReturnRight className="timeline-dot" />
                         <div className="timeline-description">
-                            <span className="timeline-title">Software Engineer</span>
-                            <span className="timeline-date">Set 2020 - Present</span>
+                            <span className="timeline-title">Software Engineer II</span>
+                            <span className="timeline-date">May 2022 - Present</span>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <BsArrowReturnRight className="timeline-dot" />
+                        <div className="timeline-description">
+                            <span className="timeline-title">Software Engineer I</span>
+                            <span className="timeline-date">Set 2020 - May 2022</span>
                         </div>
                     </li>
                     <li className="timeline-item">

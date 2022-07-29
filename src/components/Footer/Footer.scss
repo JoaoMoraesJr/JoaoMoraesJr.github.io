@@ -45,6 +45,10 @@
     a:link, a:visited {
         color: white;
     }
+
+    @media (max-width: 900px) {
+        margin-top: 5px;
+    }
 }
 
 .contact-list li{
