@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eaff54f.css",
-    "main.js": "/static/js/main.1d69c6e0.js",
+    "main.css": "/static/css/main.5a9838db.css",
+    "main.js": "/static/js/main.f70d8cdb.js",
     "static/js/787.ca452cfa.chunk.js": "/static/js/787.ca452cfa.chunk.js",
     "static/media/purpose.png": "/static/media/purpose.feb573d6a2ca7c8489b6.png",
     "static/media/pearl.png": "/static/media/pearl.870680f82ca343825685.png",
@@ -15,6 +15,7 @@
     "static/media/ecaArch.jpg": "/static/media/ecaArch.5890b1818d0febc5ffa3.jpg",
     "static/media/skyesdice_3.png": "/static/media/skyesdice_3.eb490c8a36cf1679eacf.png",
     "static/media/smartApp2.jpg": "/static/media/smartApp2.43c900f864f7d8dd9dae.jpg",
+    "static/media/logoGif.gif": "/static/media/logoGif.5a19e538e1da0345f53a.gif",
     "static/media/automatic-planner2.png": "/static/media/automatic-planner2.31479f74c59f6ae2c43d.png",
     "static/media/automatic-planner.png": "/static/media/automatic-planner.b2ef9b4024467d083ac8.png",
     "static/media/profile_photo.png": "/static/media/profile_photo.46759e7d2cd16fc1807e.png",
@@ -29,12 +30,12 @@
     "static/media/toastmasters_logo.png": "/static/media/toastmasters_logo.2952a1206a44d8a581dc.png",
     "static/media/astrolight_1.png": "/static/media/astrolight_1.dc3eab30f34c7e4656b4.png",
     "index.html": "/index.html",
-    "main.4eaff54f.css.map": "/static/css/main.4eaff54f.css.map",
-    "main.1d69c6e0.js.map": "/static/js/main.1d69c6e0.js.map",
+    "main.5a9838db.css.map": "/static/css/main.5a9838db.css.map",
+    "main.f70d8cdb.js.map": "/static/js/main.f70d8cdb.js.map",
     "787.ca452cfa.chunk.js.map": "/static/js/787.ca452cfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eaff54f.css",
-    "static/js/main.1d69c6e0.js"
+    "static/css/main.5a9838db.css",
+    "static/js/main.f70d8cdb.js"
   ]
 }
