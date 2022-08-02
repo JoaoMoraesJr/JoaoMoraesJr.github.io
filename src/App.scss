@@ -50,6 +50,43 @@ a:link, a:visited {
   }
 }
 
+.animation-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #52aea2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.start-animation {
+  animation: App-logo-animation .5s linear 3s forwards;
+}
+
+
+@keyframes App-logo-animation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+    display: none;
+  }
+}
+
+.logo-gif {
+  width: 40%;
+
+  @media (max-width: 900px) {
+    width: 90%;
+  }
+}
+
+
+
 .profile-photo-container {
   float: right;
   margin-bottom: 25px;

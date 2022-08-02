@@ -14,13 +14,25 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import NotFound from './pages/NotFound/NotFound';
 import ReactGA from "react-ga4";
+import { useState } from 'react';
 
 function App() {
 
   ReactGA.initialize("G-DG3XM3X8KF");
 
+
+  const [isGifLoaded, setGifLoaded] = useState(false);
+
+  function startPage() {
+    setGifLoaded(true);
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 3000);
+  }
+
   return (
     <div className="App">
+      <div className={"animation-container " + (isGifLoaded === true ? "start-animation" : "")}><img className="logo-gif" src={require('./assets/img/logoGif.gif')} alt="logo" onLoad={() => startPage()}></img></div>
       <Router>
         <NavBar />
         <div className="app-body">
