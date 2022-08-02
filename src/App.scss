@@ -103,6 +103,9 @@ a:link, a:visited {
       border-radius: 10px;
       background:  rgba(55,187,189,0.35);
       transition: .5s ease-out; 
+      @media (max-width: 900px) {
+        border-radius: 100%;
+      }
     }
   }
   
@@ -118,7 +121,7 @@ a:link, a:visited {
       background: rgba(55,187,189,0);
       transition: .5s ease-out; 
 
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
         border-radius: 100%;
       }
     }

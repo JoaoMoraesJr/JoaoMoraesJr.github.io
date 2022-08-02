@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import NavBar from './components/NavBar/NavBar'
 import './App.scss';
 import Footer from './components/Footer/Footer';
@@ -8,15 +7,17 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect
 } from "react-router-dom";
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import NotFound from './pages/NotFound/NotFound';
+import ReactGA from "react-ga4";
 
 function App() {
+
+  ReactGA.initialize("G-DG3XM3X8KF");
 
   return (
     <div className="App">

@@ -1,30 +1,40 @@
 import './About.scss';
 import { SiDell } from "react-icons/si";
-import { GoPrimitiveDot } from "react-icons/go";
 import {ABOUT_DATA} from "../../assets/data/AboutData";
 import TechnologiesList from '../../components/TechnologiesList/TechnologiesList';
 import { useEffect } from 'react';
 import { BsArrowReturnRight } from "react-icons/bs";
+import ReactGA from "react-ga4";
+
 function About() {
 
     let about = ABOUT_DATA;
 
     useEffect(() => {
         window.scrollTo(0, 0);
+        ReactGA.send({ hitType: "pageview", page: "/about", title:"About" });
     });
+
+    function sendClickSteamInfo () {
+        ReactGA.event({
+          category: "Click",
+          action: "Click on Steam",
+          label: "About"
+        });
+    };
 
     return(
         <div>
             <div className="about-headline">
                 <div className="about-picture">
-                    <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile-photo"/></div>
+                    <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile"/></div>
                 </div>
                 <h1 className="about-title">{about?.title}</h1>
-                <div class="about-text">
+                <div className="about-text">
                     <p>I'm <b>João Moraes</b>. I was born in Porto Alegre (Brazil) and raised in a metropolitan region, in a small town called Guaíba.
                     Since my childhood, I have always been passionate about technology, and this interest extended through my whole life. </p> 
                     <p>I graduated in <b>Computer Science</b> at PUCRS and now I work as a full-time <b>Software Engineer</b> at Dell.</p>
-                    <p>As a self-proclaimed <b>geek</b>, I have a lot of hobbies: I like to <span className="about-redirect-link"><a title="Steam profile" href="https://steamcommunity.com/id/jolomoju/" target="_blank">play games</a></span>, play the piano, draw, read books, etc.</p>
+                    <p>As a self-proclaimed <b>geek</b>, I have a lot of hobbies: I like to <span className="about-redirect-link"><a title="Steam profile" href="https://steamcommunity.com/id/jolomoju/" target="_blank" rel="noreferrer" onClick={() => sendClickSteamInfo()}>play games</a></span>, play the piano, draw, read books, etc.</p>
                     <p>I also fight for <b>diversity and inclusion</b>, believing everyone can contribute and have a place in this amazing area.</p>
                 </div>
             </div>

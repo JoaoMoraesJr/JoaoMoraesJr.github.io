@@ -1,17 +1,15 @@
 import './Projects.scss';
-import { VscFilter } from "react-icons/vsc";
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { PROJECTS_INFO } from '../../assets/data/ProjectsData';
 import { Link} from 'react-router-dom';
+import ReactGA from "react-ga4";
 
 function Projects() {
 
-    let data;
-
     useEffect(()=> {
-        data = PROJECTS_INFO;
         window.scrollTo(0, 0)
+        ReactGA.send({ hitType: "pageview", page: "/projects", title: "Projects" });
     }, []);
 
     const items = []
@@ -29,13 +27,6 @@ function Projects() {
     return (
         <div className="projects">
             <div className="header">
-                {/* <ul className="filters">
-                    <li className="filter-item"><VscFilter /></li>
-                    <li className="filter-item">All</li>
-                    <li className="filter-item">|</li>
-                    <li className="filter-item">AI</li>
-                    <li className="filter-item">Research</li>
-                </ul> */}
             </div>
             <div className="projects-list">
                 <div className="item projects-title-container">

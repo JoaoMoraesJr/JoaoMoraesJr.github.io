@@ -1,8 +1,12 @@
 import './NotFound.scss';
-import { FaLinkedin, FaGithub, FaItchIo, FaInstagram } from 'react-icons/fa'
-import { GrMail } from "react-icons/gr";
+import ReactGA from "react-ga4";
+import { useEffect } from 'react';
 
 function NotFound() {
+
+    useEffect(()=> {
+        ReactGA.send({ hitType: "pageview", page: "/not-found", title:"Not Found" });
+    }, []);
 
     return(
         <div className="not-found not-found-container">

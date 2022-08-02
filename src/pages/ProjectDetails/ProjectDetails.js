@@ -1,32 +1,32 @@
-import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import Projects from '../Projects/Projects';
 import './ProjectDetails.scss';
-import thumbnail from '../../assets/img/project-images/default_code0.jpg';
 import { useHistory, useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { PROJECTS_INFO } from '../../assets/data/ProjectsData';
+import ReactGA from "react-ga4";
 
 function ProjectDetails() {
 
+    let { projectName } = useParams();
     useEffect(()=> {
         window.scrollTo(0, 0);
-    }, []);
+        let pageName = "Projects/" + projectName;
+        ReactGA.send({ hitType: "pageview", page: "/projects/"+projectName, title: pageName });
+    }, [projectName]);
 
     let project;
-    let { projectName } = useParams();
     let images = [];
     let tags = [];
     let redirectLinks = [];
     let technologies = "";
     const history = useHistory();
 
-    project = PROJECTS_INFO.projectList.find(project => project.name == projectName);
+    project = PROJECTS_INFO.projectList.find(project => project.name === projectName);
     if (!project) {
         history.push("/not-found");
     }else{
         for (const [index, value] of project.imageList.entries()) {
-            images.push(<a href={value} target="_blank"><img key={index} src={value} className="thumbnail project-image" alt="Project Image"/></a>)
+            images.push(<a href={value} target="_blank" rel="noreferrer" key={index}><img key={index} src={value} className="thumbnail project-image" alt="Project"/></a>)
         }
         for (const [index, value] of project.tags.entries()) {
             tags.push(<div key={index} className="tag">{value}</div>)
@@ -37,11 +37,27 @@ function ProjectDetails() {
         }
         for (const [index, value] of project.redirectLinks.entries()) {
             redirectLinks.push (
-                <a className="button-primary redirect-link" href={value.link} target="_blank">
-                    <span>{value.name}</span>
+                <a className="button-primary redirect-link" href={value.link} key={index} target="_blank" rel="noreferrer" onClick={() => sendClickActionInfo()}>
+                    <span key={index}>{value.name}</span>
                 </a>)
         }
     }
+
+    function sendClickActionInfo () {
+        ReactGA.event({
+          category: "Click",
+          action: "Click on action",
+          label: projectName
+        });
+    };
+
+    function sendClickContactInfo () {
+        ReactGA.event({
+          category: "Click",
+          action: "Click on Contact",
+          label: projectName
+        });
+    };
 
     return (
         <div className="ProjectDetails">
@@ -65,7 +81,7 @@ function ProjectDetails() {
                     <h3 style={{marginBottom: '30px'}}>Need more information?</h3>
                     <div className="redirect-button-list">
                         {redirectLinks}
-                        <Link className="button-primary redirect-link" to="/contact" target="_blank">
+                        <Link className="button-primary redirect-link" to="/contact" target="_blank" onClick={() => sendClickContactInfo()}>
                             <span>Contact Me</span>
                         </Link>
                     </div>

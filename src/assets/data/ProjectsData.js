@@ -2,7 +2,7 @@ export const PROJECTS_INFO = {
     projectList: [
         {
             name: "Astrolight",
-            thumbnail: require("../img/project-images/astrolight/astrolight_thumbnail.png").default,
+            thumbnail: require("../img/project-images/astrolight/astrolight_thumbnail.png"),
             year: 2020,
             tags: ["Game", "Design"],
             shortDescription: "A game about an astronaut developed in 72 hours for a game jam.",
@@ -12,13 +12,13 @@ export const PROJECTS_INFO = {
                 {name: "Play the Game", link:"https://jolomoju.itch.io/astrolight"}
             ],
             imageList: [
-                require("../img/project-images/astrolight/astrolight_1.png").default,
-                require("../img/project-images/astrolight/astrolight_2.png").default
+                require("../img/project-images/astrolight/astrolight_1.png"),
+                require("../img/project-images/astrolight/astrolight_2.png")
             ]
         },
         {
             name: "Blind Assistance App",
-            thumbnail: require("../img/project-images/default_code0.jpg").default,
+            thumbnail: require("../img/project-images/default_code0.jpg"),
             year: 2019,
             tags: ["Assistive","AI", "Research"],
             shortDescription: "An application to help blind people find objects with their phones.",
@@ -28,13 +28,13 @@ export const PROJECTS_INFO = {
                 {name: "Check the published paper", link:"https://link.springer.com/chapter/10.1007/978-3-030-70416-2_21"}
             ],
             imageList: [
-                require("../img/project-images/smartApp/smartApp2.jpg").default,
-                require("../img/project-images/smartApp/smartApp1.jpg").default
+                require("../img/project-images/smartApp/smartApp2.jpg"),
+                require("../img/project-images/smartApp/smartApp1.jpg")
             ]
         },
         {
             name: "Robotics",
-            thumbnail: require("../img/project-images/robotics/robotics.jpg").default,
+            thumbnail: require("../img/project-images/robotics/robotics.jpg"),
             year: 2021,
             tags: ["IoT","Robots", "Research"],
             shortDescription: "Robots and prototypes created with Arduino",
@@ -43,12 +43,12 @@ export const PROJECTS_INFO = {
             redirectLinks: [
             ],
             imageList: [
-                require("../img/project-images/robotics/robotics.jpg").default
+                require("../img/project-images/robotics/robotics.jpg")
             ]
         },
         {
             name: "Gina Tells",
-            thumbnail: require("../img/project-images/default_code1.jpg").default,
+            thumbnail: require("../img/project-images/default_code1.jpg"),
             year: 2021,
             tags: ["Web", "Design"],
             shortDescription: "(WIP) An assistant to help you discover movies to watch.",
@@ -61,7 +61,7 @@ export const PROJECTS_INFO = {
         },
         {
             name: "Artificial Life Simulation",
-            thumbnail: require("../img/project-images/alife/alife.png").default,
+            thumbnail: require("../img/project-images/alife/alife.png"),
             year: 2018,
             tags: ["AI", "CG", "Research"],
             shortDescription: "Artificial Life surving a simulated environment with AI.",
@@ -70,13 +70,13 @@ export const PROJECTS_INFO = {
             redirectLinks: [
             ],
             imageList: [
-                require("../img/project-images/alife/alife.png").default,
-                require("../img/project-images/alife/alife2.jpg").default
+                require("../img/project-images/alife/alife.png"),
+                require("../img/project-images/alife/alife2.jpg")
             ]
         },
         {
             name: "Skye's Dice",
-            thumbnail: require("../img/project-images/skyesdice/skyesdice_thumbnail2.png").default,
+            thumbnail: require("../img/project-images/skyesdice/skyesdice_thumbnail2.png"),
             year: 2022,
             tags: ["Game", "Design", "3D"],
             shortDescription: "A 3D puzzle game developed in 48 hours for a game jam.",
@@ -86,13 +86,13 @@ export const PROJECTS_INFO = {
                 {name: "Play the Game", link:"https://jolomoju.itch.io/skyes-dice"}
             ],
             imageList: [
-                require("../img/project-images/skyesdice/skyesdice_4.png").default,
-                require("../img/project-images/skyesdice/skyesdice_3.png").default
+                require("../img/project-images/skyesdice/skyesdice_4.png"),
+                require("../img/project-images/skyesdice/skyesdice_3.png")
             ]
         },
         {
             name: "Empathic Conversational Agent",
-            thumbnail: require("../img/project-images/eca/eca3.jpg").default,
+            thumbnail: require("../img/project-images/eca/eca3.png"),
             year: 2019,
             tags: ["AI", "Design", "Research"],
             shortDescription: "An conversational agent that can comunicate and mimic emotions.",
@@ -102,13 +102,13 @@ export const PROJECTS_INFO = {
                 {name: "Check the published paper", link:"https://ieeexplore.ieee.org/abstract/document/9364406"}
             ],
             imageList: [
-                require("../img/project-images/eca/eca3.jpg").default,
-                require("../img/project-images/eca/ecaArch.jpg").default
+                require("../img/project-images/eca/eca3.png"),
+                require("../img/project-images/eca/ecaArch.jpg")
             ]
         },
         {
             name: "Artwork & 3D",
-            thumbnail: require("../img/project-images/artwork/artwork.jpeg").default,
+            thumbnail: require("../img/project-images/artwork/artwork.jpeg"),
             year: 2021,
             tags: ["Art", "3D", "Animation", "Games"],
             shortDescription: "Artwork made in 2D and 3D.",
@@ -117,13 +117,13 @@ export const PROJECTS_INFO = {
             redirectLinks: [
             ],
             imageList: [
-                require("../img/project-images/artwork/purpose.jpg").default,
-                require("../img/project-images/artwork/pearl.png").default
+                require("../img/project-images/artwork/purpose.png"),
+                require("../img/project-images/artwork/pearl.png")
             ]
         },
         {
             name: "Save the Giraffes!",
-            thumbnail: require("../img/project-images/automatic-planner/automatic-planner.png").default,
+            thumbnail: require("../img/project-images/automatic-planner/automatic-planner.png"),
             year: 2020,
             tags: ["AI", "Animation", "Games"],
             shortDescription: "An automatic planner domain with a virtual visualization.",
@@ -132,8 +132,8 @@ export const PROJECTS_INFO = {
             redirectLinks: [
             ],
             imageList: [
-                require("../img/project-images/automatic-planner/automatic-planner2.png").default,
-                require("../img/project-images/automatic-planner/automatic-planner3.png").default
+                require("../img/project-images/automatic-planner/automatic-planner2.png"),
+                require("../img/project-images/automatic-planner/automatic-planner3.png")
             ]
         }
     ]
