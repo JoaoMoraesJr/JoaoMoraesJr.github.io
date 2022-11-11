@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.5a9838db.css",
-    "main.js": "/static/js/main.15b1cbcf.js",
+    "main.js": "/static/js/main.8a4dd875.js",
     "static/js/787.ca452cfa.chunk.js": "/static/js/787.ca452cfa.chunk.js",
-    "static/media/picture_about.jpg": "/static/media/picture_about.54110bf2dec8eab82163.jpg",
     "static/media/purpose.png": "/static/media/purpose.feb573d6a2ca7c8489b6.png",
     "static/media/pearl.png": "/static/media/pearl.870680f82ca343825685.png",
     "static/media/eca3.png": "/static/media/eca3.ede8f94b030b0e9031ac.png",
+    "static/media/picture_about.jpg": "/static/media/picture_about.f4354e47d48fa55abb25.jpg",
     "static/media/skyesdice_4.png": "/static/media/skyesdice_4.e6a90c91d3c6626609ac.png",
     "static/media/smartApp1.jpg": "/static/media/smartApp1.1d77380bffbae1509556.jpg",
     "static/media/pucrs_logo.png": "/static/media/pucrs_logo.814c6630c2831d87b2e5.png",
@@ -38,11 +38,11 @@
     "static/media/astrolight_1.png": "/static/media/astrolight_1.dc3eab30f34c7e4656b4.png",
     "index.html": "/index.html",
     "main.5a9838db.css.map": "/static/css/main.5a9838db.css.map",
-    "main.15b1cbcf.js.map": "/static/js/main.15b1cbcf.js.map",
+    "main.8a4dd875.js.map": "/static/js/main.8a4dd875.js.map",
     "787.ca452cfa.chunk.js.map": "/static/js/787.ca452cfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a9838db.css",
-    "static/js/main.15b1cbcf.js"
+    "static/js/main.8a4dd875.js"
   ]
 }
