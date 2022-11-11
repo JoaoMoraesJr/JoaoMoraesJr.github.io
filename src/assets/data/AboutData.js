@@ -1,6 +1,6 @@
 export const ABOUT_DATA = {
     title: "About me",
-    profilePhoto: require("../img/profile_photo.png"),
+    profilePhoto: require("../img/picture_about.jpg"),
     pucrsLogo: require("../img/pucrs_logo.png"),
     toastmastersLogo: require("../img/toastmasters_logo.png"),
     bitiLogo: require("../img/biti_rounded_logo.png"),

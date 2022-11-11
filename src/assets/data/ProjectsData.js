@@ -1,6 +1,22 @@
 export const PROJECTS_INFO = {
     projectList: [
         {
+            name: "Katalogize",
+            thumbnail: require("../img/project-images/katalogize/katalogize1.png"),
+            year: 2022,
+            tags: ["Web", "Fullstack"],
+            shortDescription: "A web application to catalog anything you want, however you need.",
+            fullDescription: "Katalogize is a fullstack application developed from prototype to production.\nThe application allows users to catalog anything they want and however they need, with customizable templates like text, number, images and more to come.\nFor developer users, there is also a public API that allows them to retrieve the exact data needed from their catalogs through GraphQL.",
+            technologies: ["Spring Boot", "GraphQL", "MongoDB", "React", "Docker", "GCP"],
+            redirectLinks: [
+                {name: "Visit Katalogize", link:"https://katalogize.com"}
+            ],
+            imageList: [
+                require("../img/project-images/katalogize/katalogize2.png"),
+                require("../img/project-images/katalogize/katalogize3.png")
+            ]
+        },
+        {
             name: "Astrolight",
             thumbnail: require("../img/project-images/astrolight/astrolight_thumbnail.png"),
             year: 2020,
@@ -14,22 +30,6 @@ export const PROJECTS_INFO = {
             imageList: [
                 require("../img/project-images/astrolight/astrolight_1.png"),
                 require("../img/project-images/astrolight/astrolight_2.png")
-            ]
-        },
-        {
-            name: "Blind Assistance App",
-            thumbnail: require("../img/project-images/default_code0.jpg"),
-            year: 2019,
-            tags: ["Assistive","AI", "Research"],
-            shortDescription: "An application to help blind people find objects with their phones.",
-            fullDescription: "In this project with SMArT lab, a mapping study was conducted to investigate how the scientific community uses Ambient intelligence technologies to assist visually impaired people. This study was published at the International Conference on Information Technology-New Generations (ITNG).\nBased on this study, we also developed an application to help blind people find objects with their phones. This application uses YOLO, a state of the art technology to recognize the objects in a picture and inform its location in degrees.",
-            technologies: ["Object Recognition", "YOLO", "Android Studio", "Java", "C", "TalkBack"],
-            redirectLinks: [
-                {name: "Check the published paper", link:"https://link.springer.com/chapter/10.1007/978-3-030-70416-2_21"}
-            ],
-            imageList: [
-                require("../img/project-images/smartApp/smartApp2.jpg"),
-                require("../img/project-images/smartApp/smartApp1.jpg")
             ]
         },
         {
@@ -47,16 +47,19 @@ export const PROJECTS_INFO = {
             ]
         },
         {
-            name: "Gina Tells",
-            thumbnail: require("../img/project-images/default_code1.jpg"),
-            year: 2021,
-            tags: ["Web", "Design"],
-            shortDescription: "(WIP) An assistant to help you discover movies to watch.",
-            fullDescription: "Gina Tells is a work in progress assistant made with my friends, that will help people discover movies to watch based on unpredictable questions that Gina will ask. As a web application, we are using the IMDB database to query movies.",
-            technologies: ["IMDB", "dotNet", "React"],
+            name: "Blind Assistance App",
+            thumbnail: require("../img/project-images/default_code0.jpg"),
+            year: 2019,
+            tags: ["Assistive","AI", "Research"],
+            shortDescription: "An application to help blind people find objects with their phones.",
+            fullDescription: "In this project with SMArT lab, a mapping study was conducted to investigate how the scientific community uses Ambient intelligence technologies to assist visually impaired people. This study was published at the International Conference on Information Technology-New Generations (ITNG).\nBased on this study, we also developed an application to help blind people find objects with their phones. This application uses YOLO, a state of the art technology to recognize the objects in a picture and inform its location in degrees.",
+            technologies: ["Object Recognition", "YOLO", "Android Studio", "Java", "C", "TalkBack"],
             redirectLinks: [
+                {name: "Check the published paper", link:"https://link.springer.com/chapter/10.1007/978-3-030-70416-2_21"}
             ],
             imageList: [
+                require("../img/project-images/smartApp/smartApp2.jpg"),
+                require("../img/project-images/smartApp/smartApp1.jpg")
             ]
         },
         {
@@ -107,6 +110,19 @@ export const PROJECTS_INFO = {
             ]
         },
         {
+            name: "Gina Tells",
+            thumbnail: require("../img/project-images/default_code1.jpg"),
+            year: 2021,
+            tags: ["Web", "Design"],
+            shortDescription: "(WIP) An assistant to help you discover movies to watch.",
+            fullDescription: "Gina Tells is a work in progress assistant made with my friends, that will help people discover movies to watch based on unpredictable questions that Gina will ask. As a web application, we are using the IMDB database to query movies.",
+            technologies: ["IMDB", "dotNet", "React"],
+            redirectLinks: [
+            ],
+            imageList: [
+            ]
+        },
+        {
             name: "Artwork & 3D",
             thumbnail: require("../img/project-images/artwork/artwork.jpeg"),
             year: 2021,
@@ -134,6 +150,22 @@ export const PROJECTS_INFO = {
             imageList: [
                 require("../img/project-images/automatic-planner/automatic-planner2.png"),
                 require("../img/project-images/automatic-planner/automatic-planner3.png")
+            ]
+        },
+        {
+            name: "Stranger Witch",
+            thumbnail: require("../img/project-images/strangerWitch/StrangerWitchCover.png"),
+            year: 2020,
+            tags: ["AI", "Animation", "Games"],
+            shortDescription: "A game made for the GMTK Game Jam in 48 hours.",
+            fullDescription: "Stranger Witch is a game developed in 48 hours for GTMK Game Jam 2020, about a little witch that has no control over her abilities trying to escape the dark florest. The theme of the game jam was Out of Control.\nArt, animation, music and coding were developed by me during the game jam time",
+            technologies: ["Unity", "Aseprite", "Audacity", "Bosca Ceoil"],
+            redirectLinks: [
+                {name: "Play the Game", link:"https://jolomoju.itch.io/stranger-witch"}
+            ],
+            imageList: [
+                require("../img/project-images/strangerWitch/StrangerWitch1.png"),
+                require("../img/project-images/strangerWitch/StrangerWitch2.png")
             ]
         }
     ]
