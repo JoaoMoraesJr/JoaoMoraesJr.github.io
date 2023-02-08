@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a9838db.css",
-    "main.js": "/static/js/main.8a4dd875.js",
+    "main.css": "/static/css/main.176035a0.css",
+    "main.js": "/static/js/main.4dcc1282.js",
     "static/js/787.ca452cfa.chunk.js": "/static/js/787.ca452cfa.chunk.js",
     "static/media/purpose.png": "/static/media/purpose.feb573d6a2ca7c8489b6.png",
     "static/media/pearl.png": "/static/media/pearl.870680f82ca343825685.png",
@@ -32,17 +32,17 @@
     "static/media/katalogize1.png": "/static/media/katalogize1.2c72bbdebdcc504b7515.png",
     "static/media/biti_rounded_logo.png": "/static/media/biti_rounded_logo.c2e62242e741023a7cb9.png",
     "static/media/alife.png": "/static/media/alife.0ec6f85f2387396a646d.png",
-    "static/media/JoaoALMoraesCV.pdf": "/static/media/JoaoALMoraesCV.23fd2f1e7b1ad0847af3.pdf",
+    "static/media/JoaoALMoraesCV.pdf": "/static/media/JoaoALMoraesCV.a8f9d2d43944b374d81b.pdf",
     "static/media/toastmasters_logo.png": "/static/media/toastmasters_logo.2952a1206a44d8a581dc.png",
     "static/media/StrangerWitchCover.png": "/static/media/StrangerWitchCover.78cdbf8f253155be7cb8.png",
     "static/media/astrolight_1.png": "/static/media/astrolight_1.dc3eab30f34c7e4656b4.png",
     "index.html": "/index.html",
-    "main.5a9838db.css.map": "/static/css/main.5a9838db.css.map",
-    "main.8a4dd875.js.map": "/static/js/main.8a4dd875.js.map",
+    "main.176035a0.css.map": "/static/css/main.176035a0.css.map",
+    "main.4dcc1282.js.map": "/static/js/main.4dcc1282.js.map",
     "787.ca452cfa.chunk.js.map": "/static/js/787.ca452cfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a9838db.css",
-    "static/js/main.8a4dd875.js"
+    "static/css/main.176035a0.css",
+    "static/js/main.4dcc1282.js"
   ]
 }
