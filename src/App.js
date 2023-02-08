@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar/NavBar'
 import './App.scss';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import Projects from './pages/Projects/Projects';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 import {
@@ -47,7 +47,7 @@ function App() {
           </Switch>
         </div>
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

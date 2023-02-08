@@ -61,9 +61,9 @@ function Contact() {
             </div>
             <div className="contact-container">
                 <div className="contact-links">
-                    <a className="contact" onClick={() => sendContactInfo(0)} title="joaojr1997@gmail.com" href="mailto:joaojr1997@gmail.com" target="_blank" rel="noreferrer">
+                    <a className="contact" onClick={() => sendContactInfo(0)} title="jolomoju@gmail.com" href="mailto:jolomoju@gmail.com" target="_blank" rel="noreferrer">
                         <GrMail title="E-mail" className="contact-icon pink" /> 
-                        <span className="contact-text">joaojr1997@gmail.com</span>
+                        <span className="contact-text">jolomoju@gmail.com</span>
                     </a>
                     <a className="contact" onClick={() => sendContactInfo(1)} title="/in/JoaoMoraesJr" href="https://www.linkedin.com/in/joaomoraesjr" target="_blank" rel="noreferrer">
                         <FaLinkedin title="LinkedIn" className="contact-icon black" /> 
