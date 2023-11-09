@@ -1,3 +1,9 @@
+# Portfolio Webpage
+
+A webpage made with React to showcase some of my projects.
+
+![jolomojuGif](https://github.com/JoaoMoraesJr/JoaoMoraesJr.github.io/assets/28049907/892eee27-d0ac-4e3e-9cab-3a9588badaf3)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
