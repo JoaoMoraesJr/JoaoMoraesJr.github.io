@@ -1,5 +1,5 @@
 import './Home.scss';
-import { FaLinkedin, FaGithub, FaItchIo, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaItchIo } from 'react-icons/fa';
 import { AiOutlineCopyright } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 import {HOME_DATA} from "../../assets/data/HomeData";
@@ -129,8 +129,6 @@ function Home() {
                         <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(1)} title={contacts.linkedin.name} href={contacts.linkedin.link} target="_blank" rel="noreferrer"><FaLinkedin className="contact-icon black" /></a></li>
                         <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(2)} title={contacts.github.name} href={contacts.github.link} target="_blank" rel="noreferrer"><FaGithub className="contact-icon pink" /></a></li>
                         <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(3)} title={contacts.itchio.name} href={contacts.itchio.link} target="_blank" rel="noreferrer"><FaItchIo className="contact-icon black" /></a></li>
-                        <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(4)} title={contacts.instagram.name} href={contacts.instagram.link} target="_blank" rel="noreferrer"><FaInstagram className="contact-icon pink" /></a></li>
-
                     </ul>
                 </div>
                 <div className="center-container">

@@ -1,5 +1,4 @@
 import './ProjectCard.scss';
-import thumbnail from '../../assets/img/project-images/default_code0.jpg';
 
 function ProjectCard(props) {
 
@@ -17,7 +16,7 @@ function ProjectCard(props) {
                 <p className="card-name card-text">{cardData.name}</p>
                 <div className="card-info card-text">
                     <p style={{margin: '0px'}}>{cardData.shortDescription}</p>
-                    <p className="extra-info">Year: {cardData.year}</p>
+                    {/* <p className="extra-info">Year: {cardData.year}</p> */}
                     <div className= "card-tag-list extra-info">
                         {tags}
                     </div>

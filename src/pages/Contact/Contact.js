@@ -1,5 +1,5 @@
 import './Contact.scss';
-import { FaLinkedin, FaGithub, FaItchIo, FaInstagram } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaItchIo } from 'react-icons/fa'
 import { GrMail } from "react-icons/gr";
 import { useEffect } from 'react';
 import ReactGA from "react-ga4";
@@ -76,10 +76,6 @@ function Contact() {
                     <a className="contact" onClick={() => sendContactInfo(3)} title="jolomoju" href="https://jolomoju.itch.io/" target="_blank" rel="noreferrer">
                         <FaItchIo title="itch.io" className="contact-icon black" /> 
                         <span className="contact-text"> jolomoju.itch.io</span>
-                    </a>
-                    <a className="contact"  onClick={() => sendContactInfo(4)} title="jolomoju" href="https://www.instagram.com/jolomoju/" target="_blank" rel="noreferrer">
-                        <FaInstagram title="Instagram" className="contact-icon pink" /> 
-                        <span className="contact-text">@jolomoju</span>
                     </a>
                 </div>
             </div>

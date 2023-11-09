@@ -81,11 +81,6 @@ function Footer() {
                                 <FaItchIo/>
                             </a>
                         </li>
-                        <li>
-                            <a className="footer-contact" onClick={() => sendContactFooterInfo(4)} title="Instagram: jolomoju" href="https://www.instagram.com/jolomoju/" target="_blank" rel="noreferrer">
-                                <FaInstagram/>
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>

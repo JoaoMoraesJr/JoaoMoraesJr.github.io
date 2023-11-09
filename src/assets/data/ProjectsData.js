@@ -5,7 +5,7 @@ export const PROJECTS_INFO = {
             thumbnail: require("../img/project-images/katalogize/katalogize1.png"),
             year: 2022,
             tags: ["Web", "Fullstack"],
-            shortDescription: "A web application to catalog anything you want, however you need.",
+            shortDescription: "A web application to catalog anything you want, however you need. Built from prototype to production.",
             fullDescription: "Katalogize is a fullstack application developed from prototype to production.\nThe application allows users to catalog anything they want and however they need, with customizable templates like text, number, images and more to come.\nFor developer users, there is also a public API that allows them to retrieve the exact data needed from their catalogs through GraphQL.",
             technologies: ["Spring Boot", "GraphQL", "MongoDB", "React", "Docker", "GCP"],
             redirectLinks: [
@@ -78,6 +78,23 @@ export const PROJECTS_INFO = {
             ]
         },
         {
+            name: "Virtual Reality Simulation",
+            thumbnail: require("../img/project-images/vr-simulation/vr-simulation1.png"),
+            year: 2023,
+            tags: ["VR", "3D", "Simulation"],
+            shortDescription: "A virtual reality simulation of a cozy island with day/night cycles made with Unity.",
+            fullDescription: "A virtual reality simulation of a cozy island with day/night cycles made with Unity.\nThe simulation contains dynamic animated components that move based on shaders and scripts to create the atmosphere and cycles.\nIt can be played either on PC or PCVR, compatible with Oculus Quest 2.",
+            technologies: ["VR", "Oculus Quest", "Unity", "Blender", "Bosca Ceoil", "Normal Map Online"],
+            redirectLinks: [
+                {name: "Play the Simulation", link:"https://jolomoju.itch.io/jolomoju-island"}
+            ],
+            imageList: [
+                require("../img/project-images/vr-simulation/vr-simulation1.png"),
+                require("../img/project-images/vr-simulation/vr-simulation2.png"),
+                require("../img/project-images/vr-simulation/vr-simulation3.png")
+            ]
+        },
+        {
             name: "Skye's Dice",
             thumbnail: require("../img/project-images/skyesdice/skyesdice_thumbnail2.png"),
             year: 2022,
@@ -110,12 +127,12 @@ export const PROJECTS_INFO = {
             ]
         },
         {
-            name: "Gina Tells",
+            name: "Movie Recomendation System",
             thumbnail: require("../img/project-images/default_code1.jpg"),
             year: 2021,
             tags: ["Web", "Design"],
-            shortDescription: "(WIP) An assistant to help you discover movies to watch.",
-            fullDescription: "Gina Tells is a work in progress assistant made with my friends, that will help people discover movies to watch based on unpredictable questions that Gina will ask. As a web application, we are using the IMDB database to query movies.",
+            shortDescription: "An assistant to help you discover movies to watch.",
+            fullDescription: "Gina Tells is a work an virtual assistant made with my friends, that will help people discover movies to watch based on unpredictable questions that Gina will ask. As a web application, we are using the IMDB database to query movies.",
             technologies: ["IMDB", "dotNet", "React"],
             redirectLinks: [
             ],

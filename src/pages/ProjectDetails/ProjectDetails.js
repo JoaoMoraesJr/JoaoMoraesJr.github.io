@@ -72,8 +72,8 @@ function ProjectDetails() {
                     <div className= "tag-list">
                         {tags}
                     </div>
-                    <h3>Year</h3>
-                    <p>{project?.year}</p>
+                    {/* <h3>Year</h3>
+                    <p>{project?.year}</p> */}
                     <h3>Description</h3>
                     <p className="project-description">{project?.fullDescription}</p>
                     <h3>Technologies</h3>
