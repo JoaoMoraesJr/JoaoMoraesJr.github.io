@@ -96,7 +96,7 @@ export const PROJECTS_INFO = {
         },
         {
             name: "Skye's Dice",
-            thumbnail: require("../img/project-images/skyesdice/skyesdice_thumbnail2.png"),
+            thumbnail: require("../img/project-images/skyesdice/skyesdice_thumbnail3.png"),
             year: 2022,
             tags: ["Game", "Design", "3D"],
             shortDescription: "A 3D puzzle game developed in 48 hours for a game jam.",

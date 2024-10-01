@@ -5,6 +5,7 @@ import TechnologiesList from '../../components/TechnologiesList/TechnologiesList
 import { useEffect } from 'react';
 import { BsArrowReturnRight } from "react-icons/bs";
 import ReactGA from "react-ga4";
+import SimpleFooter from '../../components/SimpleFooter/SimpleFooter';
 
 function About() {
 
@@ -24,7 +25,7 @@ function About() {
     };
 
     return(
-        <div>
+        <div className="about-page">
             <div className="about-headline">
                 <div className="about-picture">
                     <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile"/></div>
@@ -56,21 +57,28 @@ function About() {
                         </div>
                     </div>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot" />
+                        <BsArrowReturnRight className="timeline-dot secondary-color" />
                         <div className="timeline-description">
-                            <span className="timeline-title">Software Engineer II</span>
-                            <span className="timeline-date">May 2022 - Present</span>
+                            <span className="timeline-title">Senior Software Engineer</span>
+                            <span className="timeline-date">Apr 2024 - Present</span>
                         </div>
                     </li>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot" />
+                        <BsArrowReturnRight className="timeline-dot secondary-color" />
+                        <div className="timeline-description">
+                            <span className="timeline-title">Software Engineer II</span>
+                            <span className="timeline-date">May 2022 - Apr 2024</span>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <BsArrowReturnRight className="timeline-dot secondary-color" />
                         <div className="timeline-description">
                             <span className="timeline-title">Software Engineer I</span>
                             <span className="timeline-date">Set 2020 - May 2022</span>
                         </div>
                     </li>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot" id="timeline-end0" />
+                        <BsArrowReturnRight className="timeline-dot secondary-color" id="timeline-end0" />
                         <div className="timeline-description">
                             <span className="timeline-title">Software Engineer Internship</span>
                             <span className="timeline-date">Ago 2019 - Set 2020</span>
@@ -87,7 +95,7 @@ function About() {
                         </div>
                     </div>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot" id="timeline-end1" />
+                        <BsArrowReturnRight className="timeline-dot secondary-color" id="timeline-end1" />
                         <div className="timeline-description">
                             <span className="timeline-title">Undergraduate Student Researcher - SMArT Lab</span>
                             <span className="timeline-date">Ago 2018 - Ago 2019</span>
@@ -145,6 +153,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            <SimpleFooter></SimpleFooter>
         </div>
     )
 }

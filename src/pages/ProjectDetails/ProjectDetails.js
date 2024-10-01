@@ -1,5 +1,5 @@
 import './ProjectDetails.scss';
-import { useHistory, useParams } from 'react-router';
+import { useNavigate, useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { PROJECTS_INFO } from '../../assets/data/ProjectsData';
@@ -19,11 +19,11 @@ function ProjectDetails() {
     let tags = [];
     let redirectLinks = [];
     let technologies = "";
-    const history = useHistory();
+    const navigate = useNavigate();
 
     project = PROJECTS_INFO.projectList.find(project => project.name === projectName);
     if (!project) {
-        history.push("/not-found");
+        navigate("/not-found");
     }else{
         for (const [index, value] of project.imageList.entries()) {
             images.push(<a href={value} target="_blank" rel="noreferrer" key={index}><img key={index} src={value} className="thumbnail project-image" alt="Project"/></a>)
@@ -69,7 +69,7 @@ function ProjectDetails() {
             <div className="project-details-title"><h1 className="title">{project?.name}</h1></div>
             <div className="project-details-container">
                 <div className="project-infos">
-                    <div className= "tag-list">
+                    <div className= "tag-list secondary-color">
                         {tags}
                     </div>
                     {/* <h3>Year</h3>

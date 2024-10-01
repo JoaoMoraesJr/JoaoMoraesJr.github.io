@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { PROJECTS_INFO } from '../../assets/data/ProjectsData';
 import { Link} from 'react-router-dom';
 import ReactGA from "react-ga4";
+import SimpleFooter from '../../components/SimpleFooter/SimpleFooter';
 
 function Projects() {
 
@@ -37,6 +38,7 @@ function Projects() {
                 <span className="item last-padding-grid"/>
                 {items}
             </div>
+            <SimpleFooter></SimpleFooter>
         </div>
     );
 }

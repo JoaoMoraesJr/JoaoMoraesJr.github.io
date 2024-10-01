@@ -3,6 +3,7 @@ import { FaLinkedin, FaGithub, FaItchIo } from 'react-icons/fa'
 import { GrMail } from "react-icons/gr";
 import { useEffect } from 'react';
 import ReactGA from "react-ga4";
+import SimpleFooter from '../../components/SimpleFooter/SimpleFooter';
 
 function Contact() {
 
@@ -62,7 +63,7 @@ function Contact() {
             <div className="contact-container">
                 <div className="contact-links">
                     <a className="contact" onClick={() => sendContactInfo(0)} title="jolomoju@gmail.com" href="mailto:jolomoju@gmail.com" target="_blank" rel="noreferrer">
-                        <GrMail title="E-mail" className="contact-icon pink" /> 
+                        <GrMail title="E-mail" className="contact-icon secondary-color" /> 
                         <span className="contact-text">jolomoju@gmail.com</span>
                     </a>
                     <a className="contact" onClick={() => sendContactInfo(1)} title="/in/JoaoMoraesJr" href="https://www.linkedin.com/in/joaomoraesjr" target="_blank" rel="noreferrer">
@@ -70,7 +71,7 @@ function Contact() {
                         <span className="contact-text">/in/JoaoMoraesJr</span>
                     </a>
                     <a className="contact" onClick={() => sendContactInfo(2)} title="JoaoMoraesJr" href="https://github.com/JoaoMoraesJr" target="_blank" rel="noreferrer">
-                        <FaGithub title="Github" className="contact-icon pink" /> 
+                        <FaGithub title="Github" className="contact-icon secondary-color" /> 
                         <span className="contact-text">JoaoMoraesJr</span>
                     </a>
                     <a className="contact" onClick={() => sendContactInfo(3)} title="jolomoju" href="https://jolomoju.itch.io/" target="_blank" rel="noreferrer">

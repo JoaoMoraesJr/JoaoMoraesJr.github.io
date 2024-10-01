@@ -77,7 +77,8 @@
 .item {
     margin: 10px;
 
-    @media (min-width: 900px) {
+    @media (max-width: 900px) {
+        margin: 0px;
         margin-bottom: 35px;
     }
 }

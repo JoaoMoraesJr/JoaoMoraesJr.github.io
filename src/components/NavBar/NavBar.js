@@ -23,6 +23,7 @@ function NavBar() {
                 {open ? 
                 <div className="overlay" onClick={() => setOpen(!open)}>
                     <div className="menu-dropdown">
+                            <Link  to="/" className="dropdown-link" onClick={() => setOpen(!open)}>Home</Link>
                             <Link  to="/about" className="dropdown-link" onClick={() => setOpen(!open)}>About</Link>
                             <Link to="/projects" className="dropdown-link" onClick={() => setOpen(!open)}>Projects</Link>
                             <Link to="/contact" className="dropdown-link" onClick={() => setOpen(!open)}>Contact</Link>
@@ -31,11 +32,13 @@ function NavBar() {
                 : null}
                 <div className="logo-container">
                     <Link to="/">
-                        <img src={logo} className="logo" alt="logo" />
+                        {/* <img src={logo} className="logo" alt="logo" /> */}
+                        <div className="nav-bar-logo-text">João Moraes</div>
                     </Link>
                 </div>
                 <div className="links-container">
                     <div>
+                        <Link  to="/" className="link-title">Home</Link>
                         <Link  to="/about" className="link-title">About</Link>
                         <Link to="/projects" className="link-title">Projects</Link>
                         <Link to="/contact" className="link-title">Contact</Link>

@@ -21,7 +21,7 @@
     height: 70px;
     width: 100%;
     min-height: 25px;
-    background-color: #37BBBD;
+    background: linear-gradient(145deg, #2e8ad7, #0f3c52);
     top: 0;
     position: fixed;
     display: flex;
@@ -29,7 +29,7 @@
 }
 
 .logo-container{
-    width: 100px;
+    width: auto;
     height: 100%;
     position: relative;
 }
@@ -87,7 +87,7 @@
     flex-direction: column;
     position: absolute;
     margin-top: 70px;
-    background: #2babad;
+    background: #075387;
     z-index: 2;
 }
 
@@ -105,4 +105,18 @@
     height: 100vh;
     color: black;
     z-index: 1;
+}
+
+.nav-bar-logo-text{
+    width: 150px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 40px;
+
+    @media (max-width: 550px) {
+        margin-left: 15px;
+    }
 }
