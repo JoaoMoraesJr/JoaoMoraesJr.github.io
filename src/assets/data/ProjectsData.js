@@ -1,12 +1,27 @@
 export const PROJECTS_INFO = {
     projectList: [
         {
+            name: "Brainy",
+            thumbnail: require("../img/project-images/brainy/brainy1.png"),
+            year: 2024,
+            tags: ["Mobile", "Fullstack"],
+            shortDescription: "A mobile application to use GenAI in daily tasks, like analyze stocks, summarize news, and more.",
+            fullDescription: "Brainy is an AI-powered mobile application designed to streamline daily tasks such as stock analysis, news summarization, and video summarization. Built with a robust backend in Python and a dynamic frontend in React, Brainy is deployed using Docker on a VPS, ensuring scalable and efficient performance.",
+            technologies: ["Python", "React Native", "Generative AI", "Docker"],
+            redirectLinks: [
+            ],
+            imageList: [
+                require("../img/project-images/brainy/brainy4.png"),
+                require("../img/project-images/brainy/brainy5.png")
+            ]
+        },
+        {
             name: "Katalogize",
             thumbnail: require("../img/project-images/katalogize/katalogize1.png"),
             year: 2022,
             tags: ["Web", "Fullstack"],
             shortDescription: "A web application to catalog anything you want, however you need. Built from prototype to production.",
-            fullDescription: "Katalogize is a fullstack application developed from prototype to production.\nThe application allows users to catalog anything they want and however they need, with customizable templates like text, number, images and more to come.\nFor developer users, there is also a public API that allows them to retrieve the exact data needed from their catalogs through GraphQL.",
+            fullDescription: "Katalogize is a fullstack application developed from prototype to production.\nThe application allows users to catalog anything they want and however they need, with custom templates featuring text, numbers, images, and more, tailored to their specific needs.\nFor developer users, there is also a public API that allows them to retrieve the exact data needed from their catalogs through GraphQL.",
             technologies: ["Spring Boot", "GraphQL", "MongoDB", "React", "Docker", "GCP"],
             redirectLinks: [
                 {name: "Visit Katalogize", link:"https://katalogize.com"}
@@ -22,7 +37,7 @@ export const PROJECTS_INFO = {
             year: 2020,
             tags: ["Game", "Design"],
             shortDescription: "A game about an astronaut developed in 72 hours for a game jam.",
-            fullDescription: "Astrolight is a game developed in 72 hours for a game jam, about an astronaut searching for the spaceship parts to continue his space mission. The game ranked 1st place in 3 categories: Design, Fun and Theme! Ending up with 2nd place overall.\nArt, animation, SFX, music and coding were developed by me during the game jam time",
+            fullDescription: "Astrolight is a game developed in just 72 hours for a game jam, where players take on the role of an astronaut searching for spaceship parts to continue a space mission. Out of over 100 competing games, Astrolight achieved 1st place in three categories (Design, Fun, and Theme) and secured 2nd place overall. All aspects of the game, including art, animation, sound effects, music, and coding, were created by me during the game jam.",
             technologies: ["Unity", "Aseprite", "Audacity", "Bosca Ceoil"],
             redirectLinks: [
                 {name: "Play the Game", link:"https://jolomoju.itch.io/astrolight"}
@@ -38,12 +53,13 @@ export const PROJECTS_INFO = {
             year: 2021,
             tags: ["IoT","Robots", "Research"],
             shortDescription: "Robots and prototypes created with Arduino",
-            fullDescription: "Creating robots is a new passion of mine that I have been exploring lately. These robots are an on going work, created using arduino along with some other components like LEDs, displays, echo sensors, motors, cameras, etc.",
+            fullDescription: "I have developed a strong interest in robotics, which has become a key area of personal exploration. My projects involve designing and building robots using Arduino as the central platform, integrating components such as LEDs, displays, ultrasonic sensors, motors, cameras, and more. This hands-on experience has allowed me to continuously expand my technical expertise and explore innovative applications in robotics and automation.",
             technologies: ["Arduino", "C++"],
             redirectLinks: [
             ],
             imageList: [
-                require("../img/project-images/robotics/robotics.jpg")
+                require("../img/project-images/robotics/robotics.jpg"),
+                require("../img/project-images/robotics/robotics2.jpg")
             ]
         },
         {
@@ -52,7 +68,7 @@ export const PROJECTS_INFO = {
             year: 2019,
             tags: ["Assistive","AI", "Research"],
             shortDescription: "An application to help blind people find objects with their phones.",
-            fullDescription: "In this project with SMArT lab, a mapping study was conducted to investigate how the scientific community uses Ambient intelligence technologies to assist visually impaired people. This study was published at the International Conference on Information Technology-New Generations (ITNG).\nBased on this study, we also developed an application to help blind people find objects with their phones. This application uses YOLO, a state of the art technology to recognize the objects in a picture and inform its location in degrees.",
+            fullDescription: "In collaboration with the SMArT lab, we conducted a comprehensive mapping study to explore how the scientific community leverages Ambient Intelligence technologies to support visually impaired individuals. The findings of this study were published at the International Conference on Information Technology-New Generations (ITNG).\nBuilding on this research, we developed an application designed to help blind individuals locate objects using their smartphones. The app utilizes YOLO, a cutting-edge object recognition technology, to identify objects in an image and provide their location in degrees, offering an innovative solution for improved accessibility.",
             technologies: ["Object Recognition", "YOLO", "Android Studio", "Java", "C", "TalkBack"],
             redirectLinks: [
                 {name: "Check the published paper", link:"https://link.springer.com/chapter/10.1007/978-3-030-70416-2_21"}
@@ -132,7 +148,7 @@ export const PROJECTS_INFO = {
             year: 2021,
             tags: ["Web", "Design"],
             shortDescription: "An assistant to help you discover movies to watch.",
-            fullDescription: "Gina Tells is a work an virtual assistant made with my friends, that will help people discover movies to watch based on unpredictable questions that Gina will ask. As a web application, we are using the IMDB database to query movies.",
+            fullDescription: "Gina Tells is an ongoing project developed collaboratively with friends. It’s a virtual assistant designed to help users discover movies through a fun and engaging experience. Instead of traditional recommendations, Gina asks unpredictable questions to guide users toward personalized movie suggestions. This web application, which integrates full-stack capabilities, is a work in progress. The project involves frontend and backend development, cloud deployment, and the use of Docker and Kubernetes for containerization and orchestration. We leverage the IMDB database to provide a diverse range of movie options based on user input.",
             technologies: ["IMDB", "dotNet", "React"],
             redirectLinks: [
             ],
@@ -145,7 +161,7 @@ export const PROJECTS_INFO = {
             year: 2021,
             tags: ["Art", "3D", "Animation", "Games"],
             shortDescription: "Artwork made in 2D and 3D.",
-            fullDescription: "Making art is a hobby of mine that I have always utilized in different projects that may require any type of visualization. From pixel art to 3D, I have incorporated my art in games, conversational agents, assistants and many others.",
+            fullDescription: "Creating art has long been a personal passion of mine, and I have consistently applied this creative vision to projects requiring visual elements. From pixel art to 3D design, I have incorporated my unique visual approach into diverse applications, including games, conversational agents, virtual assistants, and more.",
             technologies: ["Blender", "Unity", "Aseprite", "Krita Studio"],
             redirectLinks: [
             ],
@@ -169,21 +185,21 @@ export const PROJECTS_INFO = {
                 require("../img/project-images/automatic-planner/automatic-planner3.png")
             ]
         },
-        {
-            name: "Stranger Witch",
-            thumbnail: require("../img/project-images/strangerWitch/StrangerWitchCover.png"),
-            year: 2020,
-            tags: ["AI", "Animation", "Games"],
-            shortDescription: "A game made for the GMTK Game Jam in 48 hours.",
-            fullDescription: "Stranger Witch is a game developed in 48 hours for GTMK Game Jam 2020, about a little witch that has no control over her abilities trying to escape the dark florest. The theme of the game jam was Out of Control.\nArt, animation, music and coding were developed by me during the game jam time",
-            technologies: ["Unity", "Aseprite", "Audacity", "Bosca Ceoil"],
-            redirectLinks: [
-                {name: "Play the Game", link:"https://jolomoju.itch.io/stranger-witch"}
-            ],
-            imageList: [
-                require("../img/project-images/strangerWitch/StrangerWitch1.png"),
-                require("../img/project-images/strangerWitch/StrangerWitch2.png")
-            ]
-        }
+        // {
+        //     name: "Stranger Witch",
+        //     thumbnail: require("../img/project-images/strangerWitch/StrangerWitchCover.png"),
+        //     year: 2020,
+        //     tags: ["AI", "Animation", "Games"],
+        //     shortDescription: "A game made for the GMTK Game Jam in 48 hours.",
+        //     fullDescription: "Stranger Witch is a game developed in 48 hours for GTMK Game Jam 2020, about a little witch that has no control over her abilities trying to escape the dark florest. The theme of the game jam was Out of Control.\nArt, animation, music and coding were developed by me during the game jam time",
+        //     technologies: ["Unity", "Aseprite", "Audacity", "Bosca Ceoil"],
+        //     redirectLinks: [
+        //         {name: "Play the Game", link:"https://jolomoju.itch.io/stranger-witch"}
+        //     ],
+        //     imageList: [
+        //         require("../img/project-images/strangerWitch/StrangerWitch1.png"),
+        //         require("../img/project-images/strangerWitch/StrangerWitch2.png")
+        //     ]
+        // }
     ]
 }

@@ -9,7 +9,7 @@
     @media (max-width: 900px) {
       width:140px;
       height: 120px;
-      border-radius: 0px;
+      border-radius: 5px;
     }
 }
 
@@ -20,7 +20,7 @@
     // border-radius: 10px;
     @media (max-width: 900px) {
       width:140px;
-      border-radius: 0px;
+      border-radius: 5px;
     }
 }
 
@@ -36,7 +36,7 @@
     // box-shadow: 0 1000px rgba(5, 244, 252, 0.13) inset;
     //background: linear-gradient(180deg, rgba(55,187,189, 0) 0%, rgba(55,187,189, 0.041) 60%, rgba(55,187,189, 0.60) 80%, rgba(55,187,189,1) 100%);
     // background: linear-gradient(145deg, #2e8ad7, #0f3c52);
-    background: #075387;
+    background: linear-gradient(45deg, #318edd 57%, transparent);
     transition: background 0.5s ease-out;  
 
     @media (max-width: 900px) {
@@ -160,5 +160,16 @@
 .extra-info {
   @media (max-width: 900px) {
     display: none;
+  }
+}
+
+.card-description {
+  margin: 0px;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 24px;
+
+  @media (max-width: 900px) {
+    margin-top: 0px;
   }
 }

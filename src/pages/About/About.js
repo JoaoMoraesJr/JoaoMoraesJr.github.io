@@ -25,7 +25,7 @@ function About() {
     };
 
     return(
-        <div className="about-page">
+        <div className="about-page page-margin">
             <div className="about-headline">
                 <div className="about-picture">
                     <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile"/></div>
@@ -44,7 +44,7 @@ function About() {
                 <p className="normal-text">There are three main areas that I like to focus professionally.</p>
                 <TechnologiesList />
             </div>
-            <div className="align-left">
+            <div className="align-left page-padding">
                 <span><strong>My Experience</strong></span>
                 <ul className="about-list">
                     <div className="timeline-item">

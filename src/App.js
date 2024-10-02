@@ -41,7 +41,7 @@ function App() {
       }
       <Router>
         <NavBar />
-        <div className="app-body">
+        <div>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/about" element={<About />}></Route>

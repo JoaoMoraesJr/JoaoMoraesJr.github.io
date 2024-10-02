@@ -14,10 +14,13 @@
 }
 
 
-.app-body {
+.page-margin{
   top: 0px;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin: var(--page-margin);
+}
+
+.page-padding {
+  padding-bottom: 40px;
 }
 
 a:link, a:visited {
@@ -172,10 +175,6 @@ a:link, a:visited {
 .center-container {
   display: flex;
   justify-content: center;
-}
-
-.secondary-color {
-  color: #065cb1;
 }
 
 .turquoise {

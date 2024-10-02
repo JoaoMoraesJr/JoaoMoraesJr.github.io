@@ -60,7 +60,7 @@ function ProjectDetails() {
     };
 
     return (
-        <div className="ProjectDetails">
+        <div className="page-margin">
             <div className="breadcrumb">
                 <Link to="/projects">
                     <p className="color-black"> &lt; Return to Projects</p>

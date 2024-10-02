@@ -53,13 +53,7 @@
 }
 
 .colored-background {
-    background: rgb(56 104 203 / 8%);
-    width: 100%;
-    left: 20%;
-    margin-left: -20vw;
-    margin-top: -50px;
-    position: absolute;
-    z-index: -2;
+    background: var(--background-secondary-color);
 }
 
 .technology-background {

@@ -15,7 +15,7 @@ function ProjectCard(props) {
                 <img src={cardData.thumbnail} className="thumbnail thumbnail-size" alt="thumbnail"/>
                 <p className="card-name card-text">{cardData.name}</p>
                 <div className="card-info card-text">
-                    <p style={{margin: '0px'}}>{cardData.shortDescription}</p>
+                    <p className="card-description">{cardData.shortDescription}</p>
                     {/* <p className="extra-info">Year: {cardData.year}</p> */}
                     <div className= "card-tag-list extra-info">
                         {tags}

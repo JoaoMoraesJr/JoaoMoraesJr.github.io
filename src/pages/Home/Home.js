@@ -7,7 +7,7 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import { Link} from 'react-router-dom';
 import { CONTACT_DATA } from '../../assets/data/ContactData';
 import TechnologiesList from '../../components/TechnologiesList/TechnologiesList';
-import CV from '../../assets/JoaoALMoraesCV.pdf'
+import CV from '../../assets/JoaoMoraesCV.pdf'
 import ReactGA from "react-ga4";
 import { useEffect } from 'react';
 import SimpleFooter from '../../components/SimpleFooter/SimpleFooter';
@@ -87,7 +87,7 @@ function Home() {
 
     return(
         <div className="home">
-            <div className="home-section first-section">
+            <div className="home-section first-section page-margin">
                 <div className="profile-photo-container">
                     <img className="profile-photo-img" src={home.profilePhoto} alt="profile"/>
                 </div>
@@ -96,18 +96,19 @@ function Home() {
                 <p className="home-text">{home?.description}</p>
                 <div className="home-cv"><span className="button-primary" onClick={() => downloadCV()}>Download CV</span></div>
             </div>
-            <div className="home-section">
-                <div className="colored-background technology-background"></div>
-                <span><strong>What I do</strong></span>
-                <p className="home-text">There are three main areas that I like to focus professionally.</p>
-                <TechnologiesList></TechnologiesList>
-                <div className="center-container">
-                    <Link to="/about" className="button-primary">
-                        <span>See more about me</span>
-                    </Link>
+            <div className="home-section colored-background">
+                <div className="page-margin">
+                    <span><strong>What I do</strong></span>
+                    <p className="home-text">There are three main areas that I like to focus professionally.</p>
+                    <TechnologiesList></TechnologiesList>
+                    <div className="center-container">
+                        <Link to="/about" className="button-primary">
+                            <span>See more about me</span>
+                        </Link>
+                    </div>
                 </div>
             </div>
-            <div className="home-section">
+            <div className="home-section page-margin">
                 <span><strong>My Projects</strong></span>
                 <p className="home-text">I love to develop my own projects! Here you can take a look at some of them.</p>
                 <div className="center-container">
@@ -121,22 +122,23 @@ function Home() {
                     </Link>
                 </div>
             </div>
-            <div className="home-section">
-                <div className="colored-background" style={{height: 500}}></div>
-                <span><strong>Contact</strong></span>
-                <p className="home-text">You can reach me in one of my social media.</p>
-                <div className="center-container">
-                    <ul className="home-inline-list">
-                        <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(0)} title={contacts.email.name} href={contacts.email.link} target="_blank" rel="noreferrer"><GrMail className="contact-icon secondary-color" /></a></li>
-                        <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(1)} title={contacts.linkedin.name} href={contacts.linkedin.link} target="_blank" rel="noreferrer"><FaLinkedin className="contact-icon black" /></a></li>
-                        <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(2)} title={contacts.github.name} href={contacts.github.link} target="_blank" rel="noreferrer"><FaGithub className="contact-icon secondary-color" /></a></li>
-                        <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(3)} title={contacts.itchio.name} href={contacts.itchio.link} target="_blank" rel="noreferrer"><FaItchIo className="contact-icon black" /></a></li>
-                    </ul>
-                </div>
-                <div className="center-container">
-                    <Link to="/contact" className="button-primary">
-                        <span>Contact Me</span>
-                    </Link>
+            <div className="home-section colored-background">
+                <div className="page-margin">
+                    <span><strong>Contact</strong></span>
+                    <p className="home-text">You can reach me in one of my social media.</p>
+                    <div className="center-container">
+                        <ul className="home-inline-list">
+                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(0)} title={"Email: " + contacts.email.name} href={contacts.email.link} target="_blank" rel="noreferrer"><GrMail className="contact-icon secondary-color" /></a></li>
+                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(1)} title={"LinkedIn: " +contacts.linkedin.name} href={contacts.linkedin.link} target="_blank" rel="noreferrer"><FaLinkedin className="contact-icon black" /></a></li>
+                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(2)} title={"Github: " +contacts.github.name} href={contacts.github.link} target="_blank" rel="noreferrer"><FaGithub className="contact-icon secondary-color" /></a></li>
+                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(3)} title={"Itch.io: " +contacts.itchio.name} href={contacts.itchio.link} target="_blank" rel="noreferrer"><FaItchIo className="contact-icon black" /></a></li>
+                        </ul>
+                    </div>
+                    <div className="center-container">
+                        <Link to="/contact" className="button-primary">
+                            <span>Contact Me</span>
+                        </Link>
+                    </div>
                 </div>
             </div>
             <SimpleFooter></SimpleFooter>

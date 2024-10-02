@@ -26,10 +26,10 @@ function Projects() {
     }
 
     return (
-        <div className="projects">
+        <div className="projects page-margin">
             <div className="header">
             </div>
-            <div className="projects-list">
+            <div className="projects-list page-padding">
                 <div className="item projects-title-container">
                 <h1 className="title">Projects</h1>
 
