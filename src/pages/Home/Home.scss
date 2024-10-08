@@ -52,10 +52,6 @@
     }
 }
 
-.colored-background {
-    background: var(--background-secondary-color);
-}
-
 .technology-background {
     height: 535px;
 
@@ -122,5 +118,14 @@
 
     @media (max-width: 800px) {
         margin: 5px
+    }
+}
+
+.home-photo-container {
+    margin-left: 80px;
+    margin-bottom: 25px;
+
+    @media (max-width: 900px) {
+        margin-left: 0px;
     }
 }

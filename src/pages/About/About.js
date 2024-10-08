@@ -16,27 +16,28 @@ function About() {
         ReactGA.send({ hitType: "pageview", page: "/about", title:"About" });
     });
 
-    function sendClickSteamInfo () {
-        ReactGA.event({
-          category: "Click",
-          action: "Click on Steam",
-          label: "About"
-        });
-    };
+    // function sendClickSteamInfo () {
+    //     ReactGA.event({
+    //       category: "Click",
+    //       action: "Click on Steam",
+    //       label: "About"
+    //     });
+    // };
 
     return(
         <div className="about-page page-margin">
             <div className="about-headline">
-                <div className="about-picture">
-                    <div className="profile-photo-container"><img className="profile-photo-img" src={about.profilePhoto} alt="profile"/></div>
+                <div className="about-picture-container">
+                    <div className="profile-photo-container about-picture">
+                        <img className="profile-photo-img" src={about.profilePhoto} alt="profile"/>
+                    </div>
                 </div>
-                <h1 className="about-title">{about?.title}</h1>
-                <div className="about-text">
-                    <p>I'm <b>João Moraes</b>. I was born in Porto Alegre (Brazil) and raised in a metropolitan region, in a small town called Guaíba.
-                    Since my childhood, I have always been passionate about technology, and this interest extended through my whole life. </p> 
-                    <p>I graduated in <b>Computer Science</b> at PUCRS and now I work as a full-time <b>Software Engineer</b> at Dell.</p>
-                    <p>As a self-proclaimed <b>geek</b>, I have a lot of hobbies: I like to <span className="about-redirect-link"><a title="Steam profile" href="https://steamcommunity.com/id/jolomoju/" target="_blank" rel="noreferrer" onClick={() => sendClickSteamInfo()}>play games</a></span>, play the piano, draw, read books, etc.</p>
-                    <p>I also fight for <b>diversity and inclusion</b>, believing everyone can contribute and have a place in this amazing area.</p>
+                <div>
+                    <h1 className="about-title">{about?.title}</h1>
+                    <div className="about-text-container">
+                        <p className="about-text">I'm João Moraes, born in Porto Alegre and raised in Guaíba, Brazil. Since my childhood, technology has always played a key role in my life, driving both my career and interests. I hold a degree in <b>Computer Science</b> from PUCRS and work as a <b>Software Engineer at Dell</b>, where I focus on tackling new challenges and creating impactful solutions.</p>
+                        <p className="about-text">As a problem-solver driven by innovation, I’m passionate about turning ideas into practical solutions, which I have achieved multiple times through my personal projects. In addition, throughout my career, I have developed strong <b>leadership</b> skills by guiding teams through complex projects and fostering a collaborative environment. I also advocate for <b>diversity and inclusion</b>, empowering everyone to participate in solving real-world challenges.</p>
+                    </div>
                 </div>
             </div>
             <div className="section align-left">
@@ -52,33 +53,33 @@ function About() {
                         <div className="timeline-description">
                             <span className="timeline-title">Dell</span>
                             <span className="timeline-date">Ago 2018 - Present</span>
-                            <span>Working as a tech lead in an internationally distributed team that creates and maintains solutions for legal practice areas. Building applications with web development, AI and using engineering practices as cybersecurity, testing, code review and CI/CD pipelines to achieve high code quality.</span>
+                            <span>Working as a tech lead in an internationally distributed team that creates and maintains solutions for legal practice areas. Leading the development of multiple full-stack software applications, with web development and AI, as well as using engineering best practices like cybersecurity scans, testing, code review and CI/CD pipelines to achieve high code quality.</span>
                             {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
                         </div>
                     </div>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot secondary-color" />
+                        <BsArrowReturnRight className="timeline-dot primary-color" />
                         <div className="timeline-description">
                             <span className="timeline-title">Senior Software Engineer</span>
                             <span className="timeline-date">Apr 2024 - Present</span>
                         </div>
                     </li>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot secondary-color" />
+                        <BsArrowReturnRight className="timeline-dot primary-color" />
                         <div className="timeline-description">
                             <span className="timeline-title">Software Engineer II</span>
                             <span className="timeline-date">May 2022 - Apr 2024</span>
                         </div>
                     </li>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot secondary-color" />
+                        <BsArrowReturnRight className="timeline-dot primary-color" />
                         <div className="timeline-description">
                             <span className="timeline-title">Software Engineer I</span>
                             <span className="timeline-date">Set 2020 - May 2022</span>
                         </div>
                     </li>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot secondary-color" id="timeline-end0" />
+                        <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end0" />
                         <div className="timeline-description">
                             <span className="timeline-title">Software Engineer Internship</span>
                             <span className="timeline-date">Ago 2019 - Set 2020</span>
@@ -95,7 +96,7 @@ function About() {
                         </div>
                     </div>
                     <li className="timeline-item">
-                        <BsArrowReturnRight className="timeline-dot secondary-color" id="timeline-end1" />
+                        <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end1" />
                         <div className="timeline-description">
                             <span className="timeline-title">Undergraduate Student Researcher - SMArT Lab</span>
                             <span className="timeline-date">Ago 2018 - Ago 2019</span>
@@ -119,8 +120,8 @@ function About() {
                         <div className="icon-container"><img className="timeline-icon" src={about.toastmastersLogo} alt="pucrs" id="timeline-star"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">Toastmasters - Vice President of Public Relationships</span>
-                            <span className="timeline-date">Apr 2021 - Present</span>
-                            <span>Toastmasters International is a nonprofit educational organization that teaches public speaking and leadership skills through a worldwide network of clubs. At Toastmasters, I do volunteering work as a vice president of public relationships.</span>
+                            <span className="timeline-date">Apr 2021 - Jun 2023</span>
+                            <span>Toastmasters International is a nonprofit educational organization that teaches public speaking and leadership skills through a worldwide network of clubs. At Toastmasters, I volunteered as Vice President of Public Relations.</span>
                         </div>
                     </div>
                 </ul>
@@ -129,8 +130,8 @@ function About() {
                         <div className="icon-container"><img className="timeline-icon" src={about.bitiLogo} alt="pucrs" id="timeline-star"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">Brazilians in Technical Interviews - Mentor</span>
-                            <span className="timeline-date">Jan 2021 - Present</span>
-                            <span>Managing and mentoring Brazilians in Technical Interviews (BiTI), a study group that focuses on training hard and soft skills for technical interviews.</span>
+                            <span className="timeline-date">Jan 2021 - Jan 2022</span>
+                            <span>Managed and mentored Brazilians in Technical Interviews (BiTI), a study group that focused on training hard and soft skills for technical interviews</span>
                         </div>
                     </div>
                 </ul>

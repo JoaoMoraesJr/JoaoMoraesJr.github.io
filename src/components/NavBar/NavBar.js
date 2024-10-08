@@ -1,16 +1,14 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
-import logo from '../../assets/img/logo.png';
 import { FiMenu } from "react-icons/fi";
-import {HOME_DATA} from "../../assets/data/HomeData";
+// import {HOME_DATA} from "../../assets/data/HomeData";
 
 import './NavBar.scss';
+import DarkModeSlider from '../DarkModeSlider/DarkModeSlider';
 
 
 function NavBar() {
     const [open, setOpen] = useState(false);
-    let home = HOME_DATA;
-
 
     return (
         <>
@@ -37,12 +35,13 @@ function NavBar() {
                     </Link>
                 </div>
                 <div className="links-container">
-                    <div>
-                        <Link  to="/" className="link-title">Home</Link>
-                        <Link  to="/about" className="link-title">About</Link>
-                        <Link to="/projects" className="link-title">Projects</Link>
-                        <Link to="/contact" className="link-title">Contact</Link>
-                    </div>
+                    <Link  to="/" className="link-title">Home</Link>
+                    <Link  to="/about" className="link-title">About</Link>
+                    <Link to="/projects" className="link-title">Projects</Link>
+                    <Link to="/contact" className="link-title">Contact</Link>
+                </div>
+                <div className="slider-container">
+                    <DarkModeSlider></DarkModeSlider>
                 </div>
             </div>
         </div>

@@ -94,8 +94,6 @@ a:link, a:visited {
 
 .profile-photo-container {
   float: right;
-  margin-bottom: 25px;
-  margin-left: 80px;
   width: 350px;
   height: 350px;
   border-radius: 10px;
@@ -103,8 +101,8 @@ a:link, a:visited {
 
   @media (max-width: 900px) {
     border-radius: 100%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     float: none;
     margin-left: 0px;
   }
@@ -124,8 +122,8 @@ a:link, a:visited {
 
     @media (max-width: 900px) {
       border-radius: 100%;
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
     }
 
     @media (max-width: 450px) {

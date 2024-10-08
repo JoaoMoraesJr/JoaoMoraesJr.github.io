@@ -1,13 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 :root {
-  --primary-color: #2e8ad7;
-  --secondary-color: #065cb1;
-  --black-color: black;
-  --text-color: black;
   --page-margin: 0px 7%;
-  --background-primary-color: rgb(56 104 203 / 8%);
-  --background-secondary-color: rgb(56 104 203 / 8%);
+
+  //light mode
+  --primary-color-light: #065cb1;
+  --secondary-color-light: #000000;
+  --footer-color-light: #000000;
+  --text-color-light: black;
+  --background-primary-color-light: rgb(56 104 203 / 8%);
+  --background-secondary-color-light: rgb(56 104 203 / 8%);
+  --slider-background-color-light: rgb(222, 233, 255);
+  --slider-icon-color-light: rgb(72 108 182);
+  --card-title-background-color-light: linear-gradient(45deg, #318edd 57%, transparent);
+
+  //dark mode
+  --primary-color-dark: #7fbdfb;
+  --secondary-color-dark: #ffffff;
+  --footer-color-dark: #12161d;
+  --text-color-dark: rgb(255, 255, 255);
+  --background-primary-color-dark: rgba(46, 59, 85, 1.0);
+  --background-secondary-color-dark: rgb(55, 68, 95);
+  --slider-background-color-dark: rgb(72 108 182);
+  --slider-icon-color-dark: rgb(255, 255, 255);
+  --card-title-background-color-light: rgb(56 104 203 / 8%);
+}
+
+.light-mode {
+  background-color: var(--background-primary-color-light);
+  color: var(--text-color-light);
+
+  .primary-color {
+    color: var(--primary-color-light);
+    border-color: var(--primary-color-light);
+  }
+
+  .secondary-color {
+    color: var(--secondary-color-light);
+  }
+
+  .footer-color {
+    background: var(--footer-color-light);
+  }
+
+  .colored-background {
+    background: var(--background-secondary-color-light);
+  }
+
+  .text-color {
+    color: var(--text-color-light)
+  }
+}
+
+.dark-mode {
+  background-color: var(--background-primary-color-dark);
+  color: var(--text-color-dark);
+
+  .primary-color {
+    color: var(--primary-color-dark);
+    border-color: var(--primary-color-dark);
+  }
+
+  .secondary-color {
+    color: var(--secondary-color-dark);
+  }
+
+  .footer-color {
+    background: var(--footer-color-dark);
+  }
+
+  .colored-background {
+    background: var(--background-secondary-color-dark);
+  }
+
+  .text-color {
+    color: var(--text-color-dark)
+  }
 }
 
 body {
@@ -19,12 +87,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-primary-color);
-  color: var(--text-color);
-}
-
-.secondary-color {
-  color: var(--secondary-color);
+  overscroll-behavior: none;
 }
 
 code {

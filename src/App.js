@@ -15,6 +15,7 @@ import About from './pages/About/About';
 import NotFound from './pages/NotFound/NotFound';
 import ReactGA from "react-ga4";
 import { useState } from 'react';
+import { useTheme } from './ThemeContext';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
 
 
   const [isGifLoaded, setGifLoaded] = useState(false);
+  const { isDarkMode } = useTheme();
   const displayGif = false
 
   function startPage() {
@@ -34,7 +36,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className={`${isDarkMode ? 'dark-mode' : 'light-mode'} App`}>
       {displayGif ? 
         <div className={"animation-container " + (isGifLoaded === true ? "start-animation" : "")}><img className="logo-gif" src={require('./assets/img/logoGif.gif')} alt="logo" onLoad={() => startPage()}></img></div>
         : <></>

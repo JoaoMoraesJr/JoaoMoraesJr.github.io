@@ -41,7 +41,7 @@
     justify-content: flex-end;
     align-items: center;
 
-    @media (max-width: 550px) {
+    @media (max-width: 750px) {
         display: none;
     }
 }
@@ -72,7 +72,7 @@
     margin-right: 2%;
     display: none;
 
-    @media (max-width: 550px) {
+    @media (max-width: 750px) {
         display: flex;
     }
 }
@@ -116,7 +116,17 @@
     align-items: center;
     margin-left: 40px;
 
-    @media (max-width: 550px) {
+    @media (max-width: 750px) {
         margin-left: 15px;
+    }
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 750px) {
+        width: 100%;
+        justify-content: right;
     }
 }

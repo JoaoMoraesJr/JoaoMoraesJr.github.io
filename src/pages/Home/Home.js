@@ -88,7 +88,7 @@ function Home() {
     return(
         <div className="home">
             <div className="home-section first-section page-margin">
-                <div className="profile-photo-container">
+                <div className="profile-photo-container home-photo-container">
                     <img className="profile-photo-img" src={home.profilePhoto} alt="profile"/>
                 </div>
                 <h1 className="headline">{home?.headline}</h1>
@@ -128,10 +128,10 @@ function Home() {
                     <p className="home-text">You can reach me in one of my social media.</p>
                     <div className="center-container">
                         <ul className="home-inline-list">
-                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(0)} title={"Email: " + contacts.email.name} href={contacts.email.link} target="_blank" rel="noreferrer"><GrMail className="contact-icon secondary-color" /></a></li>
-                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(1)} title={"LinkedIn: " +contacts.linkedin.name} href={contacts.linkedin.link} target="_blank" rel="noreferrer"><FaLinkedin className="contact-icon black" /></a></li>
-                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(2)} title={"Github: " +contacts.github.name} href={contacts.github.link} target="_blank" rel="noreferrer"><FaGithub className="contact-icon secondary-color" /></a></li>
-                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(3)} title={"Itch.io: " +contacts.itchio.name} href={contacts.itchio.link} target="_blank" rel="noreferrer"><FaItchIo className="contact-icon black" /></a></li>
+                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(0)} title={"Email: " + contacts.email.name} href={contacts.email.link} target="_blank" rel="noreferrer"><GrMail className="contact-icon primary-color" /></a></li>
+                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(1)} title={"LinkedIn: " +contacts.linkedin.name} href={contacts.linkedin.link} target="_blank" rel="noreferrer"><FaLinkedin className="contact-icon secondary-color" /></a></li>
+                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(2)} title={"Github: " +contacts.github.name} href={contacts.github.link} target="_blank" rel="noreferrer"><FaGithub className="contact-icon primary-color" /></a></li>
+                            <li><a className="home-contact-item" onClick={() => sendContactHomeInfo(3)} title={"Itch.io: " +contacts.itchio.name} href={contacts.itchio.link} target="_blank" rel="noreferrer"><FaItchIo className="contact-icon secondary-color" /></a></li>
                         </ul>
                     </div>
                     <div className="center-container">

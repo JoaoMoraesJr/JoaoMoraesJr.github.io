@@ -142,49 +142,49 @@ export const PROJECTS_INFO = {
                 require("../img/project-images/eca/ecaArch.jpg")
             ]
         },
-        {
-            name: "Movie Recomendation System",
-            thumbnail: require("../img/project-images/default_code1.jpg"),
-            year: 2021,
-            tags: ["Web", "Design"],
-            shortDescription: "An assistant to help you discover movies to watch.",
-            fullDescription: "Gina Tells is an ongoing project developed collaboratively with friends. It’s a virtual assistant designed to help users discover movies through a fun and engaging experience. Instead of traditional recommendations, Gina asks unpredictable questions to guide users toward personalized movie suggestions. This web application, which integrates full-stack capabilities, is a work in progress. The project involves frontend and backend development, cloud deployment, and the use of Docker and Kubernetes for containerization and orchestration. We leverage the IMDB database to provide a diverse range of movie options based on user input.",
-            technologies: ["IMDB", "dotNet", "React"],
-            redirectLinks: [
-            ],
-            imageList: [
-            ]
-        },
-        {
-            name: "Artwork & 3D",
-            thumbnail: require("../img/project-images/artwork/artwork.jpeg"),
-            year: 2021,
-            tags: ["Art", "3D", "Animation", "Games"],
-            shortDescription: "Artwork made in 2D and 3D.",
-            fullDescription: "Creating art has long been a personal passion of mine, and I have consistently applied this creative vision to projects requiring visual elements. From pixel art to 3D design, I have incorporated my unique visual approach into diverse applications, including games, conversational agents, virtual assistants, and more.",
-            technologies: ["Blender", "Unity", "Aseprite", "Krita Studio"],
-            redirectLinks: [
-            ],
-            imageList: [
-                require("../img/project-images/artwork/purpose.png"),
-                require("../img/project-images/artwork/pearl.png")
-            ]
-        },
-        {
-            name: "Save the Giraffes!",
-            thumbnail: require("../img/project-images/automatic-planner/automatic-planner.png"),
-            year: 2020,
-            tags: ["AI", "Animation", "Games"],
-            shortDescription: "An automatic planner domain with a virtual visualization.",
-            fullDescription: "This application consists of a new PDDL planning domain that has the goal of saving the runaway giraffes from the Madagascar ZOO. The domain consists of locals, agents and giraffes. Giraffes are only saved with the help of agents and they go through different danger situations.\nFor a better visualization, a graphical interface was developed in Unity with models created in Blender, in order to animate the solution of the problems, since the solution that the planners return can become overwhelming to understand.",
-            technologies: ["PDDL", "Unity", "Blender", "automatic planner."],
-            redirectLinks: [
-            ],
-            imageList: [
-                require("../img/project-images/automatic-planner/automatic-planner2.png"),
-                require("../img/project-images/automatic-planner/automatic-planner3.png")
-            ]
-        },
+        // {
+        //     name: "Movie Recomendation System",
+        //     thumbnail: require("../img/project-images/default_code1.jpg"),
+        //     year: 2021,
+        //     tags: ["Web", "Design"],
+        //     shortDescription: "An assistant to help you discover movies to watch.",
+        //     fullDescription: "Gina Tells is an ongoing project developed collaboratively with friends. It’s a virtual assistant designed to help users discover movies through a fun and engaging experience. Instead of traditional recommendations, Gina asks unpredictable questions to guide users toward personalized movie suggestions. This web application, which integrates full-stack capabilities, is a work in progress. The project involves frontend and backend development, cloud deployment, and the use of Docker and Kubernetes for containerization and orchestration. We leverage the IMDB database to provide a diverse range of movie options based on user input.",
+        //     technologies: ["IMDB", "dotNet", "React"],
+        //     redirectLinks: [
+        //     ],
+        //     imageList: [
+        //     ]
+        // },
+        // {
+        //     name: "Artwork & 3D",
+        //     thumbnail: require("../img/project-images/artwork/artwork.jpeg"),
+        //     year: 2021,
+        //     tags: ["Art", "3D", "Animation", "Games"],
+        //     shortDescription: "Artwork made in 2D and 3D.",
+        //     fullDescription: "Creating art has long been a personal passion of mine, and I have consistently applied this creative vision to projects requiring visual elements. From pixel art to 3D design, I have incorporated my unique visual approach into diverse applications, including games, conversational agents, virtual assistants, and more.",
+        //     technologies: ["Blender", "Unity", "Aseprite", "Krita Studio"],
+        //     redirectLinks: [
+        //     ],
+        //     imageList: [
+        //         require("../img/project-images/artwork/purpose.png"),
+        //         require("../img/project-images/artwork/pearl.png")
+        //     ]
+        // },
+        // {
+        //     name: "Save the Giraffes!",
+        //     thumbnail: require("../img/project-images/automatic-planner/automatic-planner.png"),
+        //     year: 2020,
+        //     tags: ["AI", "Animation", "Games"],
+        //     shortDescription: "An automatic planner domain with a virtual visualization.",
+        //     fullDescription: "This application consists of a new PDDL planning domain that has the goal of saving the runaway giraffes from the Madagascar ZOO. The domain consists of locals, agents and giraffes. Giraffes are only saved with the help of agents and they go through different danger situations.\nFor a better visualization, a graphical interface was developed in Unity with models created in Blender, in order to animate the solution of the problems, since the solution that the planners return can become overwhelming to understand.",
+        //     technologies: ["PDDL", "Unity", "Blender", "automatic planner."],
+        //     redirectLinks: [
+        //     ],
+        //     imageList: [
+        //         require("../img/project-images/automatic-planner/automatic-planner2.png"),
+        //         require("../img/project-images/automatic-planner/automatic-planner3.png")
+        //     ]
+        // },
         // {
         //     name: "Stranger Witch",
         //     thumbnail: require("../img/project-images/strangerWitch/StrangerWitchCover.png"),

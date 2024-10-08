@@ -1,6 +1,12 @@
 .about-headline {
+    display: flex;
     text-align: start;
     margin-top: 60px;
+
+    @media (max-width: 1400px) {
+
+        display: block;
+    }
 }
 
 .about-historic {
@@ -70,12 +76,21 @@
     width: 50%;
 }
 
-.about-picture {
+.about-picture-container {
     @media (max-width: 900px) {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+
+.about-picture {
+    margin-right: 80px; 
+    margin-bottom: 25px;
+
+    @media (max-width: 1400px) {
+        margin-left: 80px;
     }
 }
 
@@ -93,8 +108,12 @@
     }
 }
 
-.about-text{
+.about-text-container{
     @media (max-width: 800px) {
         text-align: justify;
     }
+}
+
+.about-text {
+    margin: 0px;
 }

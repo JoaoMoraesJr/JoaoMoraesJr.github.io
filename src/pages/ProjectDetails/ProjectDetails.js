@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { PROJECTS_INFO } from '../../assets/data/ProjectsData';
 import ReactGA from "react-ga4";
+import SimpleFooter from '../../components/SimpleFooter/SimpleFooter';
 
 function ProjectDetails() {
 
@@ -29,7 +30,7 @@ function ProjectDetails() {
             images.push(<a href={value} target="_blank" rel="noreferrer" key={index}><img key={index} src={value} className="thumbnail project-image" alt="Project"/></a>)
         }
         for (const [index, value] of project.tags.entries()) {
-            tags.push(<div key={index} className="tag">{value}</div>)
+            tags.push(<div key={index} className="tag primary-color">{value}</div>)
         }
         for (const [index, value] of project.technologies.entries()) {
             technologies += value;
@@ -63,7 +64,7 @@ function ProjectDetails() {
         <div className="page-margin">
             <div className="breadcrumb">
                 <Link to="/projects">
-                    <p className="color-black"> &lt; Return to Projects</p>
+                    <p className="text-color"> &lt; Return to Projects</p>
                 </Link>
             </div>
             <div className="project-details-title"><h1 className="title">{project?.name}</h1></div>
@@ -91,6 +92,7 @@ function ProjectDetails() {
                     {images}
                 </div>
             </div>
+            <SimpleFooter></SimpleFooter>
         </div>
     );
 }
