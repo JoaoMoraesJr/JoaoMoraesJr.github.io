@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.356c4afa.css",
-    "main.js": "/static/js/main.6de9d705.js",
+    "main.css": "/static/css/main.52013414.css",
+    "main.js": "/static/js/main.1180f4d5.js",
     "static/js/488.cd41e87b.chunk.js": "/static/js/488.cd41e87b.chunk.js",
     "static/media/robotics2.jpg": "/static/media/robotics2.1f3b36eb13568bfd665d.jpg",
     "static/media/vr-simulation1.png": "/static/media/vr-simulation1.3c803c8feb7471900c5f.png",
@@ -34,12 +34,12 @@
     "static/media/toastmasters_logo.png": "/static/media/toastmasters_logo.2952a1206a44d8a581dc.png",
     "static/media/astrolight_1.png": "/static/media/astrolight_1.dc3eab30f34c7e4656b4.png",
     "index.html": "/index.html",
-    "main.356c4afa.css.map": "/static/css/main.356c4afa.css.map",
-    "main.6de9d705.js.map": "/static/js/main.6de9d705.js.map",
+    "main.52013414.css.map": "/static/css/main.52013414.css.map",
+    "main.1180f4d5.js.map": "/static/js/main.1180f4d5.js.map",
     "488.cd41e87b.chunk.js.map": "/static/js/488.cd41e87b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.356c4afa.css",
-    "static/js/main.6de9d705.js"
+    "static/css/main.52013414.css",
+    "static/js/main.1180f4d5.js"
   ]
 }
