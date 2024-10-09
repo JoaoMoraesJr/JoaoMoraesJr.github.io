@@ -75,7 +75,8 @@
 }
 
 .item {
-    margin: 10px;
+    margin: 20px 10px;
+    place-self: center;
 
     @media (max-width: 900px) {
         margin: 0px;

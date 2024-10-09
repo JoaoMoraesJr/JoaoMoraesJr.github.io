@@ -1,6 +1,7 @@
 .project-details-container {
     display: flex;
     width: 100%;
+    margin-bottom: 20px;
 
     @media (max-width: 900px) {
         flex-direction: column;

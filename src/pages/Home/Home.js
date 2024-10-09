@@ -94,7 +94,7 @@ function Home() {
                 <h1 className="headline">{home?.headline}</h1>
                 <h4 className="headline-description">{home?.jobDescription}</h4>
                 <p className="home-text">{home?.description}</p>
-                <div className="home-cv"><span className="button-primary" onClick={() => downloadCV()}>Download CV</span></div>
+                <div className="home-cv"><span className="primary-button primary-button-color" onClick={() => downloadCV()}>Download CV</span></div>
             </div>
             <div className="home-section colored-background">
                 <div className="page-margin">
@@ -102,7 +102,7 @@ function Home() {
                     <p className="home-text">There are three main areas that I like to focus professionally.</p>
                     <TechnologiesList></TechnologiesList>
                     <div className="center-container">
-                        <Link to="/about" className="button-primary">
+                        <Link to="/about" className="primary-button primary-button-color">
                             <span>See more about me</span>
                         </Link>
                     </div>
@@ -117,7 +117,7 @@ function Home() {
                     </ul>
                 </div>
                 <div className="center-container">
-                    <Link to="/projects" className="button-primary">
+                    <Link to="/projects" className="primary-button primary-button-color">
                         <span>See my projects</span>
                     </Link>
                 </div>
@@ -135,7 +135,7 @@ function Home() {
                         </ul>
                     </div>
                     <div className="center-container">
-                        <Link to="/contact" className="button-primary">
+                        <Link to="/contact" className="primary-button primary-button-color">
                             <span>Contact Me</span>
                         </Link>
                     </div>

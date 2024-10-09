@@ -38,7 +38,7 @@ function ProjectDetails() {
         }
         for (const [index, value] of project.redirectLinks.entries()) {
             redirectLinks.push (
-                <a className="button-primary redirect-link" href={value.link} key={index} target="_blank" rel="noreferrer" onClick={() => sendClickActionInfo()}>
+                <a className="primary-button primary-button-color redirect-link" href={value.link} key={index} target="_blank" rel="noreferrer" onClick={() => sendClickActionInfo()}>
                     <span key={index}>{value.name}</span>
                 </a>)
         }
@@ -82,7 +82,7 @@ function ProjectDetails() {
                     <h3 style={{marginBottom: '30px'}}>Need more information?</h3>
                     <div className="redirect-button-list">
                         {redirectLinks}
-                        <Link className="button-primary redirect-link" to="/contact" target="_blank" onClick={() => sendClickContactInfo()}>
+                        <Link className="primary-button primary-button-color redirect-link" to="/contact" target="_blank" onClick={() => sendClickContactInfo()}>
                             <span>Contact Me</span>
                         </Link>
                     </div>

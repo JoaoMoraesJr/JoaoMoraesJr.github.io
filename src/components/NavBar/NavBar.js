@@ -14,7 +14,7 @@ function NavBar() {
         <>
         {/* <div className="welcome-overlay fade-out"><img src={home.logoGif}></img></div> */}
         <div className="nav-bar">
-            <div className="nav-bar-content">
+            <div className="nav-bar-content header-color">
                 <div className="menu" onClick={() => setOpen(!open)}>
                     <FiMenu className="menu-icon"></FiMenu>
                 </div>

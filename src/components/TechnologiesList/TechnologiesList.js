@@ -16,7 +16,7 @@ function TechnologiesList() {
                     <SiDotnet title="DotNet" className="technology-icon" />
                 </div>
                 <span><strong>Full Stack Development</strong></span>
-                <span>Full stack experience in web and mobile development</span>
+                <span>Full stack experience in web and mobile development.</span>
             </li>
             <li className = "technologies-item">
                 <div className="technologies-icons primary-color">
@@ -24,14 +24,14 @@ function TechnologiesList() {
                     <SiBlender title="Blender" className="technology-icon"/>
                 </div>
                 <span><strong>Game Development</strong></span>
-                <span>Experience building games from art to coding</span>
+                <span>Experience building games from art to coding.</span>
             </li>
             <li className = "technologies-item" style={{paddingRight: 0}}>
                 <div className="technologies-icons primary-color">
                     <FaPython title="Python" className="technology-icon"/>
                 </div>
                 <span><strong>Artificial Inteligence</strong></span>
-                <span>Experience on research, developing AI models</span>
+                <span>Experience on research, developing AI models.</span>
             </li>
         </ul>
     );

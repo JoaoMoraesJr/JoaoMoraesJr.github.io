@@ -2,33 +2,41 @@
 
 :root {
   --page-margin: 0px 7%;
+  --header-height: 60px;
 
   //light mode
   --primary-color-light: #065cb1;
   --secondary-color-light: #000000;
+  --header-color-light: linear-gradient(145deg, #2e8ad7, #2a4a76);
   --footer-color-light: #000000;
   --text-color-light: black;
   --background-primary-color-light: rgb(56 104 203 / 8%);
   --background-secondary-color-light: rgb(56 104 203 / 8%);
   --slider-background-color-light: rgb(222, 233, 255);
   --slider-icon-color-light: rgb(72 108 182);
-  --card-title-background-color-light: linear-gradient(45deg, #318edd 57%, transparent);
+  --primary-button-background-color-light: linear-gradient(145deg, #2e8ad7, #0f3c52);
+  --primary-button-text-color-light: rgb(222, 233, 255);
+  --project-card-banner-background-color-light: linear-gradient(45deg, #318edd 57%, transparent);
 
   //dark mode
   --primary-color-dark: #7fbdfb;
   --secondary-color-dark: #ffffff;
+  --header-color-dark: linear-gradient(145deg, #2e8ad7, #0f2b52);
   --footer-color-dark: #12161d;
-  --text-color-dark: rgb(255, 255, 255);
+  --text-color-dark: #e7efff;
   --background-primary-color-dark: rgba(46, 59, 85, 1.0);
   --background-secondary-color-dark: rgb(55, 68, 95);
   --slider-background-color-dark: rgb(72 108 182);
   --slider-icon-color-dark: rgb(255, 255, 255);
-  --card-title-background-color-light: rgb(56 104 203 / 8%);
+  --primary-button-background-color-dark: linear-gradient(145deg, #2e8ad7, #0f3c52);
+  --primary-button-text-color-dark: rgb(222, 233, 255);
+  --project-card-banner-background-color-dark: linear-gradient(45deg, #2069a8 57%, transparent);
 }
 
 .light-mode {
   background-color: var(--background-primary-color-light);
   color: var(--text-color-light);
+  --project-card-banner-background-color: var(--project-card-banner-background-color-light);
 
   .primary-color {
     color: var(--primary-color-light);
@@ -37,6 +45,11 @@
 
   .secondary-color {
     color: var(--secondary-color-light);
+  }
+
+  .header-color {
+    background: var(--header-color-light);
+    border-bottom: 1px solid var(--primary-color-light);
   }
 
   .footer-color {
@@ -48,13 +61,19 @@
   }
 
   .text-color {
-    color: var(--text-color-light)
+    color: var(--text-color-light);
+  }
+
+  .primary-button-color {
+    background: var(--primary-button-background-color-light);
+    color: var(--primary-button-text-color-light);
   }
 }
 
 .dark-mode {
   background-color: var(--background-primary-color-dark);
   color: var(--text-color-dark);
+  --project-card-banner-background-color: var(--project-card-banner-background-color-dark);
 
   .primary-color {
     color: var(--primary-color-dark);
@@ -63,6 +82,11 @@
 
   .secondary-color {
     color: var(--secondary-color-dark);
+  }
+
+  .header-color {
+    background: var(--header-color-dark);
+    border-bottom: 1px solid var(--primary-color-light);
   }
 
   .footer-color {
@@ -75,6 +99,11 @@
 
   .text-color {
     color: var(--text-color-dark)
+  }
+
+  .primary-button-color {
+    background: var(--primary-button-background-color-dark);
+    color: var(--primary-button-text-color-dark);
   }
 }
 
