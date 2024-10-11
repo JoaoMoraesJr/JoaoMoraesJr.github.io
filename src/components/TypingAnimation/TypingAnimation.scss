@@ -1,0 +1,56 @@
+.typing-animation {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  font-size: 50px;
+  height: fit-content;
+  @media (max-width: 900px) {
+    font-size: 35px;
+    margin-top: -50px;
+  }
+}
+
+.cursor {
+  color: white;
+  animation: blink 0.7s steps(1) infinite;
+  margin-left: -10px;
+}
+
+.typing-animation-background {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: var(--header-color-dark);
+  color: white;
+  z-index: 5;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-animation-container {
+  line-height: normal;
+}
+
+.fade-out {
+  animation: fadeOutAnimation 1s ease-in-out forwards;
+}
+
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+  

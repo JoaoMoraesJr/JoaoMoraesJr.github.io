@@ -1,6 +1,5 @@
 import NavBar from './components/NavBar/NavBar'
 import './App.scss';
-// import Footer from './components/Footer/Footer';
 import Projects from './pages/Projects/Projects';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 import {
@@ -14,31 +13,29 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import NotFound from './pages/NotFound/NotFound';
 import ReactGA from "react-ga4";
-import { useState } from 'react';
+import { useEffect } from 'react';
 import { useTheme } from './ThemeContext';
+import TypingAnimation from './components/TypingAnimation/TypingAnimation';
 
 function App() {
 
   ReactGA.initialize("G-DG3XM3X8KF");
 
 
-  const [isGifLoaded, setGifLoaded] = useState(false);
   const { isDarkMode } = useTheme();
-  const displayGif = false
+  const displayAnimation = true;
 
-  function startPage() {
-    if (displayGif) {
-      setGifLoaded(true);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-      }, 3000);
-    }
-  }
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 3000);
+  });
 
   return (
     <div className={`${isDarkMode ? 'dark-mode' : 'light-mode'} App`}>
-      {displayGif ? 
-        <div className={"animation-container " + (isGifLoaded === true ? "start-animation" : "")}><img className="logo-gif" src={require('./assets/img/logoGif.gif')} alt="logo" onLoad={() => startPage()}></img></div>
+      {displayAnimation ? 
+        <TypingAnimation></TypingAnimation>
         : <></>
       }
       <Router>

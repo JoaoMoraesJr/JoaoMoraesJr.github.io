@@ -3,14 +3,15 @@
 :root {
   --page-margin: 0px 7%;
   --header-height: 60px;
+  background: #12161d;
 
   //light mode
   --primary-color-light: #065cb1;
   --secondary-color-light: #000000;
   --header-color-light: linear-gradient(145deg, #2e8ad7, #2a4a76);
-  --footer-color-light: #000000;
+  --footer-color-light: #12161d;
   --text-color-light: black;
-  --background-primary-color-light: rgb(56 104 203 / 8%);
+  --background-primary-color-light: rgb(241, 246, 255);
   --background-secondary-color-light: rgb(56 104 203 / 8%);
   --slider-background-color-light: rgb(222, 233, 255);
   --slider-icon-color-light: rgb(72 108 182);
