@@ -6,7 +6,7 @@ function TypingAnimation() {
   const fullText = "  João Moraes";
   const [fadeOut, setFadeOut] = useState(false);
   const typingSpeed = 100;
-  const fadeOutSpeed = 2000;
+  const fadeOutSpeed = 1500;
   const startDelay = 1000; 
 
   useEffect(() => {

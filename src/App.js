@@ -13,7 +13,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import NotFound from './pages/NotFound/NotFound';
 import ReactGA from "react-ga4";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useTheme } from './ThemeContext';
 import TypingAnimation from './components/TypingAnimation/TypingAnimation';
 
@@ -23,7 +23,7 @@ function App() {
 
 
   const { isDarkMode } = useTheme();
-  const displayAnimation = true;
+  const [displayAnimation, setDisplayAnimation] = useState(true);
 
 
   useEffect(() => {
