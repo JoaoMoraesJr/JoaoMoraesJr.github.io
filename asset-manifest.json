@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.52013414.css",
-    "main.js": "/static/js/main.1180f4d5.js",
+    "main.css": "/static/css/main.2836be3b.css",
+    "main.js": "/static/js/main.f56adaca.js",
     "static/js/488.cd41e87b.chunk.js": "/static/js/488.cd41e87b.chunk.js",
     "static/media/robotics2.jpg": "/static/media/robotics2.1f3b36eb13568bfd665d.jpg",
     "static/media/vr-simulation1.png": "/static/media/vr-simulation1.3c803c8feb7471900c5f.png",
@@ -22,10 +22,9 @@
     "static/media/brainy5.png": "/static/media/brainy5.02fb9b5b26dd0c30644b.png",
     "static/media/skyesdice_3.png": "/static/media/skyesdice_3.eb490c8a36cf1679eacf.png",
     "static/media/smartApp2.jpg": "/static/media/smartApp2.43c900f864f7d8dd9dae.jpg",
-    "static/media/logoGif.gif": "/static/media/logoGif.5a19e538e1da0345f53a.gif",
     "static/media/katalogize3.png": "/static/media/katalogize3.150b022a86902c10b8ba.png",
     "static/media/katalogize2.png": "/static/media/katalogize2.ef56364ea31174907917.png",
-    "static/media/JoaoMoraesCV.pdf": "/static/media/JoaoMoraesCV.8d5376880f7b4b64e290.pdf",
+    "static/media/JoaoMoraesCV.pdf": "/static/media/JoaoMoraesCV.3fbe8da9d38b0d909bd6.pdf",
     "static/media/default_code0.jpg": "/static/media/default_code0.bb5b28f6e71272f10d6c.jpg",
     "static/media/astrolight_2.png": "/static/media/astrolight_2.3bbd376d5f86393812e6.png",
     "static/media/katalogize1.png": "/static/media/katalogize1.2c72bbdebdcc504b7515.png",
@@ -34,12 +33,12 @@
     "static/media/toastmasters_logo.png": "/static/media/toastmasters_logo.2952a1206a44d8a581dc.png",
     "static/media/astrolight_1.png": "/static/media/astrolight_1.dc3eab30f34c7e4656b4.png",
     "index.html": "/index.html",
-    "main.52013414.css.map": "/static/css/main.52013414.css.map",
-    "main.1180f4d5.js.map": "/static/js/main.1180f4d5.js.map",
+    "main.2836be3b.css.map": "/static/css/main.2836be3b.css.map",
+    "main.f56adaca.js.map": "/static/js/main.f56adaca.js.map",
     "488.cd41e87b.chunk.js.map": "/static/js/488.cd41e87b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52013414.css",
-    "static/js/main.1180f4d5.js"
+    "static/css/main.2836be3b.css",
+    "static/js/main.f56adaca.js"
   ]
 }
