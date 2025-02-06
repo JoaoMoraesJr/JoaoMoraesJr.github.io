@@ -2,9 +2,11 @@ import './Contact.scss';
 import { FaLinkedin, FaGithub, FaItchIo } from 'react-icons/fa'
 import { GrMail } from "react-icons/gr";
 import { useEffect } from 'react';
+import { CONTACT_DATA } from '../../assets/data/ContactData';
 import ReactGA from "react-ga4";
 
 function Contact() {
+    let contacts = CONTACT_DATA;
 
     useEffect(()=> {
         ReactGA.send({ hitType: "pageview", page: "/contact", title:"Contact" });
@@ -61,21 +63,21 @@ function Contact() {
             </div>
             <div className="contact-container">
                 <div className="contact-links">
-                    <a className="contact" onClick={() => sendContactInfo(0)} title="jolomoju@gmail.com" href="mailto:jolomoju@gmail.com" target="_blank" rel="noreferrer">
+                    <a className="contact" onClick={() => sendContactInfo(0)} title={contacts.email.name} href={"mailto: " + contacts.email.name} target="_blank" rel="noreferrer">
                         <GrMail title="E-mail" className="contact-icon primary-color" /> 
-                        <span className="contact-text text-color"><b>E-mail:</b> jolomoju@gmail.com</span>
+                        <span className="contact-text text-color"><b>E-mail:</b> {contacts.email.name}</span>
                     </a>
-                    <a className="contact" onClick={() => sendContactInfo(1)} title="/in/JoaoMoraesJr" href="https://www.linkedin.com/in/joaomoraesjr" target="_blank" rel="noreferrer">
+                    <a className="contact" onClick={() => sendContactInfo(1)} title={contacts.linkedin.name} href={contacts.linkedin.link} target="_blank" rel="noreferrer">
                         <FaLinkedin title="LinkedIn" className="contact-icon secondary-color" /> 
-                        <span className="contact-text text-color"><b>LinkedIn:</b> /in/JoaoMoraesJr</span>
+                        <span className="contact-text text-color"><b>LinkedIn:</b> {contacts.linkedin.name}</span>
                     </a>
-                    <a className="contact" onClick={() => sendContactInfo(2)} title="JoaoMoraesJr" href="https://github.com/JoaoMoraesJr" target="_blank" rel="noreferrer">
+                    <a className="contact" onClick={() => sendContactInfo(2)} title={contacts.github.name} href={contacts.github.link} target="_blank" rel="noreferrer">
                         <FaGithub title="Github" className="contact-icon primary-color" /> 
-                        <span className="contact-text text-color"><b>Github:</b> JoaoMoraesJr</span>
+                        <span className="contact-text text-color"><b>Github:</b> {contacts.github.name}</span>
                     </a>
-                    <a className="contact" onClick={() => sendContactInfo(3)} title="jolomoju" href="https://jolomoju.itch.io/" target="_blank" rel="noreferrer">
+                    <a className="contact" onClick={() => sendContactInfo(3)} title={contacts.itchio.name} href={contacts.itchio.link} target="_blank" rel="noreferrer">
                         <FaItchIo title="itch.io" className="contact-icon secondary-color" /> 
-                        <span className="contact-text text-color"><b>Itch.io:</b> jolomoju.itch.io</span>
+                        <span className="contact-text text-color"><b>Itch.io:</b> {contacts.itchio.name}</span>
                     </a>
                 </div>
             </div>

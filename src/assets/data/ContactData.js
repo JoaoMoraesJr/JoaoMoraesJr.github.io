@@ -2,8 +2,8 @@ export const CONTACT_DATA = {
     title: "Contact",
     email: {
         media: "E-mail",
-        name: "joaojr1997@gmail.com",
-        link: "mailto:joaojr1997@gmail.com"
+        name: "joaomoraesjr7@gmail.com",
+        link: "mailto:joaomoraesjr7@gmail.com"
     },
     linkedin: {
         media: "LinkedIn",

@@ -23,14 +23,17 @@ function App() {
 
 
   const { isDarkMode } = useTheme();
-  const [displayAnimation, setDisplayAnimation] = useState(true);
-
+  const [displayAnimation] = useState(true);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 3000);
-  });
+    if (!isLoaded) {
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 2000);
+      setIsLoaded(true);
+    }
+  }, [isLoaded]);
 
   return (
     <div className={`${isDarkMode ? 'dark-mode' : 'light-mode'} App`}>

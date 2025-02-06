@@ -7,7 +7,7 @@ function TypingAnimation() {
   const [fadeOut, setFadeOut] = useState(false);
   const typingSpeed = 100;
   const fadeOutSpeed = 1500;
-  const startDelay = 1000; 
+  const startDelay = 700; 
 
   useEffect(() => {
     const characters = Array.from(fullText); // Properly handles special characters

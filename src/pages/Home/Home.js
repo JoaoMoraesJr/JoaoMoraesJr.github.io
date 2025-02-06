@@ -87,16 +87,18 @@ function Home() {
 
     return(
         <div className="home">
-            <div className="home-section first-section page-margin">
-                <div className="profile-photo-container home-photo-container">
-                    <img className="profile-photo-img" src={home.profilePhoto} alt="profile"/>
+            <div className="home-section colored-background first-section">
+                <div className="page-margin">
+                    <div className="profile-photo-container home-photo-container">
+                        <img className="profile-photo-img" src={home.profilePhoto} alt="profile"/>
+                    </div>
+                    <h1 className="headline">{home?.headline}</h1>
+                    <h4 className="headline-description">{home?.jobDescription}</h4>
+                    <p className="home-text">{home?.description}</p>
+                    <div className="home-cv"><span className="primary-button primary-button-color" onClick={() => downloadCV()}>Download CV</span></div>
                 </div>
-                <h1 className="headline">{home?.headline}</h1>
-                <h4 className="headline-description">{home?.jobDescription}</h4>
-                <p className="home-text">{home?.description}</p>
-                <div className="home-cv"><span className="primary-button primary-button-color" onClick={() => downloadCV()}>Download CV</span></div>
             </div>
-            <div className="home-section colored-background">
+            <div className="home-section">
                 <div className="page-margin">
                     <span><strong>What I do</strong></span>
                     <p className="home-text">There are three main areas that I like to focus professionally.</p>
@@ -108,21 +110,23 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="home-section page-margin">
-                <span><strong>My Projects</strong></span>
-                <p className="home-text">I love to develop my own projects! Here you can take a look at some of them.</p>
-                <div className="center-container">
-                    <ul className="home-inline-list">
-                        {projects}
-                    </ul>
-                </div>
-                <div className="center-container">
-                    <Link to="/projects" className="primary-button primary-button-color">
-                        <span>See my projects</span>
-                    </Link>
+            <div className="home-section colored-background">
+                <div className="page-margin">
+                    <span><strong>My Projects</strong></span>
+                    <p className="home-text">I love to develop my own projects! Here you can take a look at some of them.</p>
+                    <div className="center-container">
+                        <ul className="home-inline-list">
+                            {projects}
+                        </ul>
+                    </div>
+                    <div className="center-container">
+                        <Link to="/projects" className="primary-button primary-button-color">
+                            <span>See my projects</span>
+                        </Link>
+                    </div>
                 </div>
             </div>
-            <div className="home-section colored-background">
+            <div className="home-section">
                 <div className="page-margin">
                     <span><strong>Contact</strong></span>
                     <p className="home-text">You can reach me in one of my social media.</p>
