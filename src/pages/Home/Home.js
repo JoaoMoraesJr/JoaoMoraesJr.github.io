@@ -87,8 +87,8 @@ function Home() {
 
     return(
         <div className="home">
-            <div className="home-section colored-background first-section">
-                <div className="page-margin">
+            <div className="home-section colored-background">
+                <div className="page-margin first-section">
                     <div className="profile-photo-container home-photo-container">
                         <img className="profile-photo-img" src={home.profilePhoto} alt="profile"/>
                     </div>
