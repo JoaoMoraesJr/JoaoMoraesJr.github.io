@@ -105,11 +105,19 @@ function About() {
                 </ul>
                 <span className="about-category"><strong>Education</strong></span>
                 <ul className="about-list">
+                <div className="timeline-item">
+                        <div className="icon-container"><img className="timeline-icon" style={{marginTop: 10}} src={about.xpeLogo} alt="pucrs" id="timeline-star"/></div>
+                        <div className="timeline-description">
+                            <span className="timeline-title">XPE</span>
+                            <span className="timeline-date">Feb 2024 - Jan 2025</span>
+                            <span>Postgraduate Diploma in Software and Solutions Architecture.</span>
+                        </div>
+                    </div>
                     <div className="timeline-item">
                         <div className="icon-container"><img className="timeline-icon" src={about.pucrsLogo} alt="pucrs" id="timeline-star"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">PUCRS</span>
-                            <span className="timeline-date">2015/2 - 2020/1</span>
+                            <span className="timeline-date">Aug 2015 - Jul 2020</span>
                             <span>Bachelor's degree in Computer Science. Certified as top student among the 2020 graduates, by the Brazilian Computer Society.</span>
                         </div>
                     </div>
