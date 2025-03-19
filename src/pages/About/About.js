@@ -155,8 +155,8 @@ function About() {
                     </div>
                     <div className="languages-col">
                         <span className="timeline-title">And comunicate in some others</span>
+                        <span>English - Fluent</span>
                         <span>Portuguese - Fluent</span>
-                        <span>English - Advanced</span>
                         <span>French - Basic</span>
                         <span>Spanish - Basic</span>
                     </div>
