@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.05e5ba5b.css",
-    "main.js": "/static/js/main.e1e64933.js",
+    "main.js": "/static/js/main.7de9513b.js",
     "static/js/488.f03df53e.chunk.js": "/static/js/488.f03df53e.chunk.js",
     "static/media/robotics2.jpg": "/static/media/robotics2.1f3b36eb13568bfd665d.jpg",
     "static/media/vr-simulation1.png": "/static/media/vr-simulation1.3c803c8feb7471900c5f.png",
@@ -23,7 +23,7 @@
     "static/media/skyesdice_3.png": "/static/media/skyesdice_3.eb490c8a36cf1679eacf.png",
     "static/media/smartApp2.jpg": "/static/media/smartApp2.43c900f864f7d8dd9dae.jpg",
     "static/media/katalogize3.png": "/static/media/katalogize3.150b022a86902c10b8ba.png",
-    "static/media/JoaoMoraesCV.pdf": "/static/media/JoaoMoraesCV.e5bf75f145273d00aa9f.pdf",
+    "static/media/JoaoMoraesCV.pdf": "/static/media/JoaoMoraesCV.6646ec5637ff11bb6a34.pdf",
     "static/media/katalogize2.png": "/static/media/katalogize2.ef56364ea31174907917.png",
     "static/media/default_code0.jpg": "/static/media/default_code0.bb5b28f6e71272f10d6c.jpg",
     "static/media/astrolight_2.png": "/static/media/astrolight_2.3bbd376d5f86393812e6.png",
@@ -34,11 +34,11 @@
     "static/media/astrolight_1.png": "/static/media/astrolight_1.dc3eab30f34c7e4656b4.png",
     "index.html": "/index.html",
     "main.05e5ba5b.css.map": "/static/css/main.05e5ba5b.css.map",
-    "main.e1e64933.js.map": "/static/js/main.e1e64933.js.map",
+    "main.7de9513b.js.map": "/static/js/main.7de9513b.js.map",
     "488.f03df53e.chunk.js.map": "/static/js/488.f03df53e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05e5ba5b.css",
-    "static/js/main.e1e64933.js"
+    "static/js/main.7de9513b.js"
   ]
 }
