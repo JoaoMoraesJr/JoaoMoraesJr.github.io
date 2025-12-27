@@ -35,50 +35,68 @@ function About() {
                 <div>
                     <h1 className="about-title">{about?.title}</h1>
                     <div className="about-text-container">
-                        <p className="about-text">I'm João Moraes, born in Porto Alegre and raised in Guaíba, Brazil. Since my childhood, technology has always played a key role in my life, driving both my career and interests. I hold a degree in <b>Computer Science</b> from PUCRS and work as a <b>Software Engineer at Dell</b>, where I focus on tackling new challenges and creating impactful solutions.</p>
-                        <p className="about-text">As a problem-solver driven by innovation, I’m passionate about turning ideas into practical solutions, which I have achieved multiple times through my personal projects. In addition, throughout my career, I have developed strong <b>leadership</b> skills by guiding teams through complex projects and fostering a collaborative environment. I also advocate for <b>diversity and inclusion</b>, empowering everyone to participate in solving real-world challenges.</p>
+                        <p className="about-text">I'm João Moraes, born in Porto Alegre and raised in Guaíba, Brazil. Since my childhood, technology has always played a key role in my life, driving both my career and interests. I hold a degree in <b>Computer Science</b> from PUCRS and work as a <b>Software Engineer</b>, focusing on tackling new challenges and creating impactful solutions.</p>
+                        <p className="about-text">As a problem-solver driven by innovation, I’m passionate about turning ideas into practical implementations, which I have achieved multiple times through my personal projects. In addition, throughout my career, I have developed strong <b>leadership</b> skills by guiding teams through complex projects and fostering a collaborative environment. I also advocate for <b>diversity and inclusion</b>, empowering everyone to participate in solving real-world challenges.</p>
                     </div>
                 </div>
             </div>
             <div className="section align-left">
-                <span><strong>What I do</strong></span>
+                <h2>What I do</h2>
                 <p className="normal-text">There are three main areas that I like to focus professionally.</p>
                 <TechnologiesList />
             </div>
             <div className="align-left page-padding">
-                <span><strong>My Experience</strong></span>
+                <h2>My Experience</h2>
                 <ul className="about-list">
                     <div className="timeline-item">
-                        <div className="icon-container"><SiDell className="timeline-icon" id="timeline-start0" /></div>
+                        <div className="icon-container"><img className="timeline-icon" style={{borderRadius: 15, minWidth: 70, maxWidth: 70}} src={about.cbLogo} alt="pucrs" id="timeline-star"/></div>
                         <div className="timeline-description">
-                            <span className="timeline-title">Dell</span>
+                            <span className="timeline-title">Coinbase</span>
                             <span className="timeline-date">Ago 2018 - Present</span>
-                            <span>Working as a tech lead in an internationally distributed team that creates and maintains solutions for legal practice areas. Leading the development of multiple full-stack software applications, with web development and AI, as well as using engineering best practices like cybersecurity scans, testing, code review and CI/CD pipelines to achieve high code quality.</span>
+                            <span>Working as a full-stack software engineer in an internationally distributed team.</span>
                             {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
                         </div>
                     </div>
-                    <li className="timeline-item">
+                    <li className="timeline-bullet">
+                        <BsArrowReturnRight className="timeline-dot primary-color" />
+                        <div className="timeline-description">
+                            <span className="timeline-title">Software Engineer</span>
+                            <span className="timeline-date">Jul 2025 - Present</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul className="about-list">
+                    <div className="timeline-item">
+                        <div className="icon-container"><SiDell className="timeline-icon" id="timeline-start0" style={{background: '#e2e5e9ff', padding: 5, borderRadius: 10, minWidth: 60, maxWidth: 60}} /></div>
+                        <div className="timeline-description">
+                            <span className="timeline-title">Dell</span>
+                            <span className="timeline-date">Ago 2018 - Jul 2025</span>
+                            <span>Worked as a tech lead in an internationally distributed team that creates and maintains solutions for legal practice areas. Leading the development of multiple full-stack software applications, with web development and AI, as well as using engineering best practices like cybersecurity scans, testing, code review and CI/CD pipelines to achieve high code quality.</span>
+                            {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
+                        </div>
+                    </div>
+                    <li className="timeline-bullet">
                         <BsArrowReturnRight className="timeline-dot primary-color" />
                         <div className="timeline-description">
                             <span className="timeline-title">Senior Software Engineer</span>
-                            <span className="timeline-date">Apr 2024 - Present</span>
+                            <span className="timeline-date">Apr 2024 - Jul 2025</span>
                         </div>
                     </li>
-                    <li className="timeline-item">
+                    <li className="timeline-bullet">
                         <BsArrowReturnRight className="timeline-dot primary-color" />
                         <div className="timeline-description">
                             <span className="timeline-title">Software Engineer II</span>
                             <span className="timeline-date">May 2022 - Apr 2024</span>
                         </div>
                     </li>
-                    <li className="timeline-item">
+                    <li className="timeline-bullet">
                         <BsArrowReturnRight className="timeline-dot primary-color" />
                         <div className="timeline-description">
                             <span className="timeline-title">Software Engineer I</span>
                             <span className="timeline-date">Set 2020 - May 2022</span>
                         </div>
                     </li>
-                    <li className="timeline-item">
+                    <li className="timeline-bullet">
                         <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end0" />
                         <div className="timeline-description">
                             <span className="timeline-title">Software Engineer Internship</span>
@@ -88,14 +106,15 @@ function About() {
                 </ul>
                 <ul className="about-list">
                     <div className="timeline-item">
-                        <div className="icon-container"><img className="timeline-icon" src={about.pucrsLogo} alt="pucrs" id="timeline-start1"/></div>
+                        <div className="icon-container"><img className="timeline-icon" style={{minWidth: 70, maxWidth: 70}} src={about.pucrsLogo} alt="pucrs" id="timeline-start1"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">PUCRS</span>
                             <span className="timeline-date">Ago 2018 - Ago 2019</span>
-                            <span>Worked at SMArT laboratory, researching and developing an application to help blind people using Artificial Intelligence and mobile development.</span>
+                            <span>Worked at the SMArT Laboratory, contributing to the research and development of an AI-powered mobile application with a focus on applied intelligence and usability.</span>
+                            <span>The work aimed to assist blind and visually impaired users through intelligent accessibility solutions.</span>
                         </div>
                     </div>
-                    <li className="timeline-item">
+                    <li className="timeline-bullet">
                         <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end1" />
                         <div className="timeline-description">
                             <span className="timeline-title">Undergraduate Student Researcher - SMArT Lab</span>
@@ -103,10 +122,10 @@ function About() {
                         </div>
                     </li>
                 </ul>
-                <span className="about-category"><strong>Education</strong></span>
+                <h2>Education</h2>
                 <ul className="about-list">
                 <div className="timeline-item">
-                        <div className="icon-container"><img className="timeline-icon" style={{marginTop: 10}} src={about.xpeLogo} alt="pucrs" id="timeline-star"/></div>
+                        <div className="icon-container"><img className="timeline-icon" style={{marginTop: 10}} src={about.xpeLogo} alt="xpe" id="timeline-star"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">XPE</span>
                             <span className="timeline-date">Feb 2024 - Jan 2025</span>
@@ -114,7 +133,7 @@ function About() {
                         </div>
                     </div>
                     <div className="timeline-item">
-                        <div className="icon-container"><img className="timeline-icon" src={about.pucrsLogo} alt="pucrs" id="timeline-star"/></div>
+                        <div className="icon-container"><img className="timeline-icon" style={{minWidth: 70, maxWidth: 70}} src={about.pucrsLogo} alt="pucrs" id="timeline-star"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">PUCRS</span>
                             <span className="timeline-date">Aug 2015 - Jul 2020</span>
@@ -122,10 +141,10 @@ function About() {
                         </div>
                     </div>
                 </ul>
-                <span className="about-category"><strong>Community Involvements</strong></span>
+                <h2>Community Involvements</h2>
                 <ul className="about-list">
                     <div className="timeline-item">
-                        <div className="icon-container"><img className="timeline-icon" src={about.toastmastersLogo} alt="pucrs" id="timeline-star"/></div>
+                        <div className="icon-container"><img className="timeline-icon" src={about.toastmastersLogo} alt="toastmasters" id="timeline-star"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">Toastmasters - Vice President of Public Relationships</span>
                             <span className="timeline-date">Apr 2021 - Jun 2023</span>
@@ -135,7 +154,7 @@ function About() {
                 </ul>
                 <ul className="about-list">
                     <div className="timeline-item">
-                        <div className="icon-container"><img className="timeline-icon" src={about.bitiLogo} alt="pucrs" id="timeline-star"/></div>
+                        <div className="icon-container"><img className="timeline-icon" src={about.bitiLogo} alt="biti" id="timeline-star"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">Brazilians in Technical Interviews - Mentor</span>
                             <span className="timeline-date">Jan 2021 - Jan 2022</span>
@@ -143,7 +162,7 @@ function About() {
                         </div>
                     </div>
                 </ul>
-                <span className="about-category"><strong>And also...</strong></span>
+                <h2>And also...</h2>
                 <div className="languages-section">
                     <div className="languages-col">
                         <span className="timeline-title">I can program in many languages</span>

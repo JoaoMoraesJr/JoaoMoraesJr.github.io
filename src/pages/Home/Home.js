@@ -113,7 +113,7 @@ function Home() {
             <div className="home-section colored-background">
                 <div className="page-margin">
                     <span><strong>My Projects</strong></span>
-                    <p className="home-text">I love to develop my own projects! Here you can take a look at some of them.</p>
+                    <p className="home-text">I’m passionate about creating and developing new personal projects, where I explore new ideas and refine my skills. Here you’ll find a selection of my work.</p>
                     <div className="center-container">
                         <ul className="home-inline-list">
                             {projects}

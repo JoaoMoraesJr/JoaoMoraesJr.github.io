@@ -1,8 +1,7 @@
 import './TechnologiesList.scss';
-import { FaAngular, FaReact, FaUnity, FaPython } from 'react-icons/fa'
+import { FaReact, FaUnity, FaPython } from 'react-icons/fa'
+import { FaGolang, FaAws } from 'react-icons/fa6'
 import { SiBlender } from 'react-icons/si'
-import { SiDotnet } from "react-icons/si";
-import { SiSpring } from "react-icons/si";
 
 function TechnologiesList() {
 
@@ -10,13 +9,12 @@ function TechnologiesList() {
         <ul className="technologies-list">
             <li className = "technologies-item">
                 <div className="technologies-icons primary-color">
-                    <FaAngular title="Angular" className="technology-icon" />
                     <FaReact title="React" className="technology-icon" />
-                    <SiSpring title="Spring Boot" className="technology-icon" />
-                    <SiDotnet title="DotNet" className="technology-icon" />
+                    <FaGolang title="Golang" className="technology-icon" />
+                    <FaAws title="AWS" className="technology-icon" />
                 </div>
                 <span><strong>Full Stack Development</strong></span>
-                <span>Full stack experience in web and mobile development.</span>
+                <span>End-to-end full-stack experience across frontend, backend, and infrastructure.</span>
             </li>
             <li className = "technologies-item">
                 <div className="technologies-icons primary-color">
@@ -24,14 +22,14 @@ function TechnologiesList() {
                     <SiBlender title="Blender" className="technology-icon"/>
                 </div>
                 <span><strong>Game Development</strong></span>
-                <span>Experience building games from art to coding.</span>
+                <span>Experience building complete game experiences from concept to gameplay.</span>
             </li>
             <li className = "technologies-item" style={{paddingRight: 0}}>
                 <div className="technologies-icons primary-color">
                     <FaPython title="Python" className="technology-icon"/>
                 </div>
                 <span><strong>Artificial Inteligence</strong></span>
-                <span>Experience on research, developing AI models.</span>
+                <span>Experience on research, developing AI models and GenAI integrations.</span>
             </li>
         </ul>
     );
