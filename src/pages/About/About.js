@@ -164,12 +164,12 @@ function About() {
                 <h2>And also...</h2>
                 <div className="languages-section">
                     <div className="languages-col">
-                        <span className="timeline-title">I can program in many languages</span>
-                        <span>Javascript</span>
-                        <span>C#</span>
+                        <span className="timeline-title">I can code in many languages</span>
+                        <span>Go</span>
                         <span>Python</span>
-                        <span>C++</span>
-                        <span>C</span>
+                        <span>Javascript</span>
+                        <span>Java</span>
+                        <span>C#</span>
                     </div>
                     <div className="languages-col">
                         <span className="timeline-title">And comunicate in some others</span>

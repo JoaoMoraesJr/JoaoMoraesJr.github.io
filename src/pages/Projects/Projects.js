@@ -30,7 +30,7 @@ function Projects() {
             </div>
             <div className="projects-list page-padding">
                 <div className="item projects-title-container">
-                <h1 className="title">Projects</h1>
+                <h1 className="projects-title">Projects</h1>
 
                 </div>
                 <span className="item middle-padding-grid"/>

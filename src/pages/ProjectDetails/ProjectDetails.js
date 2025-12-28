@@ -66,7 +66,7 @@ function ProjectDetails() {
                     <p className="text-color"> &lt; Return to Projects</p>
                 </Link>
             </div>
-            <div className="project-details-title"><h1 className="title">{project?.name}</h1></div>
+            <div className="project-details-title"><h1>{project?.name}</h1></div>
             <div className="project-details-container">
                 <div className="project-infos">
                     <div className= "tag-list secondary-color">

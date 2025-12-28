@@ -6,7 +6,7 @@ export const PROJECTS_INFO = {
             year: 2024,
             tags: ["Mobile", "Fullstack"],
             shortDescription: "A mobile application to use GenAI in daily tasks, like analyze stocks, summarize news, and more.",
-            fullDescription: "Brainy is an AI-powered mobile application designed to streamline daily tasks such as stock analysis, news summarization, and video summarization. Built with a robust backend in Python and a dynamic frontend in React, Brainy is deployed using Docker on a VPS, ensuring scalable and efficient performance.",
+            fullDescription: "Brainy is an AI-powered mobile application that leverages generative AI to streamline everyday tasks such as stock analysis, news summarization, and video summarization. \nBuilt with a robust Python backend, a dynamic React frontend, and deployed in a containerized environment using Docker to deliver reliable, efficient, and maintainable performance.",
             technologies: ["Python", "React Native", "Generative AI", "Docker"],
             redirectLinks: [
             ],
