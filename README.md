@@ -2,6 +2,14 @@
 
 A webpage made with React to showcase some of my projects.
 
+### Quick commands
+
+Start: npm start
+
+Deploy: npm run deploy (PS: after successful deploy, reenable the custom domain and enforce HTTPS in github's Pages settings)
+
+Upgrade packages: npm outdated > ncu -u > npm update > npm install
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,12 +80,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-### Quick commands
-
-Start: npm start
-
-Deploy: npm run deploy (PS: after successful deploy, reenable the custom domain and enforce HTTPS in github's Pages settings)
-
-Upgrade packages: npm outdated > ncu -u > npm update > npm install
