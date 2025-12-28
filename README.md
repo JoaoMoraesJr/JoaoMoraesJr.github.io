@@ -2,11 +2,11 @@
 
 A webpage made with React to showcase some of my projects.
 
-### Quick commands
+## Quick commands
 
-Start: npm start
+Start project: npm start
 
-Deploy: npm run deploy (PS: after successful deploy, reenable the custom domain and enforce HTTPS in github's Pages settings)
+Deploy with Github Pages: npm run deploy (PS: after successful deploy, reenable the custom domain and enforce HTTPS in github's Pages settings)
 
 Upgrade packages: npm outdated > ncu -u > npm update > npm install
 
