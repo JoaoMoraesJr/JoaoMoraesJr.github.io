@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6283ad93.css",
-    "main.js": "/static/js/main.64724e98.js",
+    "main.js": "/static/js/main.93f3d882.js",
     "static/js/488.c2e6b955.chunk.js": "/static/js/488.c2e6b955.chunk.js",
     "static/media/robotics2.jpg": "/static/media/robotics2.1f3b36eb13568bfd665d.jpg",
     "static/media/vr-simulation1.png": "/static/media/vr-simulation1.3c803c8feb7471900c5f.png",
@@ -34,11 +34,11 @@
     "static/media/astrolight_1.png": "/static/media/astrolight_1.dc3eab30f34c7e4656b4.png",
     "index.html": "/index.html",
     "main.6283ad93.css.map": "/static/css/main.6283ad93.css.map",
-    "main.64724e98.js.map": "/static/js/main.64724e98.js.map",
+    "main.93f3d882.js.map": "/static/js/main.93f3d882.js.map",
     "488.c2e6b955.chunk.js.map": "/static/js/488.c2e6b955.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6283ad93.css",
-    "static/js/main.64724e98.js"
+    "static/js/main.93f3d882.js"
   ]
 }
