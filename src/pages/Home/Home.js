@@ -104,7 +104,7 @@ function Home() {
                     <TechnologiesList></TechnologiesList>
                     <div className="center-container">
                         <Link to="/about" className="primary-button primary-button-color">
-                            <span>See more about me</span>
+                            <span>View more about me</span>
                         </Link>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ function Home() {
                     </div>
                     <div className="center-container">
                         <Link to="/projects" className="primary-button primary-button-color">
-                            <span>See my projects</span>
+                            <span>View my projects</span>
                         </Link>
                     </div>
                 </div>
