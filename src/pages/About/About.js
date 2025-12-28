@@ -45,82 +45,84 @@ function About() {
                 <TechnologiesList />
             </div>
             <div className="align-left page-padding">
-                <h2 className='about-subtitle'>My Experience</h2>
-                <ul className="about-list">
-                    <div className="timeline-item">
-                        <div className="icon-container"><img className="timeline-icon" style={{borderRadius: 15, minWidth: 70, maxWidth: 70}} src={about.cbLogo} alt="pucrs" id="timeline-star"/></div>
-                        <div className="timeline-description">
-                            <span className="timeline-title">Coinbase</span>
-                            <span className="timeline-date">Jul 2025 - Present</span>
-                            <span>Working as a full-stack software engineer building end-to-end features in a distributed team.</span>
-                            {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
+                <div className='about-subtitle info-section' style={{padding: 25}}>
+                    <h2 style={{margin: 0}}>My Experience</h2>
+                    <ul className="about-list info-section">
+                        <div className="timeline-item">
+                            <div className="icon-container"><img className="timeline-icon" style={{borderRadius: 15, minWidth: 70, maxWidth: 70}} src={about.cbLogo} alt="pucrs" id="timeline-star"/></div>
+                            <div className="timeline-description">
+                                <span className="timeline-title">Coinbase</span>
+                                <span className="timeline-date">Jul 2025 - Present</span>
+                                <span>Working as a full-stack software engineer building end-to-end features in a distributed team.</span>
+                                {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
+                            </div>
                         </div>
-                    </div>
-                    <li className="timeline-bullet">
-                        <BsArrowReturnRight className="timeline-dot primary-color" />
-                        <div className="timeline-description">
-                            <span className="timeline-title">Software Engineer</span>
-                            <span className="timeline-date">Jul 2025 - Present</span>
+                        <li className="timeline-bullet">
+                            <BsArrowReturnRight className="timeline-dot primary-color" />
+                            <div className="timeline-description">
+                                <span className="timeline-title">Software Engineer</span>
+                                <span className="timeline-date">Jul 2025 - Present</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul className="about-list info-section">
+                        <div className="timeline-item">
+                            <div className="icon-container"><SiDell className="timeline-icon" id="timeline-start0" style={{background: '#e2e5e9ff', padding: 5, borderRadius: 10, minWidth: 60, maxWidth: 60}} /></div>
+                            <div className="timeline-description">
+                                <span className="timeline-title">Dell</span>
+                                <span className="timeline-date">Ago 2019 - Jul 2025</span>
+                                <span>Worked as a tech lead in an internationally distributed team that creates and maintains solutions for legal practice areas. Leading the development of multiple full-stack software applications, with web development and AI, as well as using engineering best practices like cybersecurity scans, testing, code review and CI/CD pipelines to achieve high code quality.</span>
+                                {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
+                            </div>
                         </div>
-                    </li>
-                </ul>
-                <ul className="about-list">
-                    <div className="timeline-item">
-                        <div className="icon-container"><SiDell className="timeline-icon" id="timeline-start0" style={{background: '#e2e5e9ff', padding: 5, borderRadius: 10, minWidth: 60, maxWidth: 60}} /></div>
-                        <div className="timeline-description">
-                            <span className="timeline-title">Dell</span>
-                            <span className="timeline-date">Ago 2019 - Jul 2025</span>
-                            <span>Worked as a tech lead in an internationally distributed team that creates and maintains solutions for legal practice areas. Leading the development of multiple full-stack software applications, with web development and AI, as well as using engineering best practices like cybersecurity scans, testing, code review and CI/CD pipelines to achieve high code quality.</span>
-                            {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
+                        <li className="timeline-bullet">
+                            <BsArrowReturnRight className="timeline-dot primary-color" />
+                            <div className="timeline-description">
+                                <span className="timeline-title">Senior Software Engineer</span>
+                                <span className="timeline-date">Apr 2024 - Jul 2025</span>
+                            </div>
+                        </li>
+                        <li className="timeline-bullet">
+                            <BsArrowReturnRight className="timeline-dot primary-color" />
+                            <div className="timeline-description">
+                                <span className="timeline-title">Software Engineer II</span>
+                                <span className="timeline-date">May 2022 - Apr 2024</span>
+                            </div>
+                        </li>
+                        <li className="timeline-bullet">
+                            <BsArrowReturnRight className="timeline-dot primary-color" />
+                            <div className="timeline-description">
+                                <span className="timeline-title">Software Engineer I</span>
+                                <span className="timeline-date">Set 2020 - May 2022</span>
+                            </div>
+                        </li>
+                        <li className="timeline-bullet">
+                            <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end0" />
+                            <div className="timeline-description">
+                                <span className="timeline-title">Software Engineer Internship</span>
+                                <span className="timeline-date">Ago 2019 - Set 2020</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul className="about-list info-section">
+                        <div className="timeline-item">
+                            <div className="icon-container"><img className="timeline-icon" style={{minWidth: 70, maxWidth: 70}} src={about.pucrsLogo} alt="pucrs" id="timeline-start1"/></div>
+                            <div className="timeline-description">
+                                <span className="timeline-title">PUCRS - SMArT Lab</span>
+                                <span className="timeline-date">Ago 2018 - Ago 2019</span>
+                                <span>Worked at the SMArT Laboratory, contributing to the research and development of an AI-powered mobile application with a focus on applied intelligence and usability.</span>
+                                <span>The work aimed to assist blind and visually impaired users through intelligent accessibility solutions.</span>
+                            </div>
                         </div>
-                    </div>
-                    <li className="timeline-bullet">
-                        <BsArrowReturnRight className="timeline-dot primary-color" />
-                        <div className="timeline-description">
-                            <span className="timeline-title">Senior Software Engineer</span>
-                            <span className="timeline-date">Apr 2024 - Jul 2025</span>
-                        </div>
-                    </li>
-                    <li className="timeline-bullet">
-                        <BsArrowReturnRight className="timeline-dot primary-color" />
-                        <div className="timeline-description">
-                            <span className="timeline-title">Software Engineer II</span>
-                            <span className="timeline-date">May 2022 - Apr 2024</span>
-                        </div>
-                    </li>
-                    <li className="timeline-bullet">
-                        <BsArrowReturnRight className="timeline-dot primary-color" />
-                        <div className="timeline-description">
-                            <span className="timeline-title">Software Engineer I</span>
-                            <span className="timeline-date">Set 2020 - May 2022</span>
-                        </div>
-                    </li>
-                    <li className="timeline-bullet">
-                        <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end0" />
-                        <div className="timeline-description">
-                            <span className="timeline-title">Software Engineer Internship</span>
-                            <span className="timeline-date">Ago 2019 - Set 2020</span>
-                        </div>
-                    </li>
-                </ul>
-                <ul className="about-list">
-                    <div className="timeline-item">
-                        <div className="icon-container"><img className="timeline-icon" style={{minWidth: 70, maxWidth: 70}} src={about.pucrsLogo} alt="pucrs" id="timeline-start1"/></div>
-                        <div className="timeline-description">
-                            <span className="timeline-title">PUCRS - SMArT Lab</span>
-                            <span className="timeline-date">Ago 2018 - Ago 2019</span>
-                            <span>Worked at the SMArT Laboratory, contributing to the research and development of an AI-powered mobile application with a focus on applied intelligence and usability.</span>
-                            <span>The work aimed to assist blind and visually impaired users through intelligent accessibility solutions.</span>
-                        </div>
-                    </div>
-                    <li className="timeline-bullet">
-                        <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end1" />
-                        <div className="timeline-description">
-                            <span className="timeline-title">Undergraduate Student Researcher</span>
-                            <span className="timeline-date">Ago 2018 - Ago 2019</span>
-                        </div>
-                    </li>
-                </ul>
+                        <li className="timeline-bullet">
+                            <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end1" />
+                            <div className="timeline-description">
+                                <span className="timeline-title">Undergraduate Student Researcher</span>
+                                <span className="timeline-date">Ago 2018 - Ago 2019</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
                 <h2 className='about-subtitle'>Education</h2>
                 <ul className="about-list">
                 <div className="timeline-item">
