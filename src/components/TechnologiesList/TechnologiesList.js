@@ -16,6 +16,13 @@ function TechnologiesList() {
                 <span><strong>Full Stack Development</strong></span>
                 <span>End-to-end full-stack experience across frontend, backend, and infrastructure.</span>
             </li>
+            <li className = "technologies-item" style={{paddingRight: 0}}>
+                <div className="technologies-icons primary-color">
+                    <FaPython title="Python" className="technology-icon"/>
+                </div>
+                <span><strong>Artificial Inteligence</strong></span>
+                <span>Experience on research, developing AI models and GenAI integrations.</span>
+            </li>
             <li className = "technologies-item">
                 <div className="technologies-icons primary-color">
                     <FaUnity title="Unity" className="technology-icon" />
@@ -23,13 +30,6 @@ function TechnologiesList() {
                 </div>
                 <span><strong>Game Development</strong></span>
                 <span>Experience building complete game experiences from concept to gameplay.</span>
-            </li>
-            <li className = "technologies-item" style={{paddingRight: 0}}>
-                <div className="technologies-icons primary-color">
-                    <FaPython title="Python" className="technology-icon"/>
-                </div>
-                <span><strong>Artificial Inteligence</strong></span>
-                <span>Experience on research, developing AI models and GenAI integrations.</span>
             </li>
         </ul>
     );

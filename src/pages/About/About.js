@@ -45,14 +45,14 @@ function About() {
                 <TechnologiesList />
             </div>
             <div className="align-left page-padding">
-                <h2>My Experience</h2>
+                <h2 className='about-subtitle'>My Experience</h2>
                 <ul className="about-list">
                     <div className="timeline-item">
                         <div className="icon-container"><img className="timeline-icon" style={{borderRadius: 15, minWidth: 70, maxWidth: 70}} src={about.cbLogo} alt="pucrs" id="timeline-star"/></div>
                         <div className="timeline-description">
                             <span className="timeline-title">Coinbase</span>
-                            <span className="timeline-date">Ago 2018 - Present</span>
-                            <span>Working as a full-stack software engineer in an internationally distributed team.</span>
+                            <span className="timeline-date">Jul 2025 - Present</span>
+                            <span>Working as a full-stack software engineer building end-to-end features in a distributed team.</span>
                             {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function About() {
                         <div className="icon-container"><SiDell className="timeline-icon" id="timeline-start0" style={{background: '#e2e5e9ff', padding: 5, borderRadius: 10, minWidth: 60, maxWidth: 60}} /></div>
                         <div className="timeline-description">
                             <span className="timeline-title">Dell</span>
-                            <span className="timeline-date">Ago 2018 - Jul 2025</span>
+                            <span className="timeline-date">Ago 2019 - Jul 2025</span>
                             <span>Worked as a tech lead in an internationally distributed team that creates and maintains solutions for legal practice areas. Leading the development of multiple full-stack software applications, with web development and AI, as well as using engineering best practices like cybersecurity scans, testing, code review and CI/CD pipelines to achieve high code quality.</span>
                             {/* <span>Working as a full stack developer, using web development and artificial intelligence in an internationally distributed team and adopting agile practices.</span> */}
                         </div>
@@ -107,7 +107,7 @@ function About() {
                     <div className="timeline-item">
                         <div className="icon-container"><img className="timeline-icon" style={{minWidth: 70, maxWidth: 70}} src={about.pucrsLogo} alt="pucrs" id="timeline-start1"/></div>
                         <div className="timeline-description">
-                            <span className="timeline-title">PUCRS</span>
+                            <span className="timeline-title">PUCRS - SMArT Lab</span>
                             <span className="timeline-date">Ago 2018 - Ago 2019</span>
                             <span>Worked at the SMArT Laboratory, contributing to the research and development of an AI-powered mobile application with a focus on applied intelligence and usability.</span>
                             <span>The work aimed to assist blind and visually impaired users through intelligent accessibility solutions.</span>
@@ -116,12 +116,12 @@ function About() {
                     <li className="timeline-bullet">
                         <BsArrowReturnRight className="timeline-dot primary-color" id="timeline-end1" />
                         <div className="timeline-description">
-                            <span className="timeline-title">Undergraduate Student Researcher - SMArT Lab</span>
+                            <span className="timeline-title">Undergraduate Student Researcher</span>
                             <span className="timeline-date">Ago 2018 - Ago 2019</span>
                         </div>
                     </li>
                 </ul>
-                <h2>Education</h2>
+                <h2 className='about-subtitle'>Education</h2>
                 <ul className="about-list">
                 <div className="timeline-item">
                         <div className="icon-container"><img className="timeline-icon" style={{marginTop: 10}} src={about.xpeLogo} alt="xpe" id="timeline-star"/></div>
@@ -140,7 +140,7 @@ function About() {
                         </div>
                     </div>
                 </ul>
-                <h2>Community Involvements</h2>
+                <h2 className='about-subtitle'>Community Involvements</h2>
                 <ul className="about-list">
                     <div className="timeline-item">
                         <div className="icon-container"><img className="timeline-icon" src={about.toastmastersLogo} alt="toastmasters" id="timeline-star"/></div>
@@ -161,7 +161,7 @@ function About() {
                         </div>
                     </div>
                 </ul>
-                <h2>And also...</h2>
+                <h2 className='about-subtitle'>And also...</h2>
                 <div className="languages-section">
                     <div className="languages-col">
                         <span className="timeline-title">I can code in many languages</span>
