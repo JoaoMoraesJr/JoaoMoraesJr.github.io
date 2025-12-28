@@ -77,5 +77,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Quick commands
 
 Start: npm start
-Deploy: npm run deploy (after successful deploy, it's required to reenable the custom domain in github's Pages settings)
+
+Deploy: npm run deploy (PS: after successful deploy, reenable the custom domain and enforce HTTPS in github's Pages settings)
+
 Upgrade packages: npm outdated > ncu -u > npm update > npm install
