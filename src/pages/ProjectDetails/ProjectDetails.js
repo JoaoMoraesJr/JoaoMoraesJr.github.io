@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { PROJECTS_INFO } from '../../assets/data/ProjectsData';
 import ReactGA from "react-ga4";
-import SimpleFooter from '../../components/SimpleFooter/SimpleFooter';
 
 function ProjectDetails() {
 
@@ -92,7 +91,6 @@ function ProjectDetails() {
                     {images}
                 </div>
             </div>
-            <SimpleFooter></SimpleFooter>
         </div>
     );
 }

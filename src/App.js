@@ -16,6 +16,7 @@ import ReactGA from "react-ga4";
 import { useEffect, useState } from 'react';
 import { useTheme } from './ThemeContext';
 import TypingAnimation from './components/TypingAnimation/TypingAnimation';
+import SimpleFooter from './components/SimpleFooter/SimpleFooter';
 
 function App() {
 
@@ -43,7 +44,7 @@ function App() {
       }
       <Router>
         <NavBar />
-        <div>
+        <main className="page-container">
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/about" element={<About />}></Route>
@@ -53,7 +54,8 @@ function App() {
             <Route path="/not-found" element={<NotFound />} />
             <Route path="*" element={<Navigate to="/not-found" />} />
           </Routes>
-        </div>
+        </main>
+        <SimpleFooter />
       </Router>
       {/* <Footer /> */}
     </div>

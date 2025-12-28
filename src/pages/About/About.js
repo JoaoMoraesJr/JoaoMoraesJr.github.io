@@ -5,7 +5,6 @@ import TechnologiesList from '../../components/TechnologiesList/TechnologiesList
 import { useEffect } from 'react';
 import { BsArrowReturnRight } from "react-icons/bs";
 import ReactGA from "react-ga4";
-import SimpleFooter from '../../components/SimpleFooter/SimpleFooter';
 
 function About() {
 
@@ -181,7 +180,6 @@ function About() {
                     </div>
                 </div>
             </div>
-            <SimpleFooter></SimpleFooter>
         </div>
     )
 }
