@@ -25,7 +25,7 @@
   --header-color-dark: linear-gradient(145deg, #2e8ad7, #0f2b52);
   --footer-color-dark: #12161d;
   --text-color-dark: #e7efff;
-  --background-primary-color-dark: rgba(46, 59, 85, 1.0);
+  --background-primary-color-dark: radial-gradient(1200px 600px at 15% -10%, rgba(34, 211, 238, 0.22), transparent 60%), radial-gradient(900px 650px at 85% 5%, rgba(59, 130, 246, 0.22), transparent 55%), radial-gradient(1000px 700px at 50% 110%, rgba(96, 165, 250, 0.12), transparent 60%), linear-gradient(162deg, #111b33, #1d2442 40%, #000102);
   --background-secondary-color-dark: rgb(55, 68, 95);
   --slider-background-color-dark: rgb(72 108 182);
   --slider-icon-color-dark: rgb(255, 255, 255);
@@ -51,7 +51,7 @@
 }
 
 .light-mode {
-  background-color: var(--background-primary-color-light);
+  background: var(--background-primary-color-light);
   color: var(--text-color-light);
   --project-card-banner-background-color: var(--project-card-banner-background-color-light);
 
@@ -89,7 +89,7 @@
 }
 
 .dark-mode {
-  background-color: var(--background-primary-color-dark);
+  background: var(--background-primary-color-dark);
   color: var(--text-color-dark);
   --project-card-banner-background-color: var(--project-card-banner-background-color-dark);
 
