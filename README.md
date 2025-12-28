@@ -74,6 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-### Deploy to github
+### Quick commands
 
-npm run deploy
+Start: npm start
+Deploy: npm run deploy (after successful deploy, it's required to reenable the custom domain in github's Pages settings)
+Upgrade packages: npm outdated > ncu -u > npm update > npm install
