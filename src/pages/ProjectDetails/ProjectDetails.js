@@ -74,11 +74,11 @@ function ProjectDetails() {
                     </div>
                     {/* <h3>Year</h3>
                     <p>{project?.year}</p> */}
-                    <h3>Description</h3>
+                    <h2>Description</h2>
                     <p className="project-description">{project?.fullDescription}</p>
-                    <h3>Technologies</h3>
+                    <h2>Technologies</h2>
                     <p>{technologies}</p>
-                    <h3 style={{marginBottom: '30px'}}>Need more information?</h3>
+                    <h2 style={{marginBottom: '30px'}}>Need more information?</h2>
                     <div className="redirect-button-list">
                         {redirectLinks}
                         <Link className="primary-button primary-button-color redirect-link" to="/contact" target="_blank" onClick={() => sendClickContactInfo()}>

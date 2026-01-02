@@ -85,9 +85,9 @@ function Home() {
     };
 
     return(
-        <div className="home">
+        <div className="home page-margin">
             <div className="home-section">
-                <div className="page-margin first-section info-section">
+                <div className="first-section stylized-container">
                     <div className="profile-photo-container home-photo-container">
                         <img className="profile-photo-img" src={home.profilePhoto} alt="profile"/>
                     </div>
@@ -98,8 +98,8 @@ function Home() {
                 </div>
             </div>
             <div className="home-section">
-                <div className="page-margin info-section">
-                    <span><strong>What I do</strong></span>
+                <div className="stylized-container">
+                    <h2>What I do</h2>
                     <p className="home-text">There are three main areas that I like to focus professionally.</p>
                     <TechnologiesList></TechnologiesList>
                     <div className="center-container">
@@ -110,8 +110,8 @@ function Home() {
                 </div>
             </div>
             <div className="home-section">
-                <div className="page-margin info-section">
-                    <span><strong>My Projects</strong></span>
+                <div className="stylized-container">
+                    <h2>My Projects</h2>
                     <p className="home-text">I’m passionate about creating and developing new personal projects, where I explore new ideas and refine my skills. Here you’ll find a selection of my work.</p>
                     <div className="center-container">
                         <ul className="home-inline-list">
@@ -126,8 +126,8 @@ function Home() {
                 </div>
             </div>
             <div className="home-section">
-                <div className="page-margin info-section">
-                    <span><strong>Contact</strong></span>
+                <div className="stylized-container">
+                    <h2>Contact</h2>
                     <p className="home-text">You can reach me in one of my social media.</p>
                     <div className="center-container">
                         <ul className="home-inline-list">
